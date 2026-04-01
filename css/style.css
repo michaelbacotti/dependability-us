@@ -707,6 +707,41 @@ footer {
     margin: 1.5rem 0;
 }
 
+/* Disclaimer Section */
+.disclaimer-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-top: 2px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    padding: 2.5rem 0;
+    margin: 0;
+}
+
+.disclaimer-section .container {
+    max-width: 800px;
+}
+
+.disclaimer-section h3 {
+    color: #1a3a2a;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.disclaimer-section p {
+    color: #495057;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 0.85rem;
+}
+
+.disclaimer-section p:last-child {
+    margin-bottom: 0;
+}
+
+.disclaimer-section strong {
+    color: #1a3a2a;
+}
+
 /* ============================================
    Responsive Styles
    ============================================ */
