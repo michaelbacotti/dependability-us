@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dependability.us/sitemap.xml
