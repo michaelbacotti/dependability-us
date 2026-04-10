@@ -502,14 +502,44 @@
             <td>SPY</td>
           </tr>
           <tr>
-            <td><strong>Long Strike</strong></td>
-            <td>SPY $667 put</td>
-            <td>SPY $663 put (lower)</td>
+            <td><strong>Leg 1 — Sell Put</strong></td>
+            <td>SPY $672 put (short, OTM)</td>
+            <td>SPY $668 put (short put, upper wing)</td>
           </tr>
           <tr>
-            <td><strong>Short Strike</strong></td>
+            <td><strong>Leg 2 — Buy Put</strong></td>
+            <td>SPY $667 put (long, protection)</td>
+            <td>SPY $663 put (long put, lower wing)</td>
+          </tr>
+          <tr>
+            <td><strong>Leg 3 — Sell Call</strong></td>
+            <td>— (Bull Put = 2 legs)</td>
+            <td>SPY $688 call (short call, upper wing)</td>
+          </tr>
+          <tr>
+            <td><strong>Leg 4 — Buy Call</strong></td>
+            <td>—</td>
+            <td>SPY $693 call (long call, highest strike)</td>
+          </tr>
+          <tr>
+            <td><strong>Short Strike (credit sold)</strong></td>
             <td>SPY $672 put</td>
-            <td>SPY $668 put (upper)</td>
+            <td>SPY $668 put</td>
+          </tr>
+          <tr>
+            <td><strong>Long Strike (protection)</strong></td>
+            <td>SPY $667 put</td>
+            <td>SPY $663 put</td>
+          </tr>
+          <tr>
+            <td><strong>Short Call Wing</strong></td>
+            <td>—</td>
+            <td>SPY $688 call</td>
+          </tr>
+          <tr>
+            <td><strong>Long Call Wing</strong></td>
+            <td>—</td>
+            <td>SPY $693 call</td>
           </tr>
           <tr>
             <td><strong>Net Debit/Credit</strong></td>
@@ -528,7 +558,7 @@
           </tr>
           <tr>
             <td><strong>Prob. of Profit</strong></td>
-            <td>~65–70% (short δ ≈ 0.30–0.35)</td>
+            <td>~65–70%</td>
             <td>~65–70% (each wing δ ≈ 0.15–0.20)</td>
           </tr>
           <tr>
