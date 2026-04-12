@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://dependability.us/trade-log-template.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trade Log Template | Dependability Holdings LLC</title>
+  <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:       #0a1628; --navy-mid:   #132240; --navy-light: #1e3358;
+      --gold:       #c8a96e; --gold-light: #e2c99a;
+      --white:      #ffffff; --off-white:  #f5f6f8; --gray-light: #e8eaed; --gray-mid:   #8a94a6;
+      --text-dark:  #1a1f2e; --text-body:  #3a4157; --shadow:     0 2px 12px rgba(10,22,40,.12);
+      --green:      #2e9e6b; --red:        #c0392b;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--off-white); color: var(--text-body); line-height: 1.6; }
+    nav { background: var(--navy); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid var(--gold); }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); letter-spacing: .03em; text-decoration: none; }
+    .nav-brand .logo-accent { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: var(--gray-mid); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+    .hero { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #1a3a6a 100%); color: var(--white); padding: 5rem 2rem 4rem; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat; pointer-events: none; }
+    .hero-eyebrow { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 600; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.15; margin-bottom: 1.2rem; color: var(--white); }
+    .hero h1 em { font-style: normal; color: var(--gold-light); }
+    .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.65); max-width: 620px; margin: 0 auto; font-weight: 300; }
+    .section { padding: 4rem 2rem; max-width: 1100px; margin: 0 auto; }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, var(--gold), transparent); max-width: 1100px; margin: 0 auto; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: 1.9rem; color: var(--navy); margin-bottom: .4rem; }
+    .section-sub { color: var(--gray-mid); font-size: .95rem; margin-bottom: 2.5rem; }
+    .content-block { margin-bottom: 2rem; }
+    .content-block h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--navy); margin-bottom: .75rem; }
+    .content-block p { font-size: .95rem; color: var(--text-body); line-height: 1.75; margin-bottom: .75rem; }
+    .content-block ul { padding-left: 1.5rem; margin-bottom: .75rem; }
+    .content-block li { font-size: .95rem; color: var(--text-body); line-height: 1.75; margin-bottom: .4rem; }
+    .callout { background: var(--navy); border-radius: 12px; padding: 2rem 2.5rem; margin: 2rem 0; border-left: 4px solid var(--gold); }
+    .callout p { color: rgba(255,255,255,.8); font-size: .95rem; line-height: 1.8; margin: 0; }
+    .callout strong { color: var(--gold-light); }
+    .info-box { background: var(--navy); border-radius: 12px; padding: 2.5rem; text-align: center; }
+    .info-box h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--gold-light); margin-bottom: .75rem; }
+    .info-box p { font-size: .9rem; color: rgba(255,255,255,.65); line-height: 1.7; max-width: 700px; margin: 0 auto; }
+    .related-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; justify-content: center; }
+    .related-links a { background: var(--navy); color: var(--gold); padding: .5rem 1.2rem; border-radius: 6px; font-size: .82rem; font-weight: 500; text-decoration: none; transition: background .2s; }
+    .related-links a:hover { background: var(--navy-mid); color: var(--gold-light); }
+    .disclaimer { background: var(--navy); color: rgba(255,255,255,.4); font-size: .78rem; line-height: 1.7; padding: 2.5rem 2rem; text-align: center; }
+    .disclaimer-inner { max-width: 760px; margin: 0 auto; }
+    footer { background: var(--navy); border-top: 1px solid rgba(200,169,110,.2); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    footer .brand { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); }
+    footer .brand span { color: var(--gold); }
+    footer p { font-size: .78rem; color: rgba(255,255,255,.3); }
+
+    /* Form Styles */
+    .form-section { background: var(--white); border-radius: 12px; padding: 2rem; box-shadow: var(--shadow); margin-bottom: 2rem; border-top: 3px solid var(--gold); }
+    .form-section h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--navy); margin-bottom: 1.25rem; padding-bottom: .75rem; border-bottom: 1px solid var(--gray-light); }
+    .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; }
+    .form-group { display: flex; flex-direction: column; gap: .4rem; }
+    .form-group.full-width { grid-column: 1 / -1; }
+    .form-group label { font-size: .8rem; font-weight: 600; color: var(--navy); text-transform: uppercase; letter-spacing: .06em; }
+    .form-group input, .form-group select, .form-group textarea { padding: .6rem .9rem; border: 1.5px solid var(--gray-light); border-radius: 6px; font-family: 'Inter', sans-serif; font-size: .875rem; color: var(--text-dark); background: var(--off-white); transition: border-color .2s, box-shadow .2s; outline: none; width: 100%; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(200,169,110,.15); }
+    .form-group textarea { resize: vertical; min-height: 80px; }
+    .form-group select { cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238a94a6' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right .9rem center; padding-right: 2.5rem; }
+    .form-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: .5rem; padding: .75rem 1.75rem; border-radius: 6px; font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 600; cursor: pointer; transition: all .2s; border: none; }
+    .btn-primary { background: var(--gold); color: var(--navy); }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn-secondary { background: var(--navy); color: var(--white); }
+    .btn-secondary:hover { background: var(--navy-mid); }
+    .btn-outline { background: transparent; border: 1.5px solid var(--gray-light); color: var(--text-body); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+    .btn-group { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+    /* Trade Log Table */
+    .log-container { background: var(--white); border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; border-top: 3px solid var(--gold); }
+    .log-header { padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--gray-light); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .log-header h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy); }
+    .log-table-wrap { overflow-x: auto; }
+    .log-table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    .log-table th { background: var(--navy); color: var(--gold-light); padding: .75rem 1rem; text-align: left; font-weight: 600; white-space: nowrap; }
+    .log-table td { padding: .7rem 1rem; border-bottom: 1px solid var(--gray-light); color: var(--text-body); vertical-align: top; }
+    .log-table tr:last-child td { border-bottom: none; }
+    .log-table tr:hover td { background: var(--off-white); }
+    .log-table .win { color: var(--green); font-weight: 600; }
+    .log-table .loss { color: var(--red); font-weight: 600; }
+    .log-table .neutral { color: var(--gray-mid); }
+    .tag { display: inline-block; padding: .2rem .6rem; border-radius: 4px; font-size: .72rem; font-weight: 600; }
+    .tag-long { background: rgba(46,158,107,.12); color: var(--green); }
+    .tag-short { background: rgba(192,57,43,.1); color: var(--red); }
+    .tag-covered { background: rgba(200,169,110,.15); color: #8a6a2e; }
+    .tag-ic { background: rgba(10,22,40,.08); color: var(--navy); }
+
+    .empty-state { text-align: center; padding: 3rem 2rem; color: var(--gray-mid); }
+    .empty-state p { font-size: .9rem; }
+
+    .summary-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .summary-card { background: var(--white); border-radius: 10px; padding: 1.25rem; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+    .summary-card .sc-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--gray-mid); margin-bottom: .3rem; }
+    .summary-card .sc-value { font-size: 1.4rem; font-weight: 700; color: var(--navy); font-family: 'Playfair Display', serif; }
+    .summary-card .sc-value.positive { color: var(--green); }
+    .summary-card .sc-value.negative { color: var(--red); }
+
+    [id] { scroll-margin-top: 72px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-brand">Dependability <span class="logo-accent">Holdings</span> LLC</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="investment-philosophy.html">Philosophy</a>
+      <a href="educational-resources.html" class="active">Resources</a>
+      <a href="dependability-forecast.html">Forecast</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-eyebrow">Educational Resources</div>
+    <h1>Trade Log <em>Template</em></h1>
+    <p class="hero-sub">Track every trade with discipline. Review to improve. Repeat.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="content-block">
+      <h2>Why a Trade Log Matters</h2>
+      <p>A trade log is the single most powerful tool for improving as a trader. It converts subjective experience into objective data, revealing patterns that would otherwise be invisible. Without a log, you rely on memory — which is systematically biased by recent events and emotional states. With a log, you have evidence.</p>
+      <p>The fields below are designed to capture what actually happened, not just what the P&L was. Focus especially on <em>lessons learned</em> — the entries that cost you money are usually the most instructive.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="log-form">
+    <h2 class="section-title">Log a New Trade</h2>
+    <p class="section-sub">Complete this form after closing each position — not before.</p>
+
+    <form class="form-section" onsubmit="return false;">
+      <h3>Position Details</h3>
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="trade-date">Trade Date</label>
+          <input type="date" id="trade-date" />
+        </div>
+        <div class="form-group">
+          <label for="ticker">Ticker Symbol</label>
+          <input type="text" id="ticker" placeholder="e.g. AAPL" />
+        </div>
+        <div class="form-group">
+          <label for="strategy">Strategy</label>
+          <select id="strategy">
+            <option value="">Select strategy...</option>
+            <option>Long Stock</option>
+            <option>Short Stock</option>
+            <option>Covered Call</option>
+            <option>Cash-Secured Put</option>
+            <option>Iron Condor</option>
+            <option>Bull Call Spread</option>
+            <option>Bear Put Spread</option>
+            <option>Long Call</option>
+            <option>Long Put</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="direction">Direction</label>
+          <select id="direction">
+            <option value="">Select...</option>
+            <option>Long</option>
+            <option>Short</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="entry-price">Entry Price</label>
+          <input type="number" id="entry-price" step="0.01" placeholder="0.00" />
+        </div>
+        <div class="form-group">
+          <label for="exit-price">Exit Price</label>
+          <input type="number" id="exit-price" step="0.01" placeholder="0.00" />
+        </div>
+        <div class="form-group">
+          <label for="contracts">Contracts / Shares</label>
+          <input type="number" id="contracts" placeholder="100" />
+        </div>
+        <div class="form-group">
+          <label for="premium">Premium Received / Paid</label>
+          <input type="number" id="premium" step="0.01" placeholder="0.00" />
+        </div>
+        <div class="form-group">
+          <label for="strike">Strike (if applicable)</label>
+          <input type="number" id="strike" step="0.01" placeholder="0.00" />
+        </div>
+        <div class="form-group">
+          <label for="expiry">Expiration</label>
+          <input type="date" id="expiry" />
+        </div>
+        <div class="form-group">
+          <label for="outcome">Outcome</label>
+          <select id="outcome">
+            <option value="">Select...</option>
+            <option>Win</option>
+            <option>Loss</option>
+            <option>Breakeven</option>
+            <option>Open</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="pnl">Net P&L ($)</label>
+          <input type="number" id="pnl" step="0.01" placeholder="0.00" />
+        </div>
+        <div class="form-group full-width">
+          <label for="setup">Setup / Thesis</label>
+          <textarea id="setup" placeholder="What was the reason for this trade? What did you expect to happen?"></textarea>
+        </div>
+        <div class="form-group full-width">
+          <label for="rules-followed">Rules Followed?</label>
+          <textarea id="rules-followed" placeholder="Did you follow your pre-trade rules? Was position sizing correct? Did you stick to your stop?"></textarea>
+        </div>
+        <div class="form-group full-width">
+          <label for="lessons">Lessons Learned</label>
+          <textarea id="lessons" placeholder="What did this trade teach you? What would you do differently?"></textarea>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button type="submit" class="btn btn-primary" onclick="addTrade()">Add to Log</button>
+        <button type="reset" class="btn btn-outline">Clear Form</button>
+      </div>
+    </form>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section" id="log-view">
+    <h2 class="section-title">Trade History</h2>
+    <p class="section-sub">Your logged trades — updated live as you add entries above.</p>
+
+    <div class="summary-cards">
+      <div class="summary-card">
+        <div class="sc-label">Total Trades</div>
+        <div class="sc-value" id="sc-total">0</div>
+      </div>
+      <div class="summary-card">
+        <div class="sc-label">Win Rate</div>
+        <div class="sc-value" id="sc-winrate">—</div>
+      </div>
+      <div class="summary-card">
+        <div class="sc-label">Net P&L</div>
+        <div class="sc-value" id="sc-pnl">$0</div>
+      </div>
+      <div class="summary-card">
+        <div class="sc-label">Avg Winner</div>
+        <div class="sc-value positive" id="sc-avgwin">—</div>
+      </div>
+      <div class="summary-card">
+        <div class="sc-label">Avg Loser</div>
+        <div class="sc-value negative" id="sc-avgloss">—</div>
+      </div>
+    </div>
+
+    <div class="log-container">
+      <div class="log-header">
+        <h3>Trade Entries</h3>
+        <button class="btn btn-outline" onclick="clearLog()" style="font-size:.78rem;padding:.5rem 1rem;">Clear All</button>
+      </div>
+      <div class="log-table-wrap">
+        <table class="log-table" id="trade-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Ticker</th>
+              <th>Strategy</th>
+              <th>Dir</th>
+              <th>Entry</th>
+              <th>Exit</th>
+              <th>Strike</th>
+              <th>Premium</th>
+              <th>Outcome</th>
+              <th>P&L</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody id="trade-body">
+          </tbody>
+        </table>
+        <div class="empty-state" id="empty-state">
+          <p>No trades logged yet. Use the form above to add your first entry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <h2 class="section-title">Exporting Your Log</h2>
+    <div class="content-block">
+      <p>To export your trade log for analysis in a spreadsheet, click the button below to download your log as a CSV file. This preserves all your entries and can be opened in Excel, Google Sheets, or any data analysis tool.</p>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-secondary" onclick="exportCSV()">Export as CSV</button>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="callout">
+      <p><strong>Pro tip:</strong> Review this log weekly. Look for patterns — are you losing on specific strategies? Do you consistently override your stops? Are certain days of the week or times of day correlated with better results? Patterns you can see, you can fix.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="info-box">
+      <h3>Related Strategies</h3>
+      <div class="related-links">
+        <a href="trading-psychology.html">Trading Psychology</a>
+        <a href="covered-calls-guide.html">Covered Calls</a>
+        <a href="cash-secured-puts.html">Cash-Secured Puts</a>
+        <a href="iron-condors-explained.html">Iron Condors</a>
+        <a href="educational-resources.html">All Resources</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="disclaimer">
+    <div class="disclaimer-inner">
+      <strong>Important Disclaimer — Please Read</strong><br />
+      Dependability Holdings LLC is an investment holding company. This webpage is for informational and educational purposes only and does not constitute financial, investment, or legal advice.
+      Dependability Holdings LLC is not a registered investment advisor. The information provided herein should not be construed as personalized investment advice, a recommendation to buy, sell, or hold any investment, or an offer or solicitation to buy or sell securities.
+      <br /><br />
+      All investments involve risk, including the potential loss of principal. The value of investments can fluctuate, and past performance may not be indicative of future results. Please consult with a qualified financial advisor, attorney, or tax professional before making any investment decisions.
+    </div>
+  </div>
+
+  <footer>
+    <div class="brand">Dependability <span class="logo-accent">Holdings</span> LLC</div>
+    <p>© 2026 Dependability Holdings LLC. All rights reserved. | <a href="https://dependability.us" style="color:rgba(200,169,110,.6);text-decoration:none;">dependability.us</a></p>
+  </footer>
+
+  <script>
+    // Simple client-side trade log storage using localStorage
+    const STORAGE_KEY = 'dep_trade_log';
+
+    function loadTrades() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      } catch(e) { return []; }
+    }
+
+    function saveTrades(trades) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(trades));
+    }
+
+    function addTrade() {
+      const date = document.getElementById('trade-date').value;
+      const ticker = document.getElementById('ticker').value.trim().toUpperCase();
+      const strategy = document.getElementById('strategy').value;
+      const direction = document.getElementById('direction').value;
+      const entryPrice = document.getElementById('entry-price').value;
+      const exitPrice = document.getElementById('exit-price').value;
+      const contracts = document.getElementById('contracts').value;
+      const premium = document.getElementById('premium').value;
+      const strike = document.getElementById('strike').value;
+      const expiry = document.getElementById('expiry').value;
+      const outcome = document.getElementById('outcome').value;
+      const pnl = parseFloat(document.getElementById('pnl').value) || 0;
+      const setup = document.getElementById('setup').value.trim();
+      const rulesFollowed = document.getElementById('rules-followed').value.trim();
+      const lessons = document.getElementById('lessons').value.trim();
+
+      if (!date || !ticker || !strategy) {
+        alert('Please fill in at least the trade date, ticker, and strategy.');
+        return;
+      }
+
+      const trade = { date, ticker, strategy, direction, entryPrice, exitPrice, contracts, premium, strike, expiry, outcome, pnl, setup, rulesFollowed, lessons };
+      const trades = loadTrades();
+      trades.unshift(trade);
+      saveTrades(trades);
+      renderLog();
+      document.querySelector('form').reset();
+    }
+
+    function clearLog() {
+      if (confirm('Clear all logged trades? This cannot be undone.')) {
+        saveTrades([]);
+        renderLog();
+      }
+    }
+
+    function renderLog() {
+      const trades = loadTrades();
+      const tbody = document.getElementById('trade-body');
+      const empty = document.getElementById('empty-state');
+      const table = document.getElementById('trade-table');
+
+      if (trades.length === 0) {
+        tbody.innerHTML = '';
+        empty.style.display = 'block';
+        table.style.display = 'none';
+        updateSummary([]);
+        return;
+      }
+
+      empty.style.display = 'none';
+      table.style.display = 'table';
+
+      tbody.innerHTML = trades.map(t => {
+        const pnlClass = t.pnl > 0 ? 'win' : t.pnl < 0 ? 'loss' : 'neutral';
+        const pnlDisp = t.pnl > 0 ? '+$' + t.pnl.toFixed(2) : t.pnl < 0 ? '-$' + Math.abs(t.pnl).toFixed(2) : '$0.00';
+        const tagClass = t.direction === 'Short' ? 'tag-short' : 'tag-long';
+        const stratTag = t.strategy === 'Covered Call' ? 'tag-covered' : t.strategy === 'Iron Condor' ? 'tag-ic' : '';
+        const notes = t.lessons ? (t.lessons.substring(0, 60) + (t.lessons.length > 60 ? '…' : '')) : '—';
+        return `<tr>
+          <td>${t.date || '—'}</td>
+          <td><strong>${t.ticker || '—'}</strong></td>
+          <td><span class="tag ${stratTag}">${t.strategy || '—'}</span></td>
+          <td><span class="tag ${tagClass}">${t.direction || '—'}</span></td>
+          <td>${t.entryPrice ? '$' + t.entryPrice : '—'}</td>
+          <td>${t.exitPrice ? '$' + t.exitPrice : '—'}</td>
+          <td>${t.strike ? '$' + t.strike : '—'}</td>
+          <td>${t.premium ? '$' + t.premium : '—'}</td>
+          <td class="${t.outcome === 'Win' ? 'win' : t.outcome === 'Loss' ? 'loss' : 'neutral'}">${t.outcome || '—'}</td>
+          <td class="${pnlClass}">${pnlDisp}</td>
+          <td style="font-size:.75rem;max-width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" title="${t.lessons || ''}">${notes}</td>
+        </tr>`;
+      }).join('');
+
+      updateSummary(trades);
+    }
+
+    function updateSummary(trades) {
+      const total = trades.length;
+      const wins = trades.filter(t => t.outcome === 'Win').length;
+      const winrate = total > 0 ? ((wins / total) * 100).toFixed(1) + '%' : '—';
+      const totalPnl = trades.reduce((s, t) => s + (parseFloat(t.pnl) || 0), 0);
+      const winners = trades.filter(t => parseFloat(t.pnl) > 0);
+      const losers = trades.filter(t => parseFloat(t.pnl) < 0);
+      const avgWin = winners.length > 0 ? (winners.reduce((s, t) => s + parseFloat(t.pnl), 0) / winners.length).toFixed(2) : null;
+      const avgLoss = losers.length > 0 ? (losers.reduce((s, t) => s + Math.abs(parseFloat(t.pnl)), 0) / losers.length).toFixed(2) : null;
+
+      document.getElementById('sc-total').textContent = total;
+      document.getElementById('sc-winrate').textContent = winrate;
+      const pnlEl = document.getElementById('sc-pnl');
+      pnlEl.textContent = totalPnl >= 0 ? '+$' + totalPnl.toFixed(2) : '-$' + Math.abs(totalPnl).toFixed(2);
+      pnlEl.className = 'sc-value ' + (totalPnl >= 0 ? 'positive' : 'negative');
+      document.getElementById('sc-avgwin').textContent = avgWin ? '$' + avgWin : '—';
+      document.getElementById('sc-avgloss').textContent = avgLoss ? '$' + avgLoss : '—';
+    }
+
+    function exportCSV() {
+      const trades = loadTrades();
+      if (trades.length === 0) { alert('No trades to export.'); return; }
+      const headers = ['Date','Ticker','Strategy','Direction','Entry Price','Exit Price','Contracts','Premium','Strike','Expiry','Outcome','P&L','Setup','Rules Followed','Lessons'];
+      const rows = trades.map(t => [
+        t.date, t.ticker, t.strategy, t.direction, t.entryPrice, t.exitPrice,
+        t.contracts, t.premium, t.strike, t.expiry, t.outcome, t.pnl,
+        (t.setup || '').replace(/"/g, '""'), (t.rulesFollowed || '').replace(/"/g, '""'), (t.lessons || '').replace(/"/g, '""')
+      ]);
+      const csv = [headers.join(','), ...rows.map(r => r.map(v => '"' + v + '"').join(','))].join('\n');
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+      a.download = 'trade-log-' + new Date().toISOString().split('T')[0] + '.csv';
+      a.click();
+    }
+
+    // Init
+    renderLog();
+  </script>
+
+</body>
+</html>
