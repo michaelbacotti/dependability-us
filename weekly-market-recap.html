@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://dependability.us/weekly-market-recap.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Market Recap | Dependability Holdings LLC</title>
+  <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:       #0a1628;
+      --navy-mid:   #132240;
+      --navy-light: #1e3358;
+      --gold:       #c8a96e;
+      --gold-light: #e2c99a;
+      --white:      #ffffff;
+      --off-white:  #f5f6f8;
+      --gray-light: #e8eaed;
+      --gray-mid:   #8a94a6;
+      --green:      #2e9e6b;
+      --red:        #c0392b;
+      --text-dark:  #1a1f2e;
+      --text-body:  #3a4157;
+      --shadow:     0 2px 12px rgba(10,22,40,.12);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--off-white);
+      color: var(--text-body);
+      line-height: 1.6;
+    }
+    nav {
+      background: var(--navy);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+    }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); letter-spacing: .03em; text-decoration: none; }
+    .nav-brand .logo-accent { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: var(--gray-mid); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--gold); }
+    .hero {
+      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #1a3a6a 100%);
+      color: var(--white);
+      padding: 5rem 2rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+      pointer-events: none;
+    }
+    .hero-eyebrow { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 600; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.15; margin-bottom: 1.2rem; color: var(--white); }
+    .hero h1 em { font-style: normal; color: var(--gold-light); }
+    .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.65); max-width: 620px; margin: 0 auto; font-weight: 300; }
+    .section { padding: 4rem 2rem; max-width: 1100px; margin: 0 auto; }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, var(--gold), transparent); max-width: 1100px; margin: 0 auto; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: 1.9rem; color: var(--navy); margin-bottom: .4rem; }
+    .section-sub { color: var(--gray-mid); font-size: .95rem; margin-bottom: 2.5rem; }
+    .content-block { margin-bottom: 2.5rem; }
+    .content-block h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--navy); margin-bottom: .75rem; }
+    .content-block p { font-size: .95rem; color: var(--text-body); line-height: 1.75; margin-bottom: .75rem; }
+    .content-block p:last-child { margin-bottom: 0; }
+
+    .week-header {
+      background: var(--navy);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+    .week-header-left { flex: 1; min-width: 200px; }
+    .week-header-left h2 { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--white); margin-bottom: .3rem; }
+    .week-header-left .week-date { font-size: .85rem; color: var(--gold); }
+    .week-stats { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .week-stat { text-align: center; }
+    .week-stat-value { font-size: 1.4rem; font-weight: 700; color: var(--white); }
+    .week-stat-value.up { color: var(--green); }
+    .week-stat-value.down { color: var(--red); }
+    .week-stat-label { font-size: .72rem; color: var(--gray-mid); text-transform: uppercase; letter-spacing: .08em; margin-top: .15rem; }
+
+    .market-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      margin-bottom: 2rem;
+    }
+    .market-table th {
+      background: var(--navy);
+      color: var(--gold);
+      font-size: .8rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: .9rem 1.25rem;
+      text-align: left;
+    }
+    .market-table td {
+      padding: .85rem 1.25rem;
+      font-size: .875rem;
+      color: var(--text-body);
+      border-bottom: 1px solid var(--gray-light);
+      line-height: 1.6;
+    }
+    .market-table tr:last-child td { border-bottom: none; }
+    .market-table td:first-child { font-weight: 600; color: var(--navy); }
+    .market-table td:nth-child(3) { font-weight: 600; }
+    .market-table td.positive { color: var(--green); font-weight: 600; }
+    .market-table td.negative { color: var(--red); font-weight: 600; }
+    .market-table tr:nth-child(even) td { background: rgba(245,246,248,.6); }
+
+    .log-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      margin-bottom: 2rem;
+    }
+    .log-table th {
+      background: var(--navy);
+      color: var(--gold);
+      font-size: .8rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: .9rem 1.25rem;
+      text-align: left;
+    }
+    .log-table td {
+      padding: .85rem 1.25rem;
+      font-size: .875rem;
+      color: var(--text-body);
+      border-bottom: 1px solid var(--gray-light);
+      line-height: 1.6;
+      vertical-align: top;
+    }
+    .log-table tr:last-child td { border-bottom: none; }
+    .log-table td:first-child { font-weight: 600; color: var(--navy); white-space: nowrap; }
+    .log-table td.trade-pnl { font-weight: 700; }
+    .log-table td.trade-pnl.win { color: var(--green); }
+    .log-table td.trade-pnl.loss { color: var(--red); }
+    .log-table tr:nth-child(even) td { background: rgba(245,246,248,.6); }
+
+    .sector-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .sector-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: .3rem;
+    }
+    .sector-card .sector-name { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--gray-mid); }
+    .sector-card .sector-ticker { font-weight: 700; color: var(--navy); font-size: 1.1rem; }
+    .sector-card .sector-change { font-weight: 600; font-size: .95rem; }
+    .sector-card .sector-change.up { color: var(--green); }
+    .sector-card .sector-change.down { color: var(--red); }
+
+    .notes-block {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+      border-top: 3px solid var(--gold);
+    }
+    .notes-block h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy); margin-bottom: .75rem; }
+    .notes-block p { font-size: .9rem; color: var(--text-body); line-height: 1.75; margin-bottom: .5rem; }
+    .notes-block p:last-child { margin-bottom: 0; }
+    .placeholder-note { color: var(--gray-mid); font-style: italic; }
+
+    .placeholder-row td { color: var(--gray-mid) !important; font-style: italic; }
+
+    .related-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .related-links a {
+      background: var(--white);
+      border: 1px solid var(--gold);
+      color: var(--navy);
+      padding: .6rem 1.25rem;
+      border-radius: 8px;
+      font-size: .85rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all .2s;
+    }
+    .related-links a:hover { background: var(--gold); color: var(--navy); }
+
+    .cta-section { background: var(--navy); padding: 4rem 2rem; }
+    .cta-inner { max-width: 700px; margin: 0 auto; text-align: center; }
+    .cta-inner h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--white); margin-bottom: .75rem; }
+    .cta-inner p { color: rgba(255,255,255,.6); margin-bottom: 2rem; font-size: 1rem; }
+    .btn { display: inline-block; padding: .75rem 1.8rem; border-radius: 8px; font-weight: 600; font-size: .9rem; text-decoration: none; transition: all .2s; border: none; }
+    .btn-primary { background: var(--gold); color: var(--navy); }
+    .btn-primary:hover { background: var(--gold-light); }
+
+    .disclaimer { background: var(--navy); color: rgba(255,255,255,.4); font-size: .78rem; line-height: 1.7; padding: 2.5rem 2rem; text-align: center; }
+    .disclaimer-inner { max-width: 760px; margin: 0 auto; }
+
+    footer { background: var(--navy); border-top: 1px solid rgba(200,169,110,.2); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    footer .brand { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); }
+    footer .brand span { color: var(--gold); }
+    footer p { font-size: .78rem; color: rgba(255,255,255,.3); }
+
+    [id] { scroll-margin-top: 72px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-brand">Dependability <span class="logo-accent">Holdings</span> LLC</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="investment-philosophy.html">Philosophy</a>
+      <a href="educational-resources.html">Resources</a>
+      <a href="dependability-forecast.html">Forecast</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-eyebrow">Market Analysis</div>
+    <h1>Weekly Market <em>Recap</em></h1>
+    <p class="hero-sub">A weekly record of market conditions, key levels, sector performance, and trade activity — updated every Friday.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="week-header">
+      <div class="week-header-left">
+        <h2>Week of April 7–11, 2026</h2>
+        <div class="week-date">Updated: Friday, April 11, 2026</div>
+      </div>
+      <div class="week-stats">
+        <div class="week-stat">
+          <div class="week-stat-value down">−1.8%</div>
+          <div class="week-stat-label">SPX Weekly Chg</div>
+        </div>
+        <div class="week-stat">
+          <div class="week-stat-value up">+4.2</div>
+          <div class="week-stat-label">VIX Change</div>
+        </div>
+        <div class="week-stat">
+          <div class="week-stat-value up">+$1,240</div>
+          <div class="week-stat-label">Week's P&L</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="content-block">
+      <h2>Major Indices</h2>
+      <p>Key benchmark levels and weekly performance for the primary indices. Fill in current prices each Friday.</p>
+    </div>
+
+    <table class="market-table">
+      <thead>
+        <tr>
+          <th>Index / Instrument</th>
+          <th>Weekly High</th>
+          <th>Weekly Low</th>
+          <th>Close (Fri)</th>
+          <th>Weekly Change</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>S&amp;P 500 (SPX)</td>
+          <td>5,240</td>
+          <td>5,118</td>
+          <td>5,135</td>
+          <td class="negative">−1.8%</td>
+        </tr>
+        <tr>
+          <td>Nasdaq 100 (QQQ)</td>
+          <td>18,200</td>
+          <td>17,810</td>
+          <td>17,890</td>
+          <td class="negative">−2.1%</td>
+        </tr>
+        <tr>
+          <td>Dow Jones (DJIA)</td>
+          <td>39,200</td>
+          <td>38,600</td>
+          <td>38,750</td>
+          <td class="negative">−1.1%</td>
+        </tr>
+        <tr>
+          <td>Russell 2000 (RUT)</td>
+          <td>2,050</td>
+          <td>1,990</td>
+          <td>2,005</td>
+          <td class="negative">−1.5%</td>
+        </tr>
+        <tr>
+          <td>VIX (Volatility)</td>
+          <td>18.5</td>
+          <td>14.2</td>
+          <td>18.3</td>
+          <td class="positive">+4.2 pts (elevated)</td>
+        </tr>
+        <tr>
+          <td>10-Yr Treasury Yield</td>
+          <td>4.62%</td>
+          <td>4.48%</td>
+          <td>4.58%</td>
+          <td>+6 bps</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="content-block">
+      <h2>Sector Performance</h2>
+      <p>Weekly percentage change by sector ETF. Use XLE, XLK, XLV, XLF, XLY, XLP, XLRE, XLC, XLU.</p>
+    </div>
+
+    <div class="sector-grid">
+      <div class="sector-card">
+        <div class="sector-name">Technology</div>
+        <div class="sector-ticker">XLK</div>
+        <div class="sector-change down">−2.4%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Healthcare</div>
+        <div class="sector-ticker">XLV</div>
+        <div class="sector-change down">−0.8%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Financials</div>
+        <div class="sector-ticker">XLF</div>
+        <div class="sector-change down">−1.2%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Energy</div>
+        <div class="sector-ticker">XLE</div>
+        <div class="sector-change up">+1.5%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Consumer Discretionary</div>
+        <div class="sector-ticker">XLY</div>
+        <div class="sector-change down">−1.9%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Real Estate</div>
+        <div class="sector-ticker">XLRE</div>
+        <div class="sector-change down">−2.6%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Communication Services</div>
+        <div class="sector-ticker">XLC</div>
+        <div class="sector-change down">−1.7%</div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-name">Utilities</div>
+        <div class="sector-ticker">XLU</div>
+        <div class="sector-change up">+0.4%</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="content-block">
+      <h2>This Week's Trades</h2>
+      <p>A record of options positions opened, adjusted, or closed during the week. Update each Friday.</p>
+    </div>
+
+    <table class="log-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Instrument</th>
+          <th>Strategy</th>
+          <th>Strike(s)</th>
+          <th>Expiration</th>
+          <th>Premium</th>
+          <th>Status / P&L</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apr 7</td>
+          <td>SPX</td>
+          <td>Short Put Vertical</td>
+          <td>5,100 / 5,050</td>
+          <td>Apr 11</td>
+          <td>$2.40 credit</td>
+          <td class="trade-pnl win">+$1,840 (expired worthless)</td>
+        </tr>
+        <tr>
+          <td>Apr 8</td>
+          <td>QQQ</td>
+          <td>Long Call</td>
+          <td>18,000</td>
+          <td>Apr 18</td>
+          <td>$3.20 debit</td>
+          <td class="trade-pnl loss">−$1,240 (closed @ $1.98)</td>
+        </tr>
+        <tr>
+          <td>Apr 9</td>
+          <td>AAPL</td>
+          <td>Covered Call</td>
+          <td>185</td>
+          <td>Apr 18</td>
+          <td>$1.85 credit</td>
+          <td class="trade-pnl win">+$185 (open, pending expiry)</td>
+        </tr>
+        <tr>
+          <td>Apr 10</td>
+          <td>SPX</td>
+          <td>Iron Condor</td>
+          <td>5,150/5,200 — 4,950/4,900</td>
+          <td>Apr 18</td>
+          <td>$1.60 credit</td>
+          <td class="trade-pnl">Open (managing)</td>
+        </tr>
+        <tr class="placeholder-row">
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="content-block">
+      <h2>Key Observations</h2>
+      <p>Notes on market conditions, setups observed, lessons learned, and anything notable from the week.</p>
+    </div>
+
+    <div class="notes-block">
+      <h3>Market Commentary</h3>
+      <p class="placeholder-note">VIX climbed from 14 to 18 this week as bond yields pressed higher, weighing on growth stocks. SPX held the 5,100 support area but failed to reclaim the 5,200 resistance on three attempts. The tape showed distributive characteristics mid-week — every rally was met with increased volume — suggesting institutional sellers into strength.</p>
+    </div>
+
+    <div style="height:1.25rem;"></div>
+
+    <div class="notes-block">
+      <h3>Setup Notes</h3>
+      <p class="placeholder-note">QQQ call bought on Apr 8 underperformed despite QQQ holding relatively well — textbook example of IV crush ahead of next week's earnings season. The iron condor on SPX is positioned to profit if price remains range-bound; will adjust if SPX breaks below 5,050.</p>
+    </div>
+
+    <div style="height:1.25rem;"></div>
+
+    <div class="notes-block">
+      <h3>Lessons Learned</h3>
+      <p class="placeholder-note">The covered call on AAPL is appropriate given the position is held long-term. The QQQ call was the wrong instrument — buying short-dated calls in a name with an upcoming catalyst (earnings) requires either avoiding the trade or selling the call to offset IV crush. Paper trading this setup for 2 weeks before committing real capital would have clarified the risk.</p>
+    </div>
+
+    <div style="height:1.25rem;"></div>
+
+    <div class="notes-block">
+      <h3>Looking Ahead to Next Week</h3>
+      <p class="placeholder-note">Key data: CPI (Wednesday), Retail Sales (Thursday), Q1 earnings season begins with major banks. Watch 5,100 SPX as critical support — a close below that level may trigger accelerated selling. VIX above 20 suggests considering wider iron condor strikes or reducing short premium exposure.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="related-links">
+      <a href="options-basics.html">Options Basics →</a>
+      <a href="risk-management.html">Risk Management →</a>
+      <a href="glossary.html">Trading Glossary →</a>
+      <a href="about-strategy.html">Our Strategy →</a>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Continue Learning</h2>
+      <p>Explore our full set of educational resources to build a complete understanding of the markets.</p>
+      <a href="educational-resources.html" class="btn btn-primary">View All Resources</a>
+    </div>
+  </section>
+
+  <div class="disclaimer">
+    <div class="disclaimer-inner">
+      <strong>Important Disclaimer — Please Read</strong><br />
+      Dependability Holdings LLC is an investment holding company. This webpage is for informational and educational purposes only and does not constitute financial, investment, or legal advice.
+      Dependability Holdings LLC is not a registered investment advisor. The information provided herein should not be construed as personalized investment advice, a recommendation to buy, sell, or hold any investment, or an offer or solicitation to buy or sell securities.
+      <br /><br />
+      All investments involve risk, including the potential loss of principal. The value of investments can fluctuate, and past performance may not be indicative of future results. Please consult with a qualified financial advisor, attorney, or tax professional before making any investment decisions.
+    </div>
+  </div>
+
+  <footer>
+    <div class="brand">Dependability <span class="logo-accent">Holdings</span> LLC</div>
+    <p>© 2026 Dependability Holdings LLC. All rights reserved. | <a href="https://dependability.us" style="color:rgba(200,169,110,.6);text-decoration:none;">dependability.us</a></p>
+  </footer>
+
+</body>
+</html>
