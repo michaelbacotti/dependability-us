@@ -357,6 +357,60 @@
     </div>
 
     <div class="content-block">
+      <h2>Option Spreads: When to Use Them</h2>
+      <p>A spread is a strategy that combines two or more option legs — buying one option and selling another — to reduce cost, define risk, and precisely express a market view. Rather than buying a naked call or put and fighting time decay, spreads let you align your position with a specific price scenario while keeping your maximum loss known from the start.</p>
+
+      <h3 style="font-size:1rem;color:var(--navy);margin:1.25rem 0 .5rem;">Vertical Spreads — The Foundation</h3>
+      <p>A vertical spread involves two options of the same expiration but different strikes. The four basic versions cover every directional bias:</p>
+      <ul class="content-list">
+        <li><strong>Bull Call Spread</strong> — Buy a lower strike call, sell a higher strike call. Bullish. Max profit achieved when the underlying closes at or above the short strike. Net debit.</li>
+        <li><strong>Bear Put Spread</strong> — Buy a higher strike put, sell a lower strike put. Bearish. Max profit at or below the short strike. Net debit.</li>
+        <li><strong>Bull Put Spread</strong> — Sell a higher strike put, buy a lower strike put for protection. Bullish to range-bound. Credit received. Max loss is the width of the spread minus the credit.</li>
+        <li><strong>Bear Call Spread</strong> — Sell a lower strike call, buy a higher strike call for protection. Bearish to range-bound. Credit received. Max loss is the width of the spread minus the credit.</li>
+      </ul>
+      <p><strong>When to employ vertical spreads:</strong> When you have a directional conviction but want to reduce the cost of expressing it. Selling the outer leg offsets the premium paid on the inner leg, lowering the net debit (or generating a credit). The tradeoff is capping your profit at the short strike.</p>
+
+      <h3 style="font-size:1rem;color:var(--navy);margin:1.25rem 0 .5rem;">Condors and Butterflies — Range-Bound Plays</h3>
+      <p>These strategies expand the range over which a position is profitable by stacking multiple short strikes inside wider wings.</p>
+      <ul class="content-list">
+        <li><strong>Long Call Condor</strong> — Buy a lower strike call, sell a middle strike call, buy a higher strike call, sell a highest strike call. Four-leg structure that profits if the underlying stays below the inner short strike, breaks even in a middle zone, and profits again if it rises through the upper short strike. The long upper wing hedges the outer short side.</li>
+        <li><strong>Long Put Condor</strong> — Mirror image of a call condor for bearish or range-bound scenarios.</li>
+        <li><strong>Long Call Butterfly</strong> — Buy a lower strike, sell two middle strikes, buy a higher strike. Profits most if the underlying expires exactly at the middle strikes. Low-cost, defined-risk fly with a narrow profit window.</li>
+        <li><strong>Iron Condor</strong> — Combine a bull put spread and a bear call spread. Profits in a range; loses if the underlying breaks through either wing. Popular income strategy when expecting low volatility.</li>
+        <li><strong>Iron Butterfly</strong> — Similar to an iron condor but the short strikes are the same on both sides, creating a single short strike ATM. Max profit if the underlying expires exactly at that strike.</li>
+      </ul>
+      <p><strong>When to employ condors and butterflies:</strong> When you expect the underlying to stay within a range or move to a specific target. They are lower-cost strategies with defined risk, but they require the price action to cooperate — the profit window is narrower than it appears on the chart.</p>
+
+      <h3 style="font-size:1rem;color:var(--navy);margin:1.25rem 0 .5rem;">Calendar and Diagonal Spreads — Time Plays</h3>
+      <ul class="content-list">
+        <li><strong>Calendar Spread</strong> — Sell a near-term option while buying the same strike in a later expiration. Profits from time decay differential — the short leg loses value faster than the long leg. The underlying should be near the strike at expiration of the short leg.</li>
+        <li><strong>Diagonal Call Spread</strong> — Buy a later-dated call at one strike, sell a nearer call at a different strike. Combines directional bias with time decay. A common setup for bull call spreads that use a later-dated underlying for more time to be right.</li>
+      </ul>
+      <p><strong>When to employ calendars:</strong> When you want to sell time against a known catalyst (earnings, events) and hold the hedge further out. The underlying should be near your strike at the short expiration.</p>
+
+      <h3 style="font-size:1rem;color:var(--navy);margin:1.25rem 0 .5rem;">⚠️ Naked Spreads: What They Are and Why to Avoid Them</h3>
+      <p>A <em>naked</em> spread means one side of your position is unhedged — for example, buying a call spread but only selling the lower strike, leaving the upper side exposed without a hedge. This is different from a pure naked option (selling an uncovered call), but it carries many of the same risks:</p>
+      <ul class="content-list">
+        <li><strong>Unbounded risk on one side</strong> — If the underlying moves aggressively past your unhedged strike, your loss grows with every dollar of adverse movement.</li>
+        <li><strong>High margin requirements</strong> — Unhedged short option legs require substantial margin in your account and can trigger margin calls in volatile markets.</li>
+        <li><strong>Volatility crush amplifies losses</strong> — If implied volatility spikes against you, the cost of managing or closing the position can exceed the original credit received.</li>
+      </ul>
+      <p><strong>The simple rule:</strong> Always know your max loss before you enter. If you cannot calculate the worst-case scenario, the spread is not properly defined. A well-constructed spread — whether a condor, iron condor, or vertical — should have both sides capped. Avoid any structure where one side can theoretically produce unlimited losses.</p>
+
+      <h3 style="font-size:1rem;color:var(--navy);margin:1.25rem 0 .5rem;">Choosing the Right Spread</h3>
+      <p>Match your structure to your conviction:</p>
+      <ul class="content-list">
+        <li><strong>Strong directional view</strong> → Bull call spread or bear put spread (debit, defined risk, full participation)</li>
+        <li><strong>Mild bullish, limited upside expected</strong> → Bull put spread (credit, income-oriented)</li>
+        <li><strong>Range-bound, want to profit from stagnation</strong> → Iron condor or long call condor</li>
+        <li><strong>Target a specific price at expiry</strong> → Long call butterfly or iron butterfly</li>
+        <li><strong>Want to sell premium against a core position</strong> → Covered call, collar, or calendar spread</li>
+      </ul>
+      <p>The common thread across every solid spread strategy: <strong>you always know your max risk going in.</strong> That's the discipline that separates thoughtful options traders from gamblers.</p>
+      <p class="source-note" style="margin-top:0.75rem;font-size:0.8rem;color:#666;">Strategy reference: <a href="https://optionstrat.com/" target="_blank" rel="noopener" style="color:var(--navy);">OptionStrat</a> — strategy builder and educational resource. Explore their <a href="https://optionstrat.com/build/long-call-condor" target="_blank" rel="noopener" style="color:var(--navy);">Long Call Condor</a> builder to model these trades in real time.</p>
+    </div>
+
+    <div class="content-block">
       <h2>Important Considerations for Beginners</h2>
       <p>Options trading offers powerful capabilities, but it comes with real complexity. Before you begin, keep these principles in mind:</p>
       <ul class="content-list">
