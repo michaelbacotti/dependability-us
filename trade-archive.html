@@ -1,8 +1,11 @@
+<!-- GENERATED FILE — do not edit manually. Run: python3 generate-trade-archive.py -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="canonical" href="https://dependability.us/trade-archive.html" />
-  <title>S&P 500 Forecast 2026 — Bullish Case for American Growth | Dependability Holdings</title>
+  <title>Option Trade Archive | Dependability Holdings LLC</title>
+  <meta name="description" content="Historical options trade archive — past trade ideas, outcomes, P/L, and lessons learned from Dependability Holdings.">
   <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,566 +15,159 @@
       --navy:       #0a1628;
       --navy-mid:   #132240;
       --navy-light: #1e3358;
-      --gold:       #c8a96e;
-      --gold-light: #e2c99a;
+      --accent:     #3ecf8e;
+      --accent-dim: #2a9d6e;
       --white:      #ffffff;
       --off-white:  #f5f6f8;
       --gray-light: #e8eaed;
       --gray-mid:   #8a94a6;
-      --green:      #2e9e6b;
-      --red:        #c94b4b;
       --text-dark:  #1a1f2e;
-      --text-body:  #3a4157;
-      --shadow:     0 2px 12px rgba(10,22,40,.12);
+      --text-body:  #d0d8e4;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background: var(--off-white);
-      color: var(--text-body);
-      line-height: 1.6;
-    }
-
-    /* ── NAV ── */
-    nav {
-      background: var(--navy);
-      padding: 0 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 64px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      border-bottom: 2px solid var(--gold);
-    }
-    .nav-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      color: var(--white);
-      letter-spacing: .03em;
-      text-decoration: none;
-    }
-    .nav-brand span { color: var(--gold); }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--navy); color: var(--text-body); line-height: 1.7; }
+    nav { background: var(--navy); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid var(--accent); }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); letter-spacing: .03em; text-decoration: none; }
+    .nav-brand .logo-accent { color: var(--accent); }
     .nav-links { display: flex; gap: 2rem; }
-    .nav-links a {
-      color: var(--gray-mid);
-      text-decoration: none;
-      font-size: .875rem;
-      font-weight: 500;
-      transition: color .2s;
-    }
-    .nav-links a:hover { color: var(--gold); }
-
-    /* ── HERO ── */
-    .hero {
-      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #1a3a6a 100%);
-      color: var(--white);
-      padding: 5rem 2rem 4rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
-      pointer-events: none;
-    }
-    .hero-eyebrow {
-      font-size: .8rem;
-      letter-spacing: .18em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 1rem;
-      font-weight: 600;
-    }
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.2rem, 5vw, 3.6rem);
-      line-height: 1.15;
-      margin-bottom: 1.2rem;
-      color: var(--white);
-    }
-    .hero h1 em {
-      font-style: normal;
-      color: var(--gold-light);
-    }
-    .hero-sub {
-      font-size: 1.1rem;
-      color: rgba(255,255,255,.65);
-      max-width: 620px;
-      margin: 0 auto 2.5rem;
-      font-weight: 300;
-    }
-    .hero-stats {
-      display: flex;
-      justify-content: center;
-      gap: 3rem;
-      flex-wrap: wrap;
-      margin-top: 2rem;
-    }
-    .hero-stat {
-      text-align: center;
-    }
-    .hero-stat-value {
-      font-size: 2.4rem;
-      font-weight: 700;
-      color: var(--gold-light);
-      line-height: 1;
-    }
-    .hero-stat-label {
-      font-size: .78rem;
-      color: rgba(255,255,255,.5);
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      margin-top: .4rem;
-    }
-    .hero-badge {
-      display: inline-block;
-      background: rgba(200,169,110,.15);
-      border: 1px solid rgba(200,169,110,.35);
-      color: var(--gold);
-      font-size: .8rem;
-      padding: .35rem .9rem;
-      border-radius: 50px;
-      margin-bottom: 1.5rem;
-      letter-spacing: .04em;
-    }
-
-    /* ── SECTION SHARED ── */
-    .section { padding: 4rem 2rem; max-width: 1100px; margin: 0 auto; }
-    .section-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.9rem;
-      color: var(--navy);
-      margin-bottom: .4rem;
-    }
-    .section-sub {
-      color: var(--gray-mid);
-      font-size: .95rem;
-      margin-bottom: 2.5rem;
-    }
-    .divider {
-      height: 1px;
-      background: linear-gradient(to right, transparent, var(--gold), transparent);
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-
-    /* ── CARDS GRID ── */
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: var(--white);
-      border-radius: 12px;
-      padding: 1.75rem;
-      box-shadow: var(--shadow);
-      border-top: 3px solid var(--gold);
-      transition: transform .2s, box-shadow .2s;
-    }
-    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(10,22,40,.15); }
-    .card-icon {
-      font-size: 1.8rem;
-      margin-bottom: .75rem;
-    }
-    .card h3 {
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--navy);
-      margin-bottom: .6rem;
-    }
-    .card p {
-      font-size: .9rem;
-      color: var(--text-body);
-      line-height: 1.65;
-    }
-
-    /* ── TABLES ── */
-    .table-wrap { overflow-x: auto; border-radius: 12px; box-shadow: var(--shadow); }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: var(--white);
-      font-size: .9rem;
-    }
-    thead { background: var(--navy); }
-    thead th {
-      color: var(--white);
-      font-weight: 600;
-      text-align: left;
-      padding: .85rem 1.1rem;
-      font-size: .82rem;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-    }
-    thead th:first-child { border-radius: 12px 0 0 0; }
-    thead th:last-child { border-radius: 0 12px 0 0; }
-    tbody tr:nth-child(even) { background: var(--off-white); }
-    tbody tr:hover { background: rgba(200,169,110,.08); }
-    td {
-      padding: .75rem 1.1rem;
-      border-bottom: 1px solid var(--gray-light);
-      color: var(--text-dark);
-    }
-    td strong { color: var(--green); }
-    td.warn strong { color: var(--red); }
-    td.neutral strong { color: var(--navy); }
-    tr:last-child td { border-bottom: none; }
-    .tier-badge {
-      display: inline-block;
-      padding: .2rem .6rem;
-      border-radius: 4px;
-      font-size: .75rem;
-      font-weight: 700;
-      letter-spacing: .05em;
-      text-transform: uppercase;
-    }
-    .tier-bull  { background: rgba(46,158,107,.12); color: #1e7e52; }
-    .tier-bear  { background: rgba(201,75,75,.1);  color: #a33535; }
-    .tier-base  { background: rgba(200,169,110,.15); color: #8a6e3e; }
-
-    /* ── BULLISH THESIS ── */
-    .thesis-section { background: var(--navy); color: var(--white); padding: 4rem 2rem; }
-    .thesis-inner { max-width: 1100px; margin: 0 auto; }
-    .thesis-section .section-title { color: var(--white); }
-    .thesis-section .section-sub { color: rgba(255,255,255,.55); }
-    .thesis-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-      margin-top: 0;
-    }
-    .thesis-card {
-      background: var(--navy-light);
-      border-radius: 12px;
-      padding: 1.75rem;
-      border-left: 3px solid var(--gold);
-    }
-    .thesis-card h3 {
-      color: var(--gold-light);
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: .6rem;
-    }
-    .thesis-card p { color: rgba(255,255,255,.7); font-size: .9rem; line-height: 1.65; }
-    .thesis-card ul {
-      list-style: none;
-      margin-top: .75rem;
-      display: flex;
-      flex-direction: column;
-      gap: .4rem;
-    }
-    .thesis-card li {
-      color: rgba(255,255,255,.65);
-      font-size: .875rem;
-      padding-left: 1.1rem;
-      position: relative;
-    }
-    .thesis-card li::before {
-      content: '▸';
-      position: absolute;
-      left: 0;
-      color: var(--gold);
-    }
-
-    /* ── TECHNICAL LEVELS ── */
-    .levels-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.5rem;
-    }
-    @media (max-width: 680px) { .levels-grid { grid-template-columns: 1fr; } }
-    .level-col { background: var(--white); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
-    .level-header {
-      padding: .9rem 1.25rem;
-      font-weight: 700;
-      font-size: .85rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      text-align: center;
-    }
-    .level-header.bull  { background: var(--green);  color: var(--white); }
-    .level-header.base  { background: var(--navy);   color: var(--white); }
-    .level-header.bear  { background: var(--red);    color: var(--white); }
-    .level-body { padding: 1.5rem; }
-    .level-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: .6rem 0;
-      border-bottom: 1px solid var(--gray-light);
-      font-size: .9rem;
-    }
-    .level-item:last-child { border-bottom: none; }
-    .level-item-label { color: var(--gray-mid); }
-    .level-item-value { font-weight: 700; color: var(--text-dark); }
-
-    /* ── GLOBAL CONTEXT ── */
-    .context-section { background: var(--off-white); }
-    .context-split {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-    @media (max-width: 680px) { .context-split { grid-template-columns: 1fr; } }
-    .context-panel {
-      background: var(--white);
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: var(--shadow);
-    }
-    .context-panel h3 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: .5rem;
-    }
-    .context-panel.us h3  { color: var(--green); }
-    .context-panel.risk h3 { color: var(--red); }
-    .context-panel ul {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: .6rem;
-    }
-    .context-panel li {
-      font-size: .9rem;
-      padding-left: 1.1rem;
-      position: relative;
-      color: var(--text-body);
-    }
-    .context-panel li::before { content: '–'; position: absolute; left: 0; color: var(--gray-mid); }
-
-    /* ── STRATEGY ── */
-    .strategy-section { background: var(--navy); }
-    .strategy-inner { max-width: 1100px; margin: 0 auto; }
-    .strategy-section .section-title { color: var(--white); }
-    .strategy-section .section-sub { color: rgba(255,255,255,.55); }
-    .strategy-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.25rem;
-    }
-    .strategy-card {
-      background: var(--navy-light);
-      border-radius: 10px;
-      padding: 1.4rem;
-    }
-    .strategy-card h4 {
-      color: var(--gold-light);
-      font-size: .9rem;
-      font-weight: 700;
-      margin-bottom: .5rem;
-      text-transform: uppercase;
-      letter-spacing: .05em;
-    }
-    .strategy-card p { color: rgba(255,255,255,.65); font-size: .875rem; line-height: 1.6; }
-    .strategy-card .pro { color: #5fca9a; font-size: .8rem; margin-top: .5rem; }
-    .strategy-card .con { color: #e08080; font-size: .8rem; margin-top: .25rem; }
-
-    /* ── DISCLAIMER ── */
-    .disclaimer {
-      background: var(--navy);
-      color: rgba(255,255,255,.4);
-      font-size: .78rem;
-      line-height: 1.7;
-      padding: 2.5rem 2rem;
-      text-align: center;
-    }
-    .disclaimer-inner { max-width: 760px; margin: 0 auto; }
-
-    /* ── FOOTER ── */
-    footer {
-      background: var(--navy);
-      border-top: 1px solid rgba(200,169,110,.2);
-      padding: 1.25rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: .5rem;
-    }
-    footer .brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 1rem;
-      color: var(--white);
-    }
-    footer .brand span { color: var(--gold); }
+    .nav-links a { color: var(--gray-mid); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+    .hero { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #0d2a1a 100%); color: var(--white); padding: 5rem 2rem 4rem; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat; pointer-events: none; }
+    .hero-eyebrow { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; font-weight: 600; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.2rem); line-height: 1.15; margin-bottom: 1.2rem; color: var(--white); }
+    .hero h1 em { font-style: normal; color: var(--accent); }
+    .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.6); max-width: 620px; margin: 0 auto; font-weight: 300; }
+    .section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, var(--accent), transparent); max-width: 900px; margin: 0 auto; }
+    .content-block { margin-bottom: 2.5rem; }
+    .content-block h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; color: var(--white); margin-bottom: .9rem; }
+    .content-block p { font-size: .95rem; color: var(--text-body); line-height: 1.85; margin-bottom: .85rem; }
+    .trade-entry { background: var(--navy-mid); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; border-top: 3px solid var(--accent); }
+    .trade-entry.closed { border-top-color: var(--gray-mid); }
+    .trade-entry.active { border-top-color: var(--accent); box-shadow: 0 4px 20px rgba(62,207,142,.1); }
+    .trade-entry h3 { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--white); margin: .6rem 0 .2rem; }
+    .trade-meta { font-size: .85rem; color: var(--gray-mid); margin-bottom: 1rem; }
+    .trade-badge { display: inline-block; padding: .2rem .6rem; border-radius: 4px; font-size: .72rem; font-weight: 700; letter-spacing: .05em; background: var(--gray-mid); color: var(--navy); }
+    .trade-badge.active { background: var(--accent); color: var(--navy); }
+    .trade-badge.closed { background: var(--gray-mid); color: var(--navy); }
+    .trade-stats { display: flex; justify-content: flex-end; text-align: right; }
+    .trade-stats .label { font-size: .75rem; color: var(--gray-mid); margin-bottom: .2rem; }
+    .trade-stats .value { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+    .trade-stats .sub { font-size: .8rem; color: var(--accent); }
+    .trade-table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: 1rem 0; }
+    .trade-table tr { border-bottom: 1px solid rgba(255,255,255,.06); }
+    .trade-table td { padding: .4rem 0; color: var(--gray-mid); }
+    .trade-table td:first-child { width: 160px; font-size: .82rem; }
+    .trade-table td:last-child { color: var(--text-body); font-weight: 500; }
+    .lesson-block { margin-top: 1rem; padding: .75rem 1rem; background: rgba(62,207,142,.06); border-radius: 6px; border-left: 3px solid var(--accent); font-size: .85rem; color: rgba(255,255,255,.75); }
+    .lesson-block strong { color: var(--accent); }
+    .rationale-block { margin-top: 1rem; padding: .75rem 1rem; background: rgba(200,169,110,.08); border-radius: 6px; border-left: 3px solid var(--gold, #c8a96e); font-size: .85rem; color: rgba(255,255,255,.75); }
+    .rationale-block strong { color: var(--gold, #c8a96e); }
+    .callout { background: rgba(62,207,142,.08); border: 1px solid rgba(62,207,142,.3); border-radius: 12px; padding: 1.75rem 2rem; margin: 2rem 0; }
+    .callout p { font-size: .9rem; color: rgba(255,255,255,.75); line-height: 1.8; margin: 0; }
+    .disclaimer { padding: 2.5rem 2rem; max-width: 900px; margin: 0 auto; }
+    .disclaimer-inner { background: var(--navy-mid); border-radius: 12px; padding: 1.5rem 2rem; font-size: .8rem; color: rgba(255,255,255,.4); line-height: 1.8; }
+    footer { background: var(--navy); border-top: 1px solid rgba(62,207,142,.15); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    footer .brand { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); }
+    footer .brand span { color: var(--accent); }
     footer p { font-size: .78rem; color: rgba(255,255,255,.3); }
+    footer a { color: rgba(62,207,142,.6); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
 
-    /* ── SCROLL ANCHOR OFFSET ── */
-    [id] { scroll-margin-top: 72px; }
+    .trade-archive-header { font-size: .95rem; color: var(--gray-mid); margin-bottom: 2rem; line-height: 1.7; }
+    .trade-archive-header a { color: var(--accent); text-decoration: none; }
+    .trade-archive-header a:hover { text-decoration: underline; }
   </style>
+  <link rel="canonical" href="https://dependability.us/trade-archive.html" />
 </head>
 <body>
-    <div class="container">
-          <nav>
-    <a href="index.html" class="nav-brand">Dependability <span>Holdings</span></a>
+  <nav>
+    <a href="index.html" class="nav-brand">Dependability <span class="logo-accent">Holdings</span> LLC</a>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="investment-philosophy.html">Philosophy</a>
-      <a href="educational-resources.html">Resources</a>
       <a href="dependability-forecast.html">Forecast</a>
-      <a href="contact.html">Contact</a>
+      <a href="educational-resources.html">Learn</a>
+      <a href="about.html">About</a>
     </div>
   </nav>
-          <header class="hero">
+
+  <header class="hero">
     <div class="hero-eyebrow">Historical Trades</div>
-    <h1>Option Trade Archive</h1>
-    <p>Past "Option Trade Ideas for Today" — with outcomes, P/L, and lessons learned.</p>
+    <h1>Option Trade <em>Archive</em></h1>
+    <p class="hero-sub">Past trade ideas from the Forecast page — outcomes, P/L, and lessons learned. Updated daily.</p>
   </header>
 
-        <!-- ── INTRO ── -->
-        <section class="section">
-          <p style="font-size:1.05rem;max-width:680px;color:var(--text-body);line-height:1.7;">
-            This archive tracks past trade recommendations published on the
-            <a href="dependability-forecast.html">Option Trade Ideas for Today</a> section.
-            Each entry shows the spread structure, entry rationale, and outcome
-            when available. Performance reflects realistic fill prices at time of publication.
-          </p>
-        </section>
+  <div class="divider"></div>
 
-        <!-- ── FILTER / NOTE ── -->
-        <section class="section section-alt">
-          <p style="color:var(--gray-mid);font-size:.9rem;">
-            📊 This page is updated as trade outcomes are recorded.
-            Currently tracking trades from April 2026 onward.
-          </p>
-        </section>
+  <section class="section">
 
-        <!-- ── TRADE ENTRIES ── -->
-        <section class="section">
-          <h2 class="section-title">📋 Past Recommendations</h2>
+    <p class="trade-archive-header">
+      Entries originally published on the <a href="dependability-forecast.html">Forecast page</a>.
+      All trades are educational examples — not investment advice.
+      Last updated: <strong>April 14, 2026</strong>
+    </p>
 
-          <!-- Trade Entry: Bull Put Spread Apr 10 -->
-          <div class="trade-entry" style="background:var(--white);border-radius:10px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--gray-light);box-shadow:0 2px 8px rgba(10,22,40,.06);">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;">
-              <div>
-                <span style="background:var(--navy);color:var(--gold);padding:.2rem .6rem;border-radius:4px;font-size:.75rem;font-weight:600;letter-spacing:.05em;">🟢 CLOSED</span>
-                <h3 style="font-family:'Playfair Display',serif;font-size:1.3rem;margin:.4rem 0 .2rem;">Bull Put Spread — SPY</h3>
-                <p style="color:var(--gray-mid);font-size:.85rem;">April 10, 2026 · Expired Apr 17, 2026 · 7 DTE</p>
-              </div>
-              <div style="text-align:right;">
-                <div style="font-size:.75rem;color:var(--gray-mid);">Net P/L</div>
-                <div style="font-size:1.5rem;font-weight:700;color:var(--green);">+$150/contract</div>
-                <div style="font-size:.8rem;color:var(--green);">Credit collected</div>
-              </div>
-            </div>
 
-            <table style="width:100%;margin-top:1rem;border-collapse:collapse;font-size:.9rem;">
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);width:160px;">Strategy</td>
-                <td style="padding:.4rem 0;">Bull Put Spread (2 legs)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Short Strike</td>
-                <td style="padding:.4rem 0;">SPY $672 put — sold for credit</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Long Strike</td>
-                <td style="padding:.4rem 0;">SPY $667 put — protection</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Net Credit</td>
-                <td style="padding:.4rem 0;">~$1.50/sh ($150/contract)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Max Risk</td>
-                <td style="padding:.4rem 0;">~$350/contract (if SPY closes below $667)</td>
-              </tr>
-              <tr>
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Outcome</td>
-                <td style="padding:.4rem 0;">SPY expired above $672. Both puts expired worthless. Full credit kept. ✅ Max profit achieved.</td>
-              </tr>
-            </table>
+
+
+    <div class="trade-entry closed">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;">
+        <div>
+          <span class="trade-badge closed">🟢 CLOSED</span>
+          <h3>Bull Put Spread — SPY</h3>
+          <p class="trade-meta">April 10, 2026 · Exp. Expired Apr 17, 2026 · 7 DTE</p>
+        </div>
+        <div class="trade-stats">
+          <div>
+            <div class="label">Net P/L</div>
+            <div class="value" style="color:#2e9e6b;">+$150/contract</div>
+            <div class="sub" style="color:#2e9e6b;">Profit</div>
           </div>
+        </div>
+      </div>
+      <table class="trade-table"><tr><td>Strategy</td><td>Bull Put Spread (2 legs)</td></tr><tr><td>Short Strike</td><td>SPY $672 put — sold for credit</td></tr><tr><td>Long Strike</td><td>SPY $667 put — protection</td></tr><tr><td>Net Credit</td><td>~$1.50/sh ($150/contract)</td></tr><tr><td>Underlying</td><td>SPY</td></tr></table>
+      <div class="lesson-block"><strong>Lesson:</strong> Bull put spreads work well in sideways-to-slightly-bullish VIX environments. Max risk is the width of the spread minus credit received.</div>
+    </div>
 
-          <!-- Trade Entry: Iron Condor Apr 10 -->
-          <div class="trade-entry" style="background:var(--white);border-radius:10px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--gray-light);box-shadow:0 2px 8px rgba(10,22,40,.06);">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;">
-              <div>
-                <span style="background:var(--navy);color:var(--gold);padding:.2rem .6rem;border-radius:4px;font-size:.75rem;font-weight:600;letter-spacing:.05em;">🟢 CLOSED</span>
-                <h3 style="font-family:'Playfair Display',serif;font-size:1.3rem;margin:.4rem 0 .2rem;">Iron Condor — SPY</h3>
-                <p style="color:var(--gray-mid);font-size:.85rem;">April 10, 2026 · Expired Apr 17, 2026 · 8 DTE</p>
-              </div>
-              <div style="text-align:right;">
-                <div style="font-size:.75rem;color:var(--gray-mid);">Net P/L</div>
-                <div style="font-size:1.5rem;font-weight:700;color:var(--green);">+$130/contract</div>
-                <div style="font-size:.8rem;color:var(--green);">Credit collected</div>
-              </div>
-            </div>
-
-            <table style="width:100%;margin-top:1rem;border-collapse:collapse;font-size:.9rem;">
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);width:160px;">Strategy</td>
-                <td style="padding:.4rem 0;">Iron Condor (4 legs)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Leg 1 — Sell</td>
-                <td style="padding:.4rem 0;">SPY $668 put (short, upper put wing)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Leg 2 — Buy</td>
-                <td style="padding:.4rem 0;">SPY $663 put (long, lower put wing)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Leg 3 — Sell</td>
-                <td style="padding:.4rem 0;">SPY $688 call (short, upper call wing)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Leg 4 — Buy</td>
-                <td style="padding:.4rem 0;">SPY $693 call (long, highest strike)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Net Credit</td>
-                <td style="padding:.4rem 0;">~$1.30/sh ($130/contract)</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--gray-light);">
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Max Risk</td>
-                <td style="padding:.4rem 0;">~$370/contract (width of widest wing minus credit)</td>
-              </tr>
-              <tr>
-                <td style="padding:.4rem 0;color:var(--gray-mid);">Outcome</td>
-                <td style="padding:.4rem 0;">SPY settled $681 — above upper put strike ($668), below lower call strike ($688). All 4 legs expired worthless. Full credit kept. ✅ Max profit achieved.</td>
-              </tr>
-            </table>
+    <div class="trade-entry closed">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;">
+        <div>
+          <span class="trade-badge closed">🟢 CLOSED</span>
+          <h3>Iron Condor — SPY</h3>
+          <p class="trade-meta">April 10, 2026 · Exp. Expired Apr 17, 2026 · 8 DTE</p>
+        </div>
+        <div class="trade-stats">
+          <div>
+            <div class="label">Net P/L</div>
+            <div class="value" style="color:#2e9e6b;">+$130/contract</div>
+            <div class="sub" style="color:#2e9e6b;">Profit</div>
           </div>
+        </div>
+      </div>
+      <table class="trade-table"><tr><td>Strategy</td><td>Iron Condor (4 legs)</td></tr><tr><td>Net Credit</td><td>~$1.30/sh ($130/contract)</td></tr><tr><td>Leg 1</td><td>SPY $668 put (short, upper put wing)</td></tr><tr><td>Leg 2</td><td>SPY $663 put (long, lower put wing)</td></tr><tr><td>Leg 3</td><td>SPY $688 call (short, upper call wing)</td></tr><tr><td>Leg 4</td><td>SPY $693 call (long, upper call wing)</td></tr><tr><td>Underlying</td><td>SPY</td></tr></table>
+      <div class="lesson-block"><strong>Lesson:</strong> Iron condors shine when VIX is elevated (18+) and the market has a clear range. The key risk is a gap move through one of the wings.</div>
+    </div>
 
-          <!-- Placeholder for future entries -->
-          <div style="text-align:center;padding:3rem;color:var(--gray-mid);border:2px dashed var(--gray-light);border-radius:10px;">
-            <p style="font-size:1.1rem;">📋 More trade entries will appear here as they close out.</p>
-            <p style="font-size:.9rem;margin-top:.5rem;">Last updated: April 10, 2026</p>
-          </div>
-        </section>
+    <div class="callout">
+      <p><strong>Disclaimer:</strong> Trade entries are educational research published on the Forecast page. Options trading involves significant risk of loss. Past performance does not indicate future results. Not investment advice.</p>
+    </div>
 
-        <!-- ── DISCLAIMER -->
-  <div class="disclaimer">
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="disclaimer">
     <div class="disclaimer-inner">
       <strong>Important Disclaimer — Please Read</strong><br />
-      Dependability Holdings LLC is an investment holding company. This webpage is for informational and educational purposes only and does not constitute financial, investment, or legal advice.
-      Dependability Holdings LLC is not a registered investment advisor. The information provided herein should not be construed as personalized investment advice, a recommendation to buy, sell, or hold any investment, or an offer or solicitation to buy or sell securities.
-      <br /><br />
-      All investments involve risk, including the potential loss of principal. The value of investments can fluctuate, and past performance may not be indicative of future results. The price targets, technical levels, and strategy notes presented represent research opinions, not predictions of future performance.
-      <br /><br />
-      Please consult with a qualified financial advisor, attorney, or tax professional before making any investment decisions. Any decisions you make based on information found on this page are made entirely at your own risk.
+      Dependability Holdings LLC is an investment holding company. This webpage is for informational and educational purposes only and does not constitute financial, investment, or legal advice. Dependability Holdings LLC is not a registered investment advisor. The information provided herein should not be construed as personalized investment advice, a recommendation to buy, sell, or hold any investment, or an offer or solicitation to buy or sell securities. All investments involve risk, including the potential loss of principal.
     </div>
-  </div>
+  </section>
 
-<footer>
+  <footer>
     <div class="brand">Dependability <span class="logo-accent">Holdings</span> LLC</div>
-    <p>© 2026 Dependability Holdings LLC. All rights reserved. | <a href="https://dependability.us" style="color:rgba(200,169,110,.6);text-decoration:none;">dependability.us</a></p>
+    <p>&copy; 2026 Dependability Holdings LLC. All rights reserved.</p>
   </footer>
-    </div>
 </body>
 </html>
