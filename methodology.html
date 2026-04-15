@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-9312870448453345">
+    <meta name="description" content="How Dependability Holdings builds its market forecasts — data sources, analytical process, and trade strategy framework.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Our Research Methodology | Dependability Holdings">
+    <meta property="og:description" content="A transparent look at how we build S&P 500 forecasts, analyze volatility, and select option strategies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dependability.us/methodology">
+    <meta property="og:image" content="https://dependability.us/assets/og-image.png">
+    <title>Our Research Methodology | Dependability Holdings</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How We Make Our Market Forecasts",
+      "author": {
+        "@type": "Organization",
+        "name": "Dependability Holdings LLC"
+      },
+      "dateModified": "2026-04-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://dependability.us/methodology"
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(!t||(t!=="light"&&t!=="dark"))t=window.matchMedia("(prefers-color-scheme:light)").matches?"light":"dark";document.documentElement.setAttribute("data-theme",t);}catch(e){}</script></head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;margin-right:8px;">
+                        <rect width="28" height="28" rx="6" fill="#1a3a2a"/>
+                        <path d="M7 20V10l7-4 7 4v10l-7 4-7-4z" stroke="#3ecf8e" stroke-width="1.5" fill="none"/>
+                        <path d="M14 6v16M7 10l7 4 7-4" stroke="#3ecf8e" stroke-width="1.5"/>
+                    </svg>
+                    Dependability<span class="logo-accent">.</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="investment-philosophy.html">Philosophy</a></li>
+                    <li><a href="educational-resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle theme">Dark</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>How We Make Our <span class="text-accent">Market Forecasts</span></h1>
+                <p class="page-hero-sub">A transparent look at the data, process, and reasoning behind our S&P 500 outlooks and options trade ideas.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="content-block">
+                    <h2>Introduction</h2>
+                    <p>Our forecasts are built from publicly available market data and established financial theory. Every update follows a structured process — not gut feelings, not algorithmic signals, and not proprietary black boxes. Here's exactly what goes into each market outlook we publish.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Data Sources</h2>
+                    <p>We rely exclusively on publicly available market data. No proprietary feeds, no insider information, no premium subscriptions required to verify our work.</p>
+                    <ul style="margin-left:1.5rem;margin-top:.75rem;line-height:2;">
+                        <li><strong>Yahoo Finance</strong> — Daily closing prices and volume for SPY, QQQ, VIX, and DIA</li>
+                        <li><strong>CBOE VIX</strong> — The CBOE Volatility Index, our primary measure of market uncertainty</li>
+                        <li><strong>Public.com API</strong> — Options chain data including open interest, volume, and implied volatility by strike</li>
+                        <li><strong>Standard Options Pricing Theory</strong> — The Black-Scholes framework informs our understanding of option valuation, though we don't calculate Black-Scholes directly in our analysis</li>
+                        <li><strong>FRED (Federal Reserve Economic Data)</strong> — For macroeconomic context including GDP, employment, and interest rate data</li>
+                    </ul>
+                    <p style="margin-top:.75rem;">All data is fetched and analyzed as of the most recent trading day's close. We do not trade on pre-market or intraday data for our daily outlooks.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Our Six-Step Process</h2>
+                    <p>Each market update follows the same repeatable framework:</p>
+                </div>
+
+                <div class="diff-grid">
+                    <div class="diff-item">
+                        <h3>1. Market Data Collection</h3>
+                        <p>We record the closing prices of SPY (S&amp;P 500 ETF), QQQ (Nasdaq 100 ETF), VIX (CBOE Volatility Index), and DIA (Dow Jones ETF) each trading day. These four instruments give us a clear picture of broad market direction and volatility regime.</p>
+                    </div>
+                    <div class="diff-item">
+                        <h3>2. Options Chain Analysis</h3>
+                        <p>We examine the options chain for nearby expirations — typically the nearest monthly or weekly expiration — looking at open interest concentrations, put/call ratios, and implied volatility levels across strikes. This tells us where the market sees risk and where the "insurance" demand is highest.</p>
+                    </div>
+                    <div class="diff-item">
+                        <h3>3. VIX Regime Classification</h3>
+                        <p>We classify the current volatility environment into one of four regimes:</p>
+                        <ul style="margin-top:.5rem;margin-left:1.25rem;line-height:1.8;">
+                            <li><strong>Calm</strong> — VIX below 15. Low fear, favorable for premium-selling strategies.</li>
+                            <li><strong>Elevated</strong> — VIX 15–20. Normal uncertainty, balanced approach.</li>
+                            <li><strong>High</strong> — VIX 20–30. Elevated fear, wider spreads, higher premiums available.</li>
+                            <li><strong>Panic</strong> — VIX above 30. Crisis conditions, defensive posture only.</li>
+                        </ul>
+                        <p style="margin-top:.5rem;">The VIX regime directly determines which option strategies we consider and how we size positions.</p>
+                    </div>
+                    <div class="diff-item">
+                        <h3>4. Directional Bias Assessment</h3>
+                        <p>We evaluate directional signals from both technical and fundamental sources:</p>
+                        <ul style="margin-top:.5rem;margin-left:1.25rem;line-height:1.8;">
+                            <li><strong>Technical:</strong> Price vs. key moving averages (50-day, 200-day), trend direction, support and resistance zones</li>
+                            <li><strong>Fundamental:</strong> Macro environment (GDP, employment, Fed policy), earnings trajectory, valuation levels</li>
+                        </ul>
+                        <p style="margin-top:.5rem;">We form a directional bias — bullish, bearish, or neutral — and state our confidence level clearly. We do not pretend to precision we don't have.</p>
+                    </div>
+                    <div class="diff-item">
+                        <h3>5. Spread Strategy Selection</h3>
+                        <p>Once we have a VIX regime and directional bias, we select a spread structure that matches the conditions. The table below shows our default framework:</p>
+                    </div>
+                    <div class="diff-item">
+                        <h3>6. Trade Idea Formatting</h3>
+                        <p>Every trade idea we publish is formatted with: the underlying instrument, the specific strikes and expiration, the net cost or credit, the maximum risk, the maximum reward, and the probability of profit based on the VIX-derived probability distribution. This gives you everything you need to evaluate the idea on your own.</p>
+                    </div>
+                </div>
+
+                <div class="content-block" style="background:#f8fafc;border-radius:10px;padding:1.5rem;margin-top:2rem;border-left:4px solid #3ecf8e;">
+                    <h2>Strategy Selection Framework</h2>
+                    <p>Our strategy selection is governed by two inputs: VIX regime and directional bias.</p>
+                    <div style="overflow-x:auto;margin-top:1rem;">
+                        <table style="width:100%;border-collapse:collapse;font-size:.9rem;">
+                            <thead>
+                                <tr style="background:#1a3a2a;color:white;">
+                                    <th style="padding:.6rem .75rem;text-align:left;">VIX Regime</th>
+                                    <th style="padding:.6rem .75rem;text-align:left;">VIX Level</th>
+                                    <th style="padding:.6rem .75rem;text-align:left;">Bullish Bias</th>
+                                    <th style="padding:.6rem .75rem;text-align:left;">Neutral Bias</th>
+                                    <th style="padding:.6rem .75rem;text-align:left;">Bearish Bias</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border-bottom:1px solid #e8eaed;">
+                                    <td style="padding:.6rem .75rem;"><strong>Calm</strong></td>
+                                    <td style="padding:.6rem .75rem;">&lt; 15</td>
+                                    <td style="padding:.6rem .75rem;">Bull Put Spread</td>
+                                    <td style="padding:.6rem .75rem;">Iron Condor</td>
+                                    <td style="padding:.6rem .75rem;">Bear Call Spread</td>
+                                </tr>
+                                <tr style="border-bottom:1px solid #e8eaed;background:#f8fafc;">
+                                    <td style="padding:.6rem .75rem;"><strong>Elevated</strong></td>
+                                    <td style="padding:.6rem .75rem;">15–20</td>
+                                    <td style="padding:.6rem .75rem;">Bull Call Spread</td>
+                                    <td style="padding:.6rem .75rem;">Iron Condor</td>
+                                    <td style="padding:.6rem .75rem;">Bear Put Spread</td>
+                                </tr>
+                                <tr style="border-bottom:1px solid #e8eaed;">
+                                    <td style="padding:.6rem .75rem;"><strong>High</strong></td>
+                                    <td style="padding:.6rem .75rem;">20–30</td>
+                                    <td style="padding:.6rem .75rem;">Bull Put Spread (wider)</td>
+                                    <td style="padding:.6rem .75rem;">Iron Condor (wider)</td>
+                                    <td style="padding:.6rem .75rem;">Bear Call Spread (wider)</td>
+                                </tr>
+                                <tr style="background:#f8fafc;">
+                                    <td style="padding:.6rem .75rem;"><strong>Panic</strong></td>
+                                    <td style="padding:.6rem .75rem;">&gt; 30</td>
+                                    <td style="padding:.6rem .75rem;">Defensive — reduce size</td>
+                                    <td style="padding:.6rem .75rem;">Defensive — reduce size</td>
+                                    <td style="padding:.6rem .75rem;">Defensive — reduce size</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="content-block" style="margin-top:2rem;">
+                    <h2>Defined-Risk Spreads Only</h2>
+                    <p>One principle we hold firmly: <strong>we only recommend defined-risk spreads.</strong> Every strategy we publish has a maximum loss that is known before you place the trade. We do not recommend naked short volatility positions, uncovered short options, or any strategy where your downside is theoretically unlimited.</p>
+                    <p>The strategies we use:</p>
+                    <ul style="margin-left:1.5rem;margin-top:.75rem;line-height:2;">
+                        <li><strong>Bull Put Spread</strong> — Sell a higher strike put, buy a lower strike put for protection. Max loss = spread width minus net credit.</li>
+                        <li><strong>Bull Call Spread</strong> — Buy a lower strike call, sell a higher strike call. Max loss = net cost paid.</li>
+                        <li><strong>Bear Call Spread</strong> — Sell a lower strike call, buy a higher strike call for protection. Max loss = spread width minus net credit.</li>
+                        <li><strong>Bear Put Spread</strong> — Buy a higher strike put, sell a lower strike put. Max loss = net cost paid.</li>
+                        <li><strong>Iron Condor</strong> — A bull put spread combined with a bear call spread. Four legs, defined max loss on each side.</li>
+                        <li><strong>Calendar Spread</strong> — Sell a short-dated option, buy a longer-dated option at the same strike. Profits from time decay differential.</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h2>What We Don't Do</h2>
+                    <p>For transparency, here is what we explicitly avoid:</p>
+                    <ul style="margin-left:1.5rem;margin-top:.75rem;line-height:2;">
+                        <li><strong>No naked short calls or puts</strong> — Unlimited loss potential; we don't recommend these to readers</li>
+                        <li><strong>No short volatility ETFs</strong> — VXX, SVIX, and similar products lose value structurally in trending markets</li>
+                        <li><strong>No leveraged ETFs for directional bets</strong> — TQQQ, SPXL, and 3x products are tools for short-term traders, not long-term investors</li>
+                        <li><strong>No earnings plays</strong> — Binary events introduce volatility crush risk we don't find suitable for educational recommendations</li>
+                        <li><strong>No illiquid options</strong> — We only analyze options with sufficient open interest and volume</li>
+                    </ul>
+                </div>
+
+                <div class="content-block">
+                    <h2>Probability and Risk Management</h2>
+                    <p>No trade is a sure thing. We estimate probability of profit using a simplified model based on VIX-derived implied volatility and the distance of strikes from current price. These are estimates, not guarantees — but they give you a disciplined framework for position sizing.</p>
+                    <p>We generally aim for trades with a probability of profit in the 55–75% range. Lower probability trades are reserved for situations where the reward-to-risk ratio is exceptional.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Update Schedule</h2>
+                    <p>Our market outlook is updated at the end of each trading day, using closing prices. We do not update during the trading day — closing prices are the foundation of our analysis. If market conditions change significantly between updates (e.g., a major geopolitical event or Fed announcement), we may publish an interim note.</p>
+                    <p>Educational content is reviewed and updated on a quarterly basis, or sooner if we identify a material inaccuracy.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Last Updated</h2>
+                    <p><em>April 2026</em></p>
+                    <p style="margin-top:.5rem;">This methodology page is reviewed quarterly. Last substantive review: April 2026.</p>
+                </div>
+
+                <div class="content-block">
+                    <p><a href="dependability-forecast.html" class="btn btn-primary" style="display:inline-block;">View Today's Market Forecast →</a>
+                    <a href="editorial-policy.html" class="btn btn-secondary" style="display:inline-block;margin-left:.75rem;">Editorial Policy →</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="disclaimer-section">
+        <div class="container">
+            <h3>Important Disclaimer</h3>
+            <p><strong>This is educational research, not investment advice.</strong> Dependability Holdings LLC is not a registered investment advisor. The information provided on this website should not be construed as personalized investment advice, a recommendation to buy, sell, or hold any investment, or an offer or solicitation to buy or sell securities.</p>
+            <p>All investments involve risk, including the potential loss of principal. Past performance is not indicative of future results. Please consult a qualified financial advisor before making any investment decisions.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;margin-right:6px;">
+                            <rect width="28" height="28" rx="6" fill="#1a3a2a"/>
+                            <path d="M7 20V10l7-4 7 4v10l-7 4-7-4z" stroke="#3ecf8e" stroke-width="1.5" fill="none"/>
+                            <path d="M14 6v16M7 10l7 4 7-4" stroke="#3ecf8e" stroke-width="1.5"/>
+                        </svg>
+                        Dependability<span class="logo-accent">.</span>
+                    </a>
+                    <p>Independent investment research for self-directed investors.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="author.html">Research Team</a></li>
+                        <li><a href="methodology.html">Methodology</a></li>
+                        <li><a href="editorial-policy.html">Editorial Policy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="educational-resources.html">Educational Content</a></li>
+                        <li><a href="dependability-forecast.html">Market Forecast</a></li>
+                        <li><a href="weekly-market-recap.html">Weekly Recap</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dependability Holdings LLC. All rights reserved.</p>
+                <p class="disclaimer">Investment involves risk. Past performance is not indicative of future results. This website is for informational purposes only and does not constitute investment advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
