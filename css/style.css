@@ -135,6 +135,35 @@ header {
 
 .nav-links a.active { color: var(--gold); }
 
+/* Dropdown — hidden by default */
+.dropdown { position: relative; }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--navy);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    min-width: 180px;
+    z-index: 200;
+    list-style: none;
+}
+.dropdown-menu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 0.85rem !important;
+}
+.dropdown-menu li a:hover {
+    background: rgba(255,255,255,0.05);
+    color: var(--gold) !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 /* Mobile Menu */
 .mobile-menu-btn {
     display: none;
