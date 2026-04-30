@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://www.dependability.us/options-for-beginners.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Options Trading for Beginners — Your Complete Guide | Dependability Holdings LLC</title>
+  <meta name="description" content="A complete beginner's guide to options trading. Learn what calls and puts are, how the Greeks work, and why defined-risk strategies are the right starting point." />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0a1628; --navy-mid: #132240; --navy-light: #1e3358;
+      --gold: #c8a96e; --gold-light: #e2c99a; --white: #ffffff;
+      --off-white: #f5f6f8; --gray-light: #e8eaed; --gray-mid: #8a94a6;
+      --green: #2e9e6b; --red: #c0392b; --text-dark: #1a1f2e; --text-body: #3a4157;
+      --shadow: 0 2px 12px rgba(10,22,40,.12);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--off-white); color: var(--text-body); line-height: 1.65; }
+    nav { background: var(--navy); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid var(--gold); }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); letter-spacing: .03em; text-decoration: none; }
+    .nav-brand .logo-accent { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: var(--gray-mid); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+    .hero { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #1a3a6a 100%); color: var(--white); padding: 5rem 2rem 4rem; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); opacity: .5; }
+    .hero-inner { position: relative; max-width: 760px; margin: 0 auto; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; line-height: 1.2; }
+    .hero p { font-size: 1.1rem; color: rgba(255,255,255,.8); max-width: 560px; margin: 0 auto 1.5rem; }
+    .hero-badge { display: inline-block; background: rgba(200,169,110,.15); border: 1px solid var(--gold); color: var(--gold-light); padding: .3rem .9rem; border-radius: 2rem; font-size: .8rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; margin-bottom: 1rem; }
+    .container { max-width: 860px; margin: 0 auto; padding: 3rem 2rem; }
+    .article-body { max-width: 720px; margin: 0 auto; }
+    .article-body h2 { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--navy); margin: 2.5rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid var(--gold); }
+    .article-body h3 { font-size: 1.15rem; color: var(--navy); margin: 1.8rem 0 .6rem; font-weight: 600; }
+    .article-body p { margin-bottom: 1.1rem; color: var(--text-body); font-size: 1.05rem; }
+    .article-body ul, .article-body ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-body li { margin-bottom: .6rem; font-size: 1.05rem; }
+    .article-body strong { color: var(--text-dark); font-weight: 600; }
+    .article-body em { font-style: italic; color: var(--text-dark); }
+    .callout { background: var(--white); border-left: 4px solid var(--gold); border-radius: 0 8px 8px 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0; box-shadow: var(--shadow); }
+    .callout p { margin-bottom: 0; font-size: 1rem; }
+    .callout.warning { border-left-color: var(--red); }
+    .callout.success { border-left-color: var(--green); }
+    .callout h4 { font-size: .95rem; text-transform: uppercase; letter-spacing: .04em; color: var(--gray-mid); margin-bottom: .5rem; font-weight: 600; }
+    .example-box { background: var(--white); border: 1px solid var(--gray-light); border-radius: 8px; padding: 1.5rem; margin: 1.5rem 0; box-shadow: var(--shadow); }
+    .example-box h4 { font-size: 1rem; color: var(--navy); margin-bottom: 1rem; font-weight: 600; }
+    .example-box table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    .example-box th { text-align: left; padding: .5rem .75rem; background: var(--off-white); color: var(--navy); border-bottom: 2px solid var(--gray-light); }
+    .example-box td { padding: .5rem .75rem; border-bottom: 1px solid var(--gray-light); }
+    .example-box tr:last-child td { border-bottom: none; }
+    .cta-box { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%); border-radius: 12px; padding: 2rem; text-align: center; margin: 2.5rem 0; color: var(--white); }
+    .cta-box h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: .75rem; }
+    .cta-box p { color: rgba(255,255,255,.8); margin-bottom: 1.25rem; }
+    .cta-box a { display: inline-block; background: var(--gold); color: var(--navy); padding: .75rem 1.75rem; border-radius: 6px; font-weight: 600; text-decoration: none; transition: background .2s; }
+    .cta-box a:hover { background: var(--gold-light); }
+    footer { background: var(--navy); color: var(--gray-mid); padding: 2rem; text-align: center; font-size: .85rem; border-top: 2px solid var(--gold); margin-top: 4rem; }
+    footer a { color: var(--gold); text-decoration: none; }
+    @media (max-width: 640px) { .hero { padding: 3rem 1.5rem 2.5rem; } .container { padding: 2rem 1.25rem; } .nav-links { gap: 1rem; } .nav-links a { font-size: .8rem; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a class="nav-brand" href="index.html">Dependability<span class="logo-accent">.</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="options-hub.html">Options</a>
+    <a href="risk-hub.html">Risk</a>
+    <a href="forecast-hub.html">Forecast</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <span class="hero-badge">Beginner's Guide</span>
+    <h1>Options Trading for Beginners</h1>
+    <p>Everything you need to know before placing your first options trade — explained clearly, with real examples, and no jargon.</p>
+  </div>
+</header>
+
+<div class="container">
+  <article class="article-body">
+
+    <p><strong>Options trading</strong> sounds complicated. The truth is, the basics are simpler than most people expect — and the most important concepts fit on a single page. This guide will give you a solid foundation: what options are, how they work, what moves their prices, and how to approach your first trade responsibly.</p>
+
+    <h2>What Is an Option?</h2>
+    <p>An <strong>option</strong> is a contract. It gives you the right — but not the obligation — to buy or sell a stock at a specific price, before a specific date. That's it. Two types:</p>
+    <ul>
+      <li><strong>Call option:</strong> The right to <em>buy</em> a stock at a set price. Think of it as a down payment on a house — you pay upfront for the right to complete the purchase later.</li>
+      <li><strong>Put option:</strong> The right to <em>sell</em> a stock at a set price. Like insurance — you pay a premium to protect against a decline.</li>
+    </ul>
+    <p>Every option has three pieces of information that define it:</p>
+    <ul>
+      <li><strong>Strike price:</strong> The price at which you can buy (call) or sell (put) the stock</li>
+      <li><strong>Premium:</strong> The cost of the option itself — what you pay to own it</li>
+      <li><strong>Expiration:</strong> The date by which you must decide whether to use the option</li>
+    </ul>
+
+    <h2>ITM, ATM, OTM — What the Terms Mean</h2>
+    <p>Options are classified by their relationship to the current stock price:</p>
+    <ul>
+      <li><strong>In The Money (ITM):</strong> A call where the stock price is above the strike, or a put where the stock is below the strike. These have intrinsic value — they're already profitable if exercised today.</li>
+      <li><strong>At The Money (ATM):</strong> The strike is very close to the current stock price. These are most sensitive to changes in volatility and time.</li>
+      <li><strong>Out of The Money (OTM):</strong> The stock hasn't yet moved to the strike price. These are cheaper, but you need the stock to move further to profit.</li>
+    </ul>
+
+    <h2>Why Trade Options? Five Reasons</h2>
+
+    <h3>1. Leverage</h3>
+    <p>With a call option, you can control 100 shares of a $150 stock for the cost of the premium — say $3 per share ($300 total). If the stock moves to $160, your $300 control stake just made $1,000 on a $300 investment. That's leverage: more impact per dollar deployed.</p>
+
+    <h3>2. Income</h3>
+    <p>When you sell options, you collect premium upfront. This is the core of income-focused options trading: you become the bank, collecting payments in exchange for taking on a defined obligation. Selling a cash-secured put, for example, means you collect $200-$400 in premium while waiting for a stock you'd be happy to own at a discount.</p>
+
+    <h3>3. Insurance</h3>
+    <p>Long-dated put options work like portfolio insurance. If you own 500 shares of a stock and want protection against a crash, buying puts gives you the right to sell at a guaranteed price. You pay a premium — like any insurance policy — for peace of mind.</p>
+
+    <h3>4. Defined Risk</h3>
+    <p>Here's the most important concept in this guide: when you buy an option, your maximum possible loss is exactly what you paid for it. Bought a call for $300? You can only lose $300. This is fundamentally different from stocks, where a stock can fall to zero. Defined-risk strategies let you know your downside before you enter.</p>
+
+    <h3>5. Profit From Movement in Any Direction</h3>
+    <p>Options let you profit whether the market goes up, down, or sideways. Buying a put profits from declines. Selling a call profits in flat markets. Straddles profit from big moves in either direction. This flexibility is why options are used by traders who see opportunities in volatility itself — not just direction.</p>
+
+    <h2>The Four Greeks — What Actually Moves Option Prices</h2>
+    <p>Option prices are driven by five factors: stock price, strike price, time until expiration, interest rates, and volatility. The Greeks measure how sensitive an option is to each of these factors.</p>
+
+    <div class="callout">
+      <h4>Delta — Directional Exposure</h4>
+      <p>Delta tells you how much an option's price changes when the stock moves $1. A delta of 0.30 means the option moves about $0.30 for every $1 move in the stock. Call deltas are positive (stock up = call up). Put deltas are negative (stock up = put down). Think of delta as your "directional speedometer."</p>
+    </div>
+
+    <div class="callout">
+      <h4>Theta — Time Decay</h4>
+      <p>Theta is the daily cost of owning an option. Every day you hold an option, it loses a small amount of value — even if the stock doesn't move. This is called time decay. For option buyers, theta is your enemy. For option sellers, theta is your income stream. A 30-day option worth $3 might lose $0.10 per day in theta — then lose $0.30 in the final week.</p>
+    </div>
+
+    <div class="callout">
+      <h4>Gamma — How Fast Delta Changes</h4>
+      <p>Gamma measures how quickly delta changes when the stock moves. It's highest for ATM options and increases dramatically as expiration approaches. For long-dated option holders, gamma is a minor concern. For short-dated options — especially the final week — gamma can cause options to move far more than you'd expect from a small stock move.</p>
+    </div>
+
+    <div class="callout">
+      <h4>Vega — Volatility's Impact</h4>
+      <p>Vega measures how much an option's price changes when implied volatility (IV) moves 1 percentage point. An option with vega of 0.15 gains $0.15 for every point IV rises, and loses $0.15 for every point IV falls. ATM options have the highest vega — they're most sensitive to changes in the market's expectation of future volatility. This is why earnings announcements cause massive IV changes and option price swings.</p>
+    </div>
+
+    <h2>Calls vs. Puts — Real Examples</h2>
+
+    <div class="example-box">
+      <h4>Call Example: Stock Going Up</h4>
+      <p>Stock is trading at $100. You believe it will rise. You buy a $105 call option for $2.00 premium ($200 total cost for one contract = 100 shares).</p>
+      <table>
+        <tr><th>Scenario</th><th>Stock Price</th><th>Option Value</th><th>Profit/Loss</th></tr>
+        <tr><td>Stock rallies</td><td>$115</td><td>$10.00</td><td style="color:var(--green)">+$800 (+400%)</td></tr>
+        <tr><td>Stock barely moves</td><td>$101</td><td>$0.50</td><td style="color:var(--red)">-$150 (-75%)</td></tr>
+        <tr><td>Stock drops</td><td>$90</td><td>$0</td><td style="color:var(--red)">-$200 (-100%)</td></tr>
+      </table>
+      <p style="margin-top:.75rem;font-size:.9rem;color:var(--gray-mid);">Note: You only lose the $200 premium paid. The stock could fall to $0 and your loss is still capped at $200.</p>
+    </div>
+
+    <div class="example-box">
+      <h4>Put Example: Stock Going Down</h4>
+      <p>Stock is trading at $100. You believe it will fall. You buy a $95 put option for $1.50 premium ($150 total cost).</p>
+      <table>
+        <tr><th>Scenario</th><th>Stock Price</th><th>Option Value</th><th>Profit/Loss</th></tr>
+        <tr><td>Stock falls</td><td>$85</td><td>$10.00</td><td style="color:var(--green)">+$850 (+567%)</td></tr>
+        <tr><td>Stock barely moves</td><td>$99</td><td>$0.50</td><td style="color:var(--red)">-$100 (-67%)</td></tr>
+        <tr><td>Stock rises</td><td>$110</td><td>$0</td><td style="color:var(--red)">-$150 (-100%)</td></tr>
+      </table>
+    </div>
+
+    <h2>Why Defined-Risk Strategies First</h2>
+    <p>If you've read this far, you understand the basics. Now here's the critical lesson: <strong>how you approach your first trade matters more than which trade you choose.</strong></p>
+    <p>Options amplify everything — gains and losses, right decisions and mistakes. A new trader who starts with undefined-risk strategies (selling naked calls, buying large positions in cheap options) can lose more than they intended. A new trader who starts with defined-risk strategies learns the right lessons at controlled cost.</p>
+    <p>On this site, we focus on three strategies appropriate for beginners:</p>
+    <ul>
+      <li><strong>Covered calls:</strong> Sell calls against stock you already own. Earn income on quality holdings.</li>
+      <li><strong>Cash-secured puts:</strong> Sell puts while holding enough cash to buy the stock if assigned. Get paid to wait for a stock you want to own.</li>
+      <li><strong>Iron condors:</strong> Sell both call spreads and put spreads on the same underlying. Profit when the stock goes nowhere.</li>
+    </ul>
+    <p>All three have one thing in common: <strong>you know your maximum risk before you enter.</strong></p>
+
+    <div class="callout warning">
+      <h4>⚠ The Leverage Warning</h4>
+      <p>Option leverage works both ways. A 50% move in the underlying might produce a 200% move in an option — in either direction. Never allocate more to an options position than you can afford to lose entirely. If you can't sleep at night thinking about a position, it's too large.</p>
+    </div>
+
+    <h2>Your First Trade — What to Do</h2>
+
+    <h3>Step 1: Paper Trade First</h3>
+    <p>Before risking real money, track hypothetical trades on paper for 30-60 days. Most brokers offer paper trading accounts. This lets you learn the mechanics (how orders work, how fills happen, how to manage positions) without the emotional cost of real losses.</p>
+
+    <h3>Step 2: Choose the Right Broker</h3>
+    <p>Not all brokers are equal for options traders. Look for: low per-contract fees, ability to sell spreads in one order, good mobile platform, and no assignment fees. Popular options-friendly brokers include Interactive Brokers, Tastytrade, Thinkorswim (TD Ameritrade), and Webull.</p>
+
+    <h3>Step 3: Check These Before Every Trade</h3>
+    <ul>
+      <li><strong>Liquidity:</strong> Are there enough contracts traded daily? If bid-ask spreads are wide, you're paying extra.</li>
+      <li><strong>Strike selection:</strong> ATM options are most responsive to stock movement. OTM options are cheaper but need a bigger move to profit.</li>
+      <li><strong>Expiration:</strong> Longer-dated options have more time but cost more. 30-45 days is a common starting point.</li>
+      <li><strong>Position size:</strong> Never risk more than 1-2% of your account on a single trade. Ten positions at 1% each gives you 10 chances rather than one blowup.</li>
+    </ul>
+
+    <div class="callout success">
+      <h4>The 1-2% Rule</h4>
+      <p>Your maximum risk on any single trade should be 1-2% of your total account value. On a $10,000 account, that's $100-$200 maximum risk per trade. This isn't about being small — it's about staying in the game long enough to let skill develop. A trader who risks 25% per trade needs one blowup to lose half their account.</p>
+    </div>
+
+    <div class="cta-box">
+      <h3>Ready to Learn the Strategies?</h3>
+      <p>Start with our Options Basics page to understand calls and puts in depth — then move to specific strategy pages for covered calls, cash-secured puts, and iron condors.</p>
+      <a href="options-basics.html">Continue to Options Basics →</a>
+    </div>
+
+  </article>
+</div>
+
+<footer>
+  <p>&copy; 2026 Dependability Holdings LLC. All rights reserved.</p>
+  <p style="margin-top:.5rem;"><a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="contact.html">Contact</a></p>
+  <p style="margin-top:.75rem;font-size:.75rem;color:var(--gray-mid);">Dependability Holdings LLC is not a registered broker-dealer or investment advisor. Options trading involves substantial risk. Past performance is not indicative of future results.</p>
+</footer>
+</body>
+</html>
