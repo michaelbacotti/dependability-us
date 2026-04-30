@@ -1,3 +1,4 @@
+SHA: 2b5c65aefcb43c95028214a6daacf73919d04a1c
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,13 +122,18 @@
                     <div class="feature-card">
                         <div class="feature-icon">αβγδ</div>
                         <h3>The Greeks — Delta, Gamma, Theta, Vega</h3>
-                        <p>Delta tells you how much an option price moves per dollar in the stock. Theta measures time decay — your best friend when selling premium. Vega tells you how much IV swings affect the price. Mastering the Greeks separates disciplined traders from gamblers.</p>
+                        <p><strong>Delta (Δ)</strong> measures how much an option's price moves for every $1 move in the stock. A delta of 0.30 means if the stock rises $1, your option gains roughly $0.30 — making it useful for choosing strikes. OTM options have lower delta (0.10–0.30), ATM options cluster around 0.50, and ITM options approach 1.0.</p>
+                        <p><strong>Gamma (Γ)</strong> measures how fast delta changes as the stock moves. Gamma is highest for at-the-money options near expiration, meaning delta can shift violently with small stock moves. Short-dated options carry the most gamma risk — a 7-day option can see its delta swing from 0.20 to 0.80 on a single trading day.</p>
+                        <p><strong>Theta (Θ)</strong> is time decay — the daily cost of holding an option. When you buy options, theta works against you (you lose money every day just from time passing). When you sell options, theta works for you (you collect that daily decay as profit). Selling theta is the foundation of income strategies like covered calls and iron condors.</p>
+                        <p><strong>Vega (V)</strong> measures sensitivity to implied volatility (IV). A 1-point increase in IV — say from 20% to 21% — adds roughly that option's vega to its price. Vega is largest for at-the-money options with more time to expiration, making long-dated ATM options especially sensitive to volatility swings.</p>
+                        <p>Mastering the Greeks separates disciplined traders from gamblers.</p>
                         <a href="options-greeks-explained.html" class="btn btn-secondary" style="margin-top:1rem;display:inline-flex;font-size:0.8rem;">Learn more →</a>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">📅</div>
                         <h3>Weekly Options — SPY Weekly Strategy</h3>
-                        <p>SPY weekly options expire every week, offering fast premium cycles for income-focused traders. The trade-off is less time for the thesis to develop, requiring tighter risk management and smaller position sizes. Best used in low-VIX environments with clear technical levels.</p>
+                        <p><strong>SPY weekly options</strong> expire every week, offering fast premium cycles for income-focused traders. The trade-off is less time for the thesis to develop, requiring tighter risk management and smaller position sizes. Best used in low-VIX environments with clear technical levels.</p>
+                        <p><strong>Gamma spike risk:</strong> In the final 24–48 hours before expiration, gamma explodes for near-ATM options. A 1-day option can move 50% or more on a single small stock move — this is extremely dangerous for option buyers. If you're buying weekly options, close positions by Wednesday to avoid the gamma squeeze.</p>
                         <a href="spy-weekly-options-strategy.html" class="btn btn-secondary" style="margin-top:1rem;display:inline-flex;font-size:0.8rem;">Learn more →</a>
                     </div>
                     <div class="feature-card">
@@ -251,3 +257,4 @@
     </script>
 </body>
 </html>
+
