@@ -14,23 +14,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        :root { --gold: #c8a96e; --gold-light: #e2c99a; }
         body { background: #0a1628; color: #e8edf2; }
-        .article-header { background: #0a1628; padding: 4rem 0 2rem; border-bottom: 1px solid rgba(62,207,142,0.2); }
+        .article-header { background: #0a1628; padding: 4rem 0 2rem; border-bottom: 1px solid rgba(200,169,110,0.2); }
         .article-header h1 { color: #fff; font-family: Georgia, serif; font-size: 2.4rem; margin-bottom: 1rem; }
         .article-header .meta { color: rgba(255,255,255,0.5); font-size: 0.9rem; }
         .article-content { background: #0a1628; padding: 3rem 0; }
-        .article-content h2 { color: #3ecf8e; font-size: 1.4rem; margin-top: 2rem; margin-bottom: 1rem; font-family: Georgia, serif; }
+        .article-content h2 { color: var(--gold); font-size: 1.4rem; margin-top: 2rem; margin-bottom: 1rem; font-family: Georgia, serif; }
         .article-content p { color: rgba(255,255,255,0.85); line-height: 1.8; margin-bottom: 1.25rem; font-size: 1.05rem; }
         .article-content ul { color: rgba(255,255,255,0.85); margin-bottom: 1.25rem; padding-left: 1.5rem; }
         .article-content li { margin-bottom: 0.5rem; line-height: 1.7; }
-        .key-takeaway { border: 2px solid #3ecf8e; padding: 1.5rem; margin-top: 2.5rem; border-radius: 8px; background: rgba(62,207,142,0.06); }
-        .key-takeaway h3 { color: #3ecf8e; margin-bottom: 0.75rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .key-takeaway { border: 2px solid var(--gold); padding: 1.5rem; margin-top: 2.5rem; border-radius: 8px; background: rgba(200,169,110,0.06); }
+        .key-takeaway h3 { color: var(--gold); margin-bottom: 0.75rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
         .key-takeaway p { color: #fff; font-size: 1.05rem; margin-bottom: 0; }
-        .related-articles { background: #132240; padding: 3rem 0; border-top: 1px solid rgba(62,207,142,0.15); }
+        .related-articles { background: #132240; padding: 3rem 0; border-top: 1px solid rgba(200,169,110,0.15); }
         .related-articles h3 { color: #fff; margin-bottom: 1.25rem; }
-        .related-articles a { display: block; color: #3ecf8e; margin-bottom: 0.6rem; font-size: 0.95rem; }
-        .stat-highlight { color: #3ecf8e; font-weight: 700; }
-        footer { background: #0a1628; border-top: 1px solid rgba(62,207,142,0.2); padding: 2rem 0; text-align: center; color: rgba(255,255,255,0.4); font-size: 0.85rem; }
+        .related-articles a { display: block; color: var(--gold); margin-bottom: 0.6rem; font-size: 0.95rem; }
+        .stat-highlight { color: var(--gold); font-weight: 700; }
+        footer { background: #0a1628; border-top: 1px solid rgba(200,169,110,0.2); padding: 2rem 0; text-align: center; color: rgba(255,255,255,0.4); font-size: 0.85rem; }
         footer nav { margin-bottom: 1rem; }
         footer nav a { color: rgba(255,255,255,0.5); margin: 0 0.75rem; }
     </style>
@@ -46,14 +47,14 @@
 <body>
 
     <!-- NAV -->
-    <header>
+    <header style="border-bottom: 2px solid rgba(200,169,110,0.2);">
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;margin-right:8px;">
                         <rect width="28" height="28" rx="6" fill="#1a3a2a"/>
-                        <path d="M7 20V10l7-4 7 4v10l-7 4-7-4z" stroke="#3ecf8e" stroke-width="1.5" fill="none"/>
-                        <path d="M14 6v16M7 10l7 4 7-4" stroke="#3ecf8e" stroke-width="1.5"/>
+                        <path d="M7 20V10l7-4 7 4v10l-7 4-7-4z" stroke="rgba(200,169,110,0.8)" stroke-width="1.5" fill="none"/>
+                        <path d="M14 6v16M7 10l7 4 7-4" stroke="rgba(200,169,110,0.8)" stroke-width="1.5"/>
                     </svg>
                     Dependability<span class="logo-accent">.</span>
                 </a>
