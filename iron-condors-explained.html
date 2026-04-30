@@ -108,6 +108,29 @@
     <div class="content-block">
       <h2>What Is an Iron Condor?</h2>
       <p>An iron condor is a multi-leg options strategy built from two put spreads and two call spreads. You sell an OTM call spread above the current stock price and an OTM put spread below it, collecting premium on both sides. The result is a position that profits when the stock stays within a defined range — the "condor wings" — and loses when it breaks out in either direction.</p>
+
+<!-- Real Example Section -->
+<div style="background:var(--card-bg,linear-gradient(135deg,#1a3a2a,#0d1f17));border:1px solid var(--gold,gold);border-radius:12px;padding:1.5rem;margin:1.5rem 0;">
+  <h3 style="color:var(--gold,gold);margin-bottom:1rem;">📌 Real Example: SPY Iron Condor</h3>
+  <p>Let's walk through a concrete iron condor trade:</p>
+  <ul style="line-height:1.8;">
+    <li><strong>Setup:</strong> SPY trading at <strong>$572</strong>. We sell an iron condor 30 days to expiration.</li>
+    <li><strong>Sell $577/$582 call spread</strong> (5-wide) — collect <strong>$0.45 credit</strong></li>
+    <li><strong>Sell $567/$562 put spread</strong> (5-wide) — collect <strong>$0.45 credit</strong></li>
+    <li><strong>Total credit collected:</strong> $0.90 per share ($90 per contract)</li>
+    <li><strong>Max risk per share:</strong> $5.00 - $0.90 = <strong>$4.10</strong> ($410 per contract)</li>
+    <li><strong>Probability of profit:</strong> ~65%</li>
+    <li><strong>Days to expiration:</strong> 30</li>
+  </ul>
+  <p><strong>At expiration:</strong></p>
+  <ul style="line-height:1.8;">
+    <li>🔵 <strong>SPY at $575</strong> — both spreads expire worthless → keep the full $0.90 credit = <strong>$90 profit per contract</strong></li>
+    <li>🔴 <strong>SPY at $585</strong> — call spread max loss ($4.10), put spread expires worthless → lose <strong>$410 per contract</strong></li>
+    <li>🔴 <strong>SPY at $560</strong> — put spread max loss ($4.10), call spread expires worthless → lose <strong>$410 per contract</strong></li>
+  </ul>
+  <p style="font-size:0.9rem;color:#aaa;">In VIX 15–20 environments, a typical iron condor risks $1.00 to earn $0.30–$0.50 with 60–70% probability of profit.</p>
+</div>
+
 <!-- AdSense Vertical -->
 <ins class="adsbygoogle"
  style="display:block"
@@ -151,7 +174,7 @@
       <div class="resource-card">
         <div class="resource-category">Best Conditions</div>
         <h3>Low Volatility Environments</h3>
-        <p>Iron condors are most profitable when implied volatility (IV) is high enough to generate meaningful premium but the stock is not making large directional moves. High IV means expensive options — meaning you collect more premium when selling the spreads. A flat or slowly drifting stock means neither wing gets tested.</p>
+        <p>Iron condors are most profitable when implied volatility (IV) is high enough to generate meaningful premium but the stock is not making large directional moves. High IV means expensive options — meaning you collect more premium when selling the spreads. A flat or slowly drifting stock means neither wing gets tested. In VIX 15–20 environments, a typical iron condor risks $1.00 to earn $0.30–$0.50 with 60–70% probability of profit.</p>
       </div>
       <div class="resource-card">
         <div class="resource-category">Best Conditions</div>
