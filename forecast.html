@@ -9,45 +9,147 @@
 <link rel="canonical" href="https://www.dependability.us/forecast.html" />
 <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css">
+<style>
+  :root { --navy:#0a1628;--navy-mid:#132240;--navy-light:#1e3358;--gold:#c8a96e;--gold-light:#e2c99a;--white:#ffffff;--off-white:#f5f6f8;--gray-light:#e8eaed;--gray-mid:#8a94a6;--text-dark:#1a1f2e;--text-body:#3a4157; }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Inter',system-ui,sans-serif;background:var(--off-white);color:var(--text-body);line-height:1.6;}
+  nav{background:var(--navy);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px;position:sticky;top:0;z-index:100;border-bottom:2px solid var(--gold);}
+  .nav-brand{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--white);letter-spacing:.03em;text-decoration:none;}
+  .nav-brand .logo-accent{color:var(--gold);}
+  .nav-links{display:flex;gap:2rem;}
+  .nav-links a{color:var(--gray-mid);text-decoration:none;font-size:.875rem;font-weight:500;transition:color .2s;}
+  .nav-links a:hover,.nav-links a.active{color:var(--gold);}
+  .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-mid) 60%,#1a3a6a 100%);color:var(--white);padding:5rem 2rem 4rem;text-align:center;position:relative;overflow:hidden;}
+  .hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;pointer-events:none;}
+  .hero-eyebrow{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:600;}
+  .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.15;margin-bottom:1.2rem;color:var(--white);}
+  .hero h1 em{font-style:normal;color:var(--gold-light);}
+  .hero-sub{font-size:1.1rem;color:rgba(255,255,255,.65);max-width:620px;margin:0 auto;font-weight:300;}
+  .divider{height:1px;background:linear-gradient(to right,transparent,var(--gold),transparent);max-width:1100px;margin:0 auto;}
+  .section{padding:4rem 2rem;max-width:1100px;margin:0 auto;}
+  .content-block{margin-bottom:2rem;}
+  .content-block h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--navy);margin-bottom:.75rem;}
+  .content-block p{font-size:.95rem;color:var(--text-body);line-height:1.75;margin-bottom:.75rem;}
+  .content-block ul,.content-block ol{padding-left:1.5rem;margin-bottom:.75rem;}
+  .content-block li{font-size:.95rem;color:var(--text-body);line-height:1.75;margin-bottom:.4rem;}
+  .callout{background:var(--navy);border-radius:12px;padding:2rem 2.5rem;margin:2rem 0;border-left:4px solid var(--gold);}
+  .callout p{color:rgba(255,255,255,.8);font-size:.95rem;line-height:1.8;margin:0;}
+  .callout strong{color:var(--gold-light);}
+  .disclaimer{background:var(--navy);color:rgba(255,255,255,.4);font-size:.78rem;line-height:1.7;padding:2.5rem 2rem;text-align:center;}
+  footer{background:var(--navy);border-top:1px solid rgba(200,169,110,.2);padding:1.25rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;}
+  footer .brand{font-family:'Playfair Display',serif;font-size:1rem;color:var(--white);}
+  footer .brand span{color:var(--gold);}
+  footer p{font-size:.78rem;color:rgba(255,255,255,.3);}
+  [id]{scroll-margin-top:72px;}
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CR7TV6QRSN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CR7TV6QRSN');
+</script>
 </head>
 <body>
-<main class="forecast-page">
-<h1>Market Outlook & Trade Forecast</h1>
 
-<p>Welcome to the Dependability Forecast — your weekly source for actionable market analysis and trade setups focused on income, risk management, and long-term wealth building. Each week we cut through the noise to bring you clear-eyed analysis of what matters for your portfolio.</p>
+  <nav>
+    <a href="index.html" class="nav-brand">Dependability <span class="logo-accent">Holdings</span> LLC</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="investment-philosophy.html">Philosophy</a>
+      <a href="educational-resources.html">Resources</a>
+      <a href="dependability-forecast.html">Forecast</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
 
-<h2>Current Market Regime</h2>
-<p>Markets in recent weeks have shown increased volatility as investors digest changing rate expectations and corporate earnings reports. The S&P 500 has seen elevated single-day moves, creating both risk and opportunity for options sellers. Understanding the current volatility regime is essential before placing any trade — the strategies that work in calm trending markets often fail spectacularly when conditions shift.</p>
+  <header class="hero">
+    <div class="hero-eyebrow">Daily Market Research</div>
+    <h1>Dependability <em>Forecast</em></h1>
+    <p class="hero-sub">Weekly market outlook and actionable options trade setups for income-focused investors.</p>
+  </header>
 
-<p>Our approach focuses on income generation through time decay, collecting premium while managing risk carefully. This means we generally prefer strategies like covered calls, cash-secured puts, and defined-risk spreads over directional bets. The goal is consistent cash flow, not home-run hits.</p>
+  <div class="divider"></div>
 
-<h2>Key Indicators We Watch</h2>
-<p><strong>VIX (CBOE Volatility Index):</strong> The VIX measures expected 30-day volatility in the S&P 500. When VIX is above 20, volatility is elevated and premium selling is more profitable. When below 15, markets are complacent and we tighten our position sizing. Current levels guide our strategy selection — iron condors in high-VIX environments, defined-risk spreads in lower volatility.</p>
+  <section class="section">
+    <div class="content-block">
+      <h2>Current Market Regime</h2>
+      <p>Markets in recent weeks have shown increased volatility as investors digest changing rate expectations and corporate earnings reports. The S&P 500 has seen elevated single-day moves, creating both risk and opportunity for options sellers. Understanding the current volatility regime is essential before placing any trade — the strategies that work in calm trending markets often fail spectacularly when conditions shift.</p>
+      <p>Our approach focuses on income generation through time decay, collecting premium while managing risk carefully. This means we generally prefer strategies like covered calls, cash-secured puts, and defined-risk spreads over directional bets. The goal is consistent cash flow, not home-run hits.</p>
+    </div>
+  </section>
 
-<p><strong>S&P 500 Trend:</strong> We track the 200-day moving average as our primary trend filter. Above it, we lean bullish on dips. Below it, we reduce exposure and focus on defensive positioning. This simple framework keeps us aligned with institutional money flow rather than fighting it.</p>
+  <div class="divider"></div>
 
-<p><strong>Interest Rate Environment:</strong> In high-rate environments, cash positions earn meaningful yield. This changes the math on certain strategies — holding cash to cover put assignments becomes more attractive when T-bills yield 4-5%. We factor in the risk-free rate when evaluating whether to hold positions or take assignment.</p>
+  <section class="section">
+    <div class="content-block">
+      <h2>Key Indicators We Watch</h2>
+      <p><strong>VIX (CBOE Volatility Index):</strong> The VIX measures expected 30-day volatility in the S&P 500. When VIX is above 20, volatility is elevated and premium selling is more profitable. When below 15, markets are complacent and we tighten our position sizing. Current levels guide our strategy selection — iron condors in high-VIX environments, defined-risk spreads in lower volatility.</p>
+      <p><strong>S&P 500 Trend:</strong> We track the 200-day moving average as our primary trend filter. Above it, we lean bullish on dips. Below it, we reduce exposure and focus on defensive positioning. This simple framework keeps us aligned with institutional money flow rather than fighting it.</p>
+      <p><strong>Interest Rate Environment:</strong> In high-rate environments, cash positions earn meaningful yield. This changes the math on certain strategies — holding cash to cover put assignments becomes more attractive when T-bills yield 4-5%. We factor in the risk-free rate when evaluating whether to hold positions or take assignment.</p>
+    </div>
+  </section>
 
-<h2>This Week's Trade Opportunities</h2>
-<p>Based on current market conditions, here are the setups we're tracking for the week ahead. These are educational observations, not personalized advice. Always size positions appropriately for your account size and risk tolerance.</p>
+  <div class="divider"></div>
 
-<h3>Income Strategy: Covered Calls on Quality</h3>
-<p>If you're holding high-quality large-cap stocks with solid fundamentals, consider selling 30-45 day call options at strikes above current price by 5-8%. This generates income while giving the stock room to move higher. In a sideways market, this approach can add 1-2% monthly return on your underlying position.</p>
+  <section class="section">
+    <div class="content-block">
+      <h2>This Week's Trade Opportunities</h2>
+      <p>Based on current market conditions, here are the setups we're tracking for the week ahead. These are educational observations, not personalized advice. Always size positions appropriately for your account size and risk tolerance.</p>
 
-<h3>Risk Management: Position Sizing Rules</h3>
-<p>Before entering any new position, define your maximum risk. For naked put sellers, that's the full strike price minus premium received. For spreads, it's the width of the wings minus net credit. Never risk more than 1-2% of your total portfolio on a single trade. Ten positions at 1% max risk each gives you 10% portfolio cushion before any position causes meaningful damage.</p>
+      <h2>Income Strategy: Covered Calls on Quality</h2>
+      <p>If you're holding high-quality large-cap stocks with solid fundamentals, consider selling 30-45 day call options at strikes above current price by 5-8%. This generates income while giving the stock room to move higher. In a sideways market, this approach can add 1-2% monthly return on your underlying position.</p>
 
-<h3>Volatility Plays: Iron Condor Candidate</h3>
-<p>If VIX sits in the 18-22 range, consider selling an iron condor on SPY. Sell a 5-wide put spread below price and a 5-wide call spread above price, targeting 30-45 day expiration. Collect premium of roughly 10% of the width of the condor. This works best when you expect range-bound action rather than a directional move.</p>
+      <h2>Risk Management: Position Sizing Rules</h2>
+      <p>Before entering any new position, define your maximum risk. For naked put sellers, that's the full strike price minus premium received. For spreads, it's the width of the wings minus net credit. Never risk more than 1-2% of your total portfolio on a single trade. Ten positions at 1% max risk each gives you 10% portfolio cushion before any position causes meaningful damage.</p>
 
-<h2>What We're Watching</h2>
-<p>Earnings season creates opportunities around individual stocks, but we prefer to avoid earnings plays unless the volatility premium is unusually high. Implied move vs. historical move is the key metric — only sell premium when you genuinely believe the market is overpricing options volatility.</p>
+      <h2>Volatility Plays: Iron Condor Candidate</h2>
+      <p>If VIX sits in the 18-22 range, consider selling an iron condor on SPY. Sell a 5-wide put spread below price and a 5-wide call spread above price, targeting 30-45 day expiration. Collect premium of roughly 10% of the width of the condor. This works best when you expect range-bound action rather than a directional move.</p>
+    </div>
 
-<p>Economic data releases matter, particularly CPI and jobs reports. These can spike volatility and disrupt short-dated positions. For positions you're running through an announcement, consider whether you want to hold through the news or close early to avoid gap risk.</p>
+    <div class="callout">
+      <p><strong>Pro tip:</strong> Always check the VIX regime before selecting a strategy. Elevated VIX (above 20) favors premium selling. Low VIX (below 15) favors buying directional spreads or sitting tight with cash. Match the strategy to the environment.</p>
+    </div>
+  </section>
 
-<h2>Dependability Methodology</h2>
-<p>Every strategy we discuss is grounded in the principle of structured risk — knowing your maximum loss before entry, sizing appropriately, and having an exit plan. We build portfolios designed to generate income in flat markets, survive drawdowns without panic, and compound steadily over time. Dependability means never taking a trade that could blow up your account.</p>
+  <div class="divider"></div>
 
-</main>
+  <section class="section">
+    <div class="content-block">
+      <h2>What We're Watching</h2>
+      <p>Earnings season creates opportunities around individual stocks, but we prefer to avoid earnings plays unless the volatility premium is unusually high. Implied move vs. historical move is the key metric — only sell premium when you genuinely believe the market is overpricing options volatility.</p>
+      <p>Economic data releases matter, particularly CPI and jobs reports. These can spike volatility and disrupt short-dated positions. For positions you're running through an announcement, consider whether you want to hold through the news or close early to avoid gap risk.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="content-block">
+      <h2>Dependability Methodology</h2>
+      <p>Every strategy we discuss is grounded in the principle of structured risk — knowing your maximum loss before entry, sizing appropriately, and having an exit plan. We build portfolios designed to generate income in flat markets, survive drawdowns without panic, and compound steadily over time. Dependability means never taking a trade that could blow up your account.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section">
+    <div class="callout">
+      <p><strong>Disclaimer:</strong> This page is for informational and educational purposes only. Dependability Holdings LLC is not a registered investment advisor. Nothing here constitutes personalized investment advice. Options trading involves significant risk. Please consult a qualified financial advisor before making any investment decisions.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="brand">Dependability <span>Holdings</span> LLC</div>
+    <p>© 2026 Dependability Holdings LLC. All rights reserved. | <a href="https://dependability.us" style="color:rgba(200,169,110,.6);text-decoration:none;">dependability.us</a></p>
+  </footer>
+
 </body>
 </html>
