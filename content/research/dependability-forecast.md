@@ -6,8 +6,6 @@ type: page
 layout: forecast
 url: "/dependability-forecast/"
 draft: false
-
-# Market stats — wired to forecast.html hero-stat section
 sp500: "7,264"
 sp500Date: "May 1, 2026"
 spy: "$726.40"
@@ -18,51 +16,21 @@ vixRegime: "Elevated"
 qqq: "$665.00"
 qqqChange: "+$16.15"
 qqqDate: "May 1, 2026"
-
-# Hero section
 badge: "📈 RECORD RALLY — Friday May 1, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May"
 heroTitle: "S&P 500 Forecast <em>2026</em><br>Bullish Case for American Growth"
 heroSub: "A disciplined, research-driven overview of the key fundamental, technical, and geopolitical forces shaping the S&P 500 in 2026 — with actionable option expiry schedules."
-
-# Meta
 updated: "May 1, 2026"
 author: "Dependability Holdings Research Team"
-
-# Key Takeaways (wired to key-takeaways block in forecast.html)
-t1: "<a href=\"https://www.spglobal.com/spdji/en/indices/equity/sp-500/\" target=\"_blank\" rel=\"noopener\">S&amp;P 500</a> S&amp;P 500 reaches fresh all-time high ~7,264 as Apple shares rally; oil falls on ceasefire hopes"
-t2: "<a href=\"https://www.cboe.com/\" target=\"_blank\" rel=\"noopener\">VIX</a> VIX 18.68 — elevated but stable; defined-risk spreads remain the preferred structure"
+t1: "S&amp;P 500 reaches fresh all-time high ~7,264 as Apple shares rally; oil falls on ceasefire hopes"
+t2: "VIX 18.68 — elevated but stable; defined-risk spreads remain the preferred structure"
 t3: "Bull call spreads on SPY $726 target — leveraged upside with defined risk as rally broadens"
 riskNote: "Elevated volatility (VIX 18.68) favors defined-risk spreads over naked positions. Oil weakness a continued risk-on signal."
-
-# Commentary (wired to commentary block)
 geopoliticalSubtitle: "S&amp;P 500 Record High to Start May"
 commentaryIntro: "The S&amp;P 500 rose to a fresh all-time intraday high on Friday, May 1, 2026, boosted by Apple shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&amp;P 500 has now gained +27.74% year-over-year, reflecting strong investor sentiment and broadening market participation."
 commentaryVix: "VIX opened at 18.68 — still in the elevated zone (15–20). The Iran ceasefire backdrop continues to support equities while keeping IV elevated enough for premium-selling strategies to remain attractive. Oil selling on ceasefire expectations is a classic risk-on signal. With VIX below 20, the market is not in fear mode but uncertainty remains."
-
-# Sector table date
 sectorDate: "May 1, 2026"
-
-# Trade ideas
 tradeDate: "May 1, 2026"
 ---
-
-<div class="hero-badge">📈 RECORD RALLY — Friday May 1, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May</div>
-<p><strong>Author:</strong> Dependability Holdings Research Team &nbsp;|&nbsp; <strong>Updated:</strong> May 1, 2026 &nbsp;|&nbsp; <a href="/about-strategy/">About our methodology →</a></p>
-
-<div>
-<strong>Disclaimer:</strong> This is educational research, not investment advice. Options trading involves significant risk of loss. All information is for informational purposes only. Not affiliated with or endorsed by any broker. Past performance does not indicate future results.
-</div>
-
-<div>
-<h2>Key Takeaways — May 1, 2026</h2>
-<ul>
-<li><span>→</span> <a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener">S&P 500</a> S&P 500 reaches fresh all-time high ~7,264 as Apple shares rally; oil falls on ceasefire hopes</li>
-<li><span>→</span> <a href="https://www.cboe.com/" target="_blank" rel="noopener">VIX</a> VIX 18.68 — elevated but stable; defined-risk spreads remain the preferred structure</li>
-<li><span>→</span> Bull call spreads on SPY $726 target — leveraged upside with defined risk as rally broadens</li>
-</ul>
-<p>⚠️ Risk: VIX 18.68 (Elevated) — defined-risk spreads preferred over naked positions. Elevated volatility (VIX 18.68) favors defined-risk spreads over naked positions. Oil weakness a continued risk-on signal.</p>
-</div>
-
 <section class="section" id="geopolitical-alert">
 <div>📈 RECORD RALLY — Friday May 1, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May</div>
 <h2>S&P 500 Record High to Start May</h2>

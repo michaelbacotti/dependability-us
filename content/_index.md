@@ -3,7 +3,6 @@ title: "Dependability Holdings | Daily Market Research for Self-Directed Investo
 description: "Free daily S&amp;P 500 forecasts, VIX analysis, and options education for self-directed investors."
 date: 2026-04-30
 type: page
-layout: single
 url: "/"
 draft: false
 ---
