@@ -16,13 +16,14 @@
 /portfolio-hub /portfolio-hub/
 /vix-hub.html /vix-hub/
 /vix-hub /vix-hub/
-/case-studies/case-study-2018-volmageddon.html /case-studies/2018-volmageddon/
-/case-studies/case-study-2020-covid-crash.html /case-studies/2020-covid-crash/
-/case-studies/case-study-2022-rate-shock.html /case-studies/2022-rate-shock/
-/case-studies/case-study-2023-svb.html /case-studies/2023-svb/
+/case-studies/case-study-2018-volmageddon.html /case-studies/case-study-2018-volmageddon/
+/case-studies/case-study-2020-covid-crash.html /case-studies/case-study-2020-covid-crash/
+/case-studies/case-study-2022-rate-shock.html /case-studies/case-study-2022-rate-shock/
+/case-studies/case-study-2023-svb.html /case-studies/case-study-2023-svb/
 /bithues-redirect.html /bithues-redirect/
 /trade-archive.html /trade-archive/
-/trade-archive /trade-archive/
+/trade-log-template.html /trade-log-template/
+/glossary.html /glossary/
 /terms.html /terms/
 /privacy.html /privacy/
 /methodology.html /methodology/
@@ -54,5 +55,3 @@
 /what-is-vix.html /what-is-vix/
 /weekly-market-recap.html /weekly-market-recap/
 /educational-resources.html /educational-resources/
-/trade-log-template.html /trade-log-template.html
-/glossary.html /glossary/
