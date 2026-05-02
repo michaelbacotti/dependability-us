@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://www.dependability.us/options-for-beginners.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <title>Options Trading for Beginners — Your Complete Guide | Dependability Holdings LLC</title>
+  <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:       #0a1628;
+      --navy-mid:   #132240;
+      --navy-light: #1e3358;
+      --gold:       #c8a96e;
+      --gold-light: #e2c99a;
+      --white:      #ffffff;
+      --off-white:  #f5f6f8;
+      --gray-light: #e8eaed;
+      --gray-mid:   #8a94a6;
+      --green:      #2e9e6b;
+      --red:        #c0392b;
+      --text-dark:  #1a1f2e;
+      --text-body:  #3a4157;
+      --shadow:     0 2px 12px rgba(10,22,40,.12);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--off-white);
+      color: var(--text-body);
+      line-height: 1.6;
+    }
+    nav {
+      background: var(--navy);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+    }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); letter-spacing: .03em; text-decoration: none; }
+    .nav-brand .logo-accent { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: var(--gray-mid); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    .hero {
+      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #1a3a6a 100%);
+      color: var(--white);
+      padding: 5rem 2rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+      pointer-events: none;
+    }
+    .hero-eyebrow { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 600; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.15; margin-bottom: 1.2rem; color: var(--white); }
+    .hero h1 em { font-style: normal; color: var(--gold-light); }
+    .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.65); max-width: 640px; margin: 0 auto; font-weight: 300; }
+
+    .section { padding: 4rem 2rem; max-width: 1100px; margin: 0 auto; }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, var(--gold), transparent); max-width: 1100px; margin: 0 auto; }
+
+    .section-title { font-family: 'Playfair Display', serif; font-size: 1.9rem; color: var(--navy); margin-bottom: .4rem; }
+    .section-sub { color: var(--gray-mid); font-size: .95rem; margin-bottom: 2.5rem; }
+
+    .content-block { margin-bottom: 2.5rem; }
+    .content-block h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--navy); margin-bottom: .75rem; }
+    .content-block p { font-size: .95rem; color: var(--text-body); line-height: 1.75; margin-bottom: .75rem; }
+    .content-block p:last-child { margin-bottom: 0; }
+
+    .reason-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+    .reason-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      border-top: 3px solid var(--gold);
+    }
+    .reason-card h3 { font-size: .95rem; font-weight: 600; color: var(--navy); margin-bottom: .4rem; }
+    .reason-card p { font-size: .875rem; color: var(--text-body); line-height: 1.65; }
+
+    .greek-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+    .greek-card {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--gold);
+    }
+    .greek-card h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: .3rem; }
+    .greek-card .greek-sub { font-size: .78rem; color: var(--gold); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: .6rem; }
+    .greek-card p { font-size: .875rem; color: var(--text-body); line-height: 1.65; }
+
+    .callout {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+      border-left: 4px solid var(--gold);
+      margin-bottom: 1.75rem;
+    }
+    .callout h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy); margin-bottom: .6rem; }
+    .callout p { font-size: .9rem; color: var(--text-body); line-height: 1.7; }
+    .callout.call { border-left-color: var(--green); }
+    .callout.call h3::before { content: '↑ '; color: var(--green); font-weight: 700; }
+    .callout.put { border-left-color: var(--red); }
+    .callout.put h3::before { content: '↓ '; color: var(--red); font-weight: 700; }
+
+    .example-box {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+      margin-bottom: 1.5rem;
+    }
+    .example-box h3 { font-size: .95rem; font-weight: 600; color: var(--navy); margin-bottom: 1rem; }
+    .scenario-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: .75rem;
+    }
+    .scenario-table th {
+      background: var(--navy);
+      color: var(--gold);
+      font-size: .75rem;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      padding: .75rem 1rem;
+      text-align: left;
+    }
+    .scenario-table td {
+      padding: .7rem 1rem;
+      font-size: .875rem;
+      color: var(--text-body);
+      border-bottom: 1px solid var(--gray-light);
+      line-height: 1.55;
+    }
+    .scenario-table tr:last-child td { border-bottom: none; }
+    .scenario-table td:first-child { font-weight: 600; color: var(--navy); }
+    .scenario-table tr:nth-child(even) td { background: rgba(245,246,248,.6); }
+    .profit { color: var(--green); font-weight: 600; }
+    .loss { color: var(--red); font-weight: 600; }
+    .breakeven { color: var(--gray-mid); }
+
+    .strategy-list { list-style: none; display: flex; flex-direction: column; gap: .75rem; margin-top: .75rem; }
+    .strategy-list li { font-size: .9rem; color: var(--text-body); padding-left: 1.5rem; position: relative; line-height: 1.65; }
+    .strategy-list li::before { content: '–'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+    .strategy-list li strong { color: var(--navy); }
+
+    .warning-box {
+      background: #fff3e0;
+      border: 1px solid #ffb74d;
+      border-left: 4px solid #e65100;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .warning-box h4 { font-size: .9rem; font-weight: 700; color: #bf360c; margin-bottom: .5rem; }
+    .warning-box p { font-size: .875rem; color: #5d4037; line-height: 1.65; }
+
+    .steps { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+    .step { display: flex; gap: 1rem; align-items: flex-start; }
+    .step-num {
+      background: var(--navy);
+      color: var(--gold);
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .875rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .step-content { flex: 1; }
+    .step-content h4 { font-size: .95rem; font-weight: 600; color: var(--navy); margin-bottom: .2rem; }
+    .step-content p { font-size: .875rem; color: var(--text-body); line-height: 1.65; }
+
+    .related-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
+    .related-links a {
+      background: var(--white);
+      border: 1px solid var(--gold);
+      color: var(--navy);
+      padding: .6rem 1.25rem;
+      border-radius: 8px;
+      font-size: .85rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all .2s;
+    }
+    .related-links a:hover { background: var(--gold); color: var(--navy); }
+
+    .cta-section { background: var(--navy); padding: 4rem 2rem; }
+    .cta-inner { max-width: 700px; margin: 0 auto; text-align: center; }
+    .cta-inner h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--white); margin-bottom: .75rem; }
+    .cta-inner p { color: rgba(255,255,255,.6); margin-bottom: 2rem; font-size: 1rem; }
+    .btn { display: inline-block; padding: .75rem 1.8rem; border-radius: 8px; font-weight: 600; font-size: .9rem; text-decoration: none; transition: all .2s; }
+    .btn-primary { background: var(--gold); color: var(--navy); }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn-secondary { background: transparent; color: var(--white); border: 1px solid rgba(200,169,110,.5); display: inline-block; padding: .75rem 1.8rem; border-radius: 8px; font-weight: 600; font-size: .9rem; transition: all .2s; text-decoration: none; }
+    .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+    .disclaimer { background: var(--navy); color: rgba(255,255,255,.4); font-size: .78rem; line-height: 1.7; padding: 2.5rem 2rem; text-align: center; }
+    .disclaimer-inner { max-width: 760px; margin: 0 auto; }
+
+    footer { background: var(--navy); border-top: 1px solid rgba(200,169,110,.2); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    footer .brand { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); }
+    footer .brand span { color: var(--gold); }
+    footer p { font-size: .78rem; color: rgba(255,255,255,.3); }
+
+    [id] { scroll-margin-top: 72px; }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CR7TV6QRSN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CR7TV6QRSN');
+</script>
+</head>
+<body>
+
+  <nav style="display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:#0a1628;">
+    <a href="index.html" style="color:#fff;text-decoration:none;font-size:1rem;font-weight:600;">
+      <svg width="24" height="24" viewBox="0 0 28 28" fill="none" style="vertical-align:middle;margin-right:6px;"><rect width="28" height="28" rx="6" fill="#1a3a2a"/><path d="M7 20V10l7-4 7 4v10l-7 4-7-4z" stroke="#3ecf8e" stroke-width="1.5" fill="none"/><path d="M14 6v16M7 10l7 4 7-4" stroke="#3ecf8e" stroke-width="1.5"/></svg>
+      Dependability<span style="color:#3ecf8e;">.</span>
+    </a>
+    <div style="display:flex;gap:1.75rem;align-items:center;">
+      <a href="index.html" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:0.875rem;font-weight:500;">Home</a>
+      <a href="dependability-forecast.html" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:0.875rem;font-weight:500;">Forecast</a>
+      <div style="position:relative;">
+        <a href="#" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:0.875rem;font-weight:500;cursor:pointer;">Learn ▾</a>
+        <div style="display:none;position:absolute;top:100%;left:0;background:#0a1628;border:1px solid rgba(62,207,142,0.3);border-radius:8px;min-width:180px;z-index:100;padding:0.5rem 0;">
+          <a href="options-basics.html" style="display:block;padding:0.5rem 1rem;color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.875rem;">Options Basics</a>
+          <a href="options-for-beginners.html" style="display:block;padding:0.5rem 1rem;color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.875rem;">Options for Beginners</a>
+          <a href="options-advanced.html" style="display:block;padding:0.5rem 1rem;color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.875rem;">Option Spreads</a>
+          <a href="risk-management.html" style="display:block;padding:0.5rem 1rem;color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.875rem;">Risk Management</a>
+          <a href="glossary.html" style="display:block;padding:0.5rem 1rem;color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.875rem;">Glossary</a>
+        </div>
+      </div>
+      <a href="about-strategy.html" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:0.875rem;font-weight:500;">About</a>
+    </div>
+  </nav>
+  <style>
+    nav > div > div:hover div { display: block !important; }
+    nav a[href]:hover { color: #3ecf8e !important; }
+  </style>
+
+  <header class="hero">
+    <div class="hero-eyebrow">Educational Resources</div>
+    <h1>Options Trading for Beginners — <em>Your Complete Guide</em></h1>
+    <p class="hero-sub">Start from zero. By the end of this page, you'll understand what options are, how they work, and what it actually means to buy a call or a put — with real numbers you can check yourself.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 1: What Is an Option? -->
+  <section class="section">
+    <div class="content-block">
+      <h2>What Is an Option?</h2>
+      <p>An option is a contract that gives you the right — but not the obligation — to buy or sell a stock at a specific price on or before a specific date. You pay a premium upfront, just like a deposit on a house. That deposit buys you the <em>choice</em> to follow through, but you're never forced to.</p>
+      <p>Here's the house analogy that makes this click: Imagine you find a home you'd like to buy for $300,000. You put down a $10,000 deposit and have 90 days to close. During those 90 days, the market climbs — homes like it are now selling for $340,000. You exercise your option, pay $300,000, and your $10,000 deposit turned into $40,000 of value. If the market dropped and the home is now worth $270,000, you walk away, lose only your deposit, and avoid buying something overvalued. Options work exactly the same way.</p>
+    </div>
+
+    <div class="callout call">
+      <h3>Call Option — The Right to Buy</h3>
+      <p>A call option gives you the right to <strong>buy</strong> a stock at the strike price before expiration. You pay a premium today for that right. If the stock rises above your strike price, you can buy it for less than it's worth — that's profit. If it doesn't, you let it expire and only lose the premium you paid.</p>
+    </div>
+
+    <div class="callout put">
+      <h3>Put Option — The Right to Sell</h3>
+      <p>A put option gives you the right to <strong>sell</strong> a stock at the strike price before expiration. You buy puts when you expect a stock to fall. If it drops below your strike price, you can sell it for more than it's worth — that's profit. If it stays above your strike, you let it expire and only lose the premium.</p>
+    </div>
+
+    <div class="content-block" style="margin-top:2rem;">
+      <h2>Key Terms You'll See Everywhere</h2>
+      <p>Before you can read an option chain or understand a trade, you need to know these five terms. They're on every broker platform and every educational resource.</p>
+    </div>
+
+    <div class="reason-grid">
+      <div class="reason-card">
+        <h3>Strike Price</h3>
+        <p>The fixed price at which you can buy (call) or sell (put) the underlying stock. If you buy a $100 strike call, you have the right to buy at $100 regardless of where the stock is trading.</p>
+      </div>
+      <div class="reason-card">
+        <h3>Premium</h3>
+        <p>The price of the option contract itself — what you pay to own it. Quoted per share, but contracts cover 100 shares, so a $2 premium means $200 per contract. This is your maximum loss on a simple long option.</p>
+      </div>
+      <div class="reason-card">
+        <h3>Expiration</h3>
+        <p>The last day the option is valid. After that date, the contract dies. Weekly, monthly, and quarterly expirations are common. Shorter expirations move faster — and decay faster.</p>
+      </div>
+      <div class="reason-card">
+        <h3>In-the-Money (ITM)</h3>
+        <p>An option with real value right now. A $95 call on a $100 stock is ITM — you could exercise it and buy at $95, then sell at $100 for a $5 instant gain. ITM options cost more but have higher probability of profit.</p>
+      </div>
+      <div class="reason-card">
+        <h3>Out-of-the-Money (OTM)</h3>
+        <p>An option with no intrinsic value yet. A $105 call on a $100 stock is OTM — you would only profit if the stock rises above $105. OTM options are cheaper but require a bigger move to become profitable.</p>
+      </div>
+      <div class="reason-card">
+        <h3>At-the-Money (ATM)</h3>
+        <p>The strike is essentially equal to the current stock price. ATM options are maximally sensitive to time decay and volatility changes — useful for certain strategies, tricky for beginners.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 2: Why Trade Options? -->
+  <section class="section">
+    <div class="content-block">
+      <h2>Why Trade Options? Five Reasons</h2>
+      <p>Options aren't just for speculators. They're used by income seekers, risk managers, and investors who want more control over their capital. Here's why people use them.</p>
+    </div>
+    <div class="reason-grid">
+      <div class="reason-card">
+        <h3>1. Leverage</h3>
+        <p>With options, you control far more shares than you could with the same cash amount. A $2,000 options position might represent $20,000 worth of stock. That means a 10% move in the stock becomes a 100% move in your option — for better or worse.</p>
+      </div>
+      <div class="reason-card">
+        <h3>2. Income</h3>
+        <p>You can sell options to collect premium while you wait. Covered calls and cash-secured puts are strategies where you become the option seller, collecting money upfront from buyers. That's income — not just gains from guessing direction.</p>
+      </div>
+      <div class="reason-card">
+        <h3>3. Insurance</h3>
+        <p>If you own stocks, you can buy put options to protect against a crash. It's the same logic as home insurance: you pay a premium to avoid catastrophic loss. Long puts are how institutions hedge their portfolios.</p>
+      </div>
+      <div class="reason-card">
+        <h3>4. Defined Risk</h3>
+        <p>When you buy options, you know your maximum possible loss before you enter: it's the premium you paid. Unlike short stock positions or naked options, you can never lose more than you put in — as long as you hold long positions.</p>
+      </div>
+      <div class="reason-card">
+        <h3>5. Trade in Any Direction</h3>
+        <p>You don't need a rising market to make money. A falling market can be just as profitable with puts. And if you're unsure whether the market will go up or down but expect a big move — straddles and strangles let you profit from volatility itself.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 3: The 4 Greeks -->
+  <section class="section">
+    <div class="content-block">
+      <h2>The 4 Greeks — What Actually Moves Option Prices</h2>
+      <p>Option prices aren't random. They're driven by four variables that traders call the Greeks. Understanding them is the difference between guessing and actually knowing what's happening to your position.</p>
+    </div>
+
+    <div class="greek-grid">
+      <div class="greek-card">
+        <div class="greek-sub">Direction</div>
+        <h3>Delta (–1 to +1)</h3>
+        <p>Delta tells you how much your option price moves for every $1 the stock moves. A delta of 0.50 means your option gains about $0.50 for every $1 the stock goes up. ITM options have higher deltas (closer to 1); OTM options have lower deltas (closer to 0). Think of it as your speedometer for directional moves.</p>
+      </div>
+      <div class="greek-card">
+        <div class="greek-sub">Acceleration</div>
+        <h3>Gamma</h3>
+        <p>Gamma tells you how fast your delta changes when the stock moves. If you're near a strike price, gamma is high — your delta swings with every $0.50 move in the stock. This is why near-ATM options near expiration can make dramatic moves. High gamma is high stakes.</p>
+      </div>
+      <div class="greek-card">
+        <div class="greek-sub">Time</div>
+        <h3>Theta (−$/day)</h3>
+        <p>Theta is time decay — the daily cost of holding an option. Every single day, options lose value just by existing. ATM options typically lose the most theta per day. If you're the option buyer, theta works against you. If you're the seller, theta is your daily paycheck.</p>
+      </div>
+      <div class="greek-card">
+        <div class="greek-sub">Volatility</div>
+        <h3>Vega ($ per 1% IV change)</h3>
+        <p>Vega measures how much your option's price changes when implied volatility rises or falls by 1%. A vega of 0.12 means your option gains about $0.12 for every 1% increase in volatility. High-volatility environments make options expensive — good for sellers, expensive for buyers.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 4: Calls vs. Puts with Real Examples -->
+  <section class="section">
+    <div class="content-block">
+      <h2>Calls vs. Puts — Real Examples with Real Math</h2>
+      <p>Let's work with a stock at $100. You're going to look at both a call and a put, and see exactly what happens at different prices on expiration day. No vague descriptions — actual dollar outcomes.</p>
+    </div>
+
+    <div class="example-box">
+      <h3>📈 Call Example — Stock at $100, Buy $105 Call for $2.00 Premium</h3>
+      <p style="font-size:.875rem;color:var(--text-body);margin-bottom:.75rem;">You pay $2.00 per share ($200 per contract) for the right to buy at $105. Breakeven is $107.00 (strike + premium paid).</p>
+      <table class="scenario-table">
+        <thead>
+          <tr>
+            <th>Stock Price at Expiration</th>
+            <th>What Happens</th>
+            <th>Your P&amp;L (per share)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$115</td>
+            <td>You exercise — buy at $105, stock is worth $115</td>
+            <td><span class="profit">+$8.00 profit</span> (115 − 107)</td>
+          </tr>
+          <tr>
+            <td>$107.00</td>
+            <td>Breakeven — just covers your premium cost</td>
+            <td><span class="breakeven">$0.00 (breakeven)</span></td>
+          </tr>
+          <tr>
+            <td>$105</td>
+            <td>Below strike — you don't exercise, contract expires</td>
+            <td><span class="loss">−$2.00 (lose premium)</span></td>
+          </tr>
+          <tr>
+            <td>$100 or below</td>
+            <td>Stock tanks — no reason to exercise, lose full premium</td>
+            <td><span class="loss">−$2.00 (lose premium)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="example-box">
+      <h3>📉 Put Example — Stock at $100, Buy $95 Put for $1.50 Premium</h3>
+      <p style="font-size:.875rem;color:var(--text-body);margin-bottom:.75rem;">You pay $1.50 per share ($150 per contract) for the right to sell at $95. Breakeven is $93.50 (strike − premium paid).</p>
+      <table class="scenario-table">
+        <thead>
+          <tr>
+            <th>Stock Price at Expiration</th>
+            <th>What Happens</th>
+            <th>Your P&amp;L (per share)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$90</td>
+            <td>You exercise — sell at $95, stock is worth $90</td>
+            <td><span class="profit">+$3.50 profit</span> (95 − 90 − 1.50)</td>
+          </tr>
+          <tr>
+            <td>$93.50</td>
+            <td>Breakeven — just covers your premium cost</td>
+            <td><span class="breakeven">$0.00 (breakeven)</span></td>
+          </tr>
+          <tr>
+            <td>$95</td>
+            <td>At strike — contract expires worthless</td>
+            <td><span class="loss">−$1.50 (lose premium)</span></td>
+          </tr>
+          <tr>
+            <td>$100 or above</td>
+            <td>Stock rises — no reason to sell at $95, lose full premium</td>
+            <td><span class="loss">−$1.50 (lose premium)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout" style="border-left-color: var(--navy);">
+      <h3>The Key Takeaway</h3>
+      <p>In both cases, the premium you pay is your maximum loss. You cannot lose more than that — you just walk away. This is fundamentally different from shorting stock or selling naked options, where losses can exceed your initial outlay. Buying options is a defined-risk strategy.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 5: Defined-Risk Strategies -->
+  <section class="section">
+    <div class="content-block">
+      <h2>Why Start with Defined-Risk Strategies?</h2>
+      <p>Options have two broad categories of risk: <strong>defined risk</strong> and <strong>undefined risk</strong>. Understanding the difference will save you money.</p>
+      <p><strong>Defined risk</strong> means you know your maximum loss before you enter. Buying a call costs $200. That's all you can lose. <strong>Undefined risk</strong> means your potential loss is unknown and potentially unlimited — like selling a naked call when the stock gaps up 50% overnight.</p>
+      <p>Beginners should start with defined-risk strategies because leverage is a double-edged sword: it amplifies gains <em>and</em> losses. Knowing your worst-case scenario upfront lets you size your positions correctly and sleep at night.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>The Three Core Strategies on This Site</h2>
+      <p>Dependability Holdings focuses on three strategies that represent the foundation of conservative options income:</p>
+      <ul class="strategy-list">
+        <li><strong>Covered Calls:</strong> You own 100 shares of a stock and sell a call option against those shares. You collect premium. If the stock rises above the strike, you sell your shares at the strike price — but you already collected premium. You participate in upside while collecting income along the way.</li>
+        <li><strong>Cash-Secured Puts:</strong> You agree in advance to buy a stock at a specific price, but you collect a put premium to take on that obligation. If the stock falls below your strike, you buy it at the strike price — but at a discount, because you already collected premium. If it stays above your strike, you keep the premium.</li>
+        <li><strong>Iron Condors:</strong> You sell both a call spread and a put spread on the same underlying, collecting premium from both sides. Your profit comes from the stock staying within a range. You know your max risk and your max reward before you enter. This is the most defined-risk structure in options trading.</li>
+      </ul>
+    </div>
+
+    <div class="warning-box">
+      <h4>⚠️ A Word on Leverage</h4>
+      <p>Options let you control more with less — but this means a 20% move in a stock can become a 200% move in your option. That's great when you're right. When you're wrong, your defined-risk loss can still be 100% of the premium you paid. Never over-concentrate in any single trade. Position sizing is not optional — it's survival.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SECTION 6: Your First Trade -->
+  <section class="section">
+    <div class="content-block">
+      <h2>Your First Trade — What to Do Before You Do It</h2>
+      <p>Before you risk a single real dollar, do these four things. The options market will still be there tomorrow. Prepare first.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h4>Paper Trade First — No Exceptions</h4>
+          <p>Use a simulated trading account to place your first 10–20 trades with zero real money. Track every position. See how theta decays daily. Watch what happens when a stock gaps open on earnings. Paper trading isn't weakness — it's due diligence. Most brokers offer free paper trading modes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h4>Choose a Broker That Fits Your Strategy</h4>
+          <p>Not all brokers are equal for options traders. Look for: (a) low per-contract fees, (b) good margin rates if you'll sell options, (c) robust option chain data, and (d) a clean mobile app. Popular options brokers include Interactive Brokers, TD Ameritrade (now Schwab), Tastytrade, and tastyfx. Avoid brokers that charge $1+ per contract when starting out — fees eat into small positions badly.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h4>Check Liquidity, Spread, and Expiration Before Entering</h4>
+          <p>Before clicking buy, check three things. <strong>Liquidity:</strong> trade only options with tight bid/ask spreads — you want to buy at or near the ask price. <strong>Spread:</strong> if the bid is $1.00 and the ask is $1.50, that's a $0.50 wide spread, meaning 33% slippage on a $1.25 mid-price. Avoid illiquid options unless you're intentionally using them for a specific reason. <strong>Expiration:</strong> longer-dated options decay slower; short-dated options are for traders who need fast results. Beginners should generally lean toward 30-60 days to expiration.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h4>Size Positions at 1–2% of Total Portfolio Per Trade</h4>
+          <p>This is the most important rule in risk management. If you have a $10,000 account, no single trade should risk more than $100–$200. If your maximum loss on a trade is the premium paid, and you buy 1 contract for $200, that's 2% of a $10,000 account. If you're risking more than 2% per trade, one or two consecutive losses will materially damage your account. Keep it small. Stay in the game.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="related-links">
+      <a href="options-basics.html">Options Basics →</a>
+      <a href="options-advanced.html">Option Spreads →</a>
+      <a href="risk-management.html">Risk Management →</a>
+      <a href="glossary.html">Glossary →</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Ready to Go Deeper?</h2>
+      <p>Options Basics walks you through calls, puts, and the full vocabulary — the natural next step after this guide.</p>
+      <a href="options-basics.html" class="btn btn-primary">Start with Options Basics →</a>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    <div class="disclaimer-inner">
+      <strong>Disclaimer:</strong> Options trading involves significant risk of loss and is not suitable for all investors. Past performance is not indicative of future results. The information on this site is for educational purposes only and does not constitute investment advice. Always consult a qualified financial advisor before making any investment decisions.
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="brand">Dependability<span>.</span></div>
+    <p>© 2025 Dependability Holdings LLC. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

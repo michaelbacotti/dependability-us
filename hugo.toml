@@ -1,0 +1,55 @@
+baseURL = 'https://www.dependability.us/'
+locale = 'en-us'
+title = 'Dependability Holdings LLC'
+disableKinds = ['taxonomy', 'term']
+canonifyURLs = false
+uglyURLs = false
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  siteName = 'Dependability Holdings LLC'
+  brandName = 'Dependability'
+  brandAccent = 'Holdings'
+  adSenseAccount = 'ca-pub-9312870448453345'
+  analyticsID = 'G-CR7TV6QRSN'
+  author = 'Dependability Holdings Research Team'
+  description = 'Free daily S&P 500 forecasts, VIX analysis, and options education for self-directed investors.'
+
+[[params.navLinks]]
+  name = "Home"
+  url   = "/"
+[[params.navLinks]]
+  name = "About"
+  url   = "/about/"
+[[params.navLinks]]
+  name = "Philosophy"
+  url   = "/investment-philosophy/"
+[[params.navLinks]]
+  name = "Learn"
+  url   = "/options-hub/"
+[[params.navLinks]]
+  name = "Forecast"
+  url   = "/dependability-forecast/"
+[[params.navLinks]]
+  name = "Risk"
+  url   = "/risk-hub/"
+[[params.navLinks]]
+  name = "Contact"
+  url   = "/contact/"
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+  suffix = ""
+  delimiter = ""
+
+[outputFormats]
+[outputFormats.NETLIFY]
+  mediaType = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true

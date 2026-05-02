@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="canonical" href="https://www.dependability.us/portfolio-hedging-with-options.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Hedge Your Portfolio With Options | Dependability Holdings LLC</title>
+  <meta name="description" content="Learn how to use protective puts, collars, and other options strategies to hedge your portfolio against market downturns and sequence risk." />
+  <meta name="google-adsense-account" content="ca-pub-9312870448453345" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9312870448453345" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:       #0a1628;
+      --navy-mid:   #132240;
+      --navy-light: #1e3358;
+      --accent:     #3ecf8e;
+      --accent-dim: #2a9d6e;
+      --white:      #ffffff;
+      --gray-light: #e8eaed;
+      --gray-mid:   #8a94a6;
+      --text-body:  #d0d8e4;
+      --shadow:     0 2px 12px rgba(10,22,40,.12);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--navy); color: var(--text-body); line-height: 1.7; }
+    nav { background: var(--navy); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid var(--accent); }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--white); letter-spacing: .03em; text-decoration: none; }
+    .nav-brand .logo-accent { color: var(--accent); }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: var(--gray-mid); text-decoration: none; font-size: .875rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+    .hero { background: linear-gradient(160deg, var(--navy) 0%, var(--navy-mid) 60%, #0d2a1a 100%); color: var(--white); padding: 5rem 2rem 4rem; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat; pointer-events: none; }
+    .hero-eyebrow { font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem; font-weight: 600; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.2rem); line-height: 1.15; margin-bottom: 1.2rem; color: var(--white); }
+    .hero h1 em { font-style: normal; color: var(--accent); }
+    .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.6); max-width: 620px; margin: 0 auto; font-weight: 300; }
+    .section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+    .divider { height: 1px; background: linear-gradient(to right, transparent, var(--accent), transparent); max-width: 900px; margin: 0 auto; }
+    .content-block { margin-bottom: 2.5rem; }
+    .content-block h2 { font-family: 'Playfair Display', serif; font-size: 1.45rem; color: var(--white); margin-bottom: .9rem; }
+    .content-block p { font-size: .95rem; color: var(--text-body); line-height: 1.85; margin-bottom: .85rem; }
+    .content-block ul { padding-left: 1.4rem; margin-bottom: .85rem; }
+    .content-block li { font-size: .95rem; color: var(--text-body); line-height: 1.8; margin-bottom: .4rem; }
+    .content-block a { color: var(--accent); text-decoration: none; }
+    .content-block a:hover { color: #5de4a8; text-decoration: underline; }
+    .callout { background: rgba(62, 207, 142, 0.08); border: 1px solid rgba(62, 207, 142, 0.3); border-left: 4px solid var(--accent); border-radius: 12px; padding: 1.75rem 2rem; margin: 2rem 0; }
+    .callout h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--accent); margin-bottom: .75rem; }
+    .callout p { font-size: .9rem; color: rgba(255,255,255,.75); line-height: 1.8; margin: 0; }
+    .stat-box { background: var(--navy-mid); border-radius: 10px; padding: 1.5rem 2rem; border-top: 3px solid var(--accent); margin: 1.5rem 0; text-align: center; }
+    .stat-box .stat-number { font-size: 2rem; font-weight: 700; color: var(--accent); display: block; margin-bottom: .4rem; }
+    .stat-box .stat-label { font-size: .85rem; color: rgba(255,255,255,.55); }
+    .related-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
+    .related-links a { background: var(--navy-mid); color: var(--accent); padding: .5rem 1.2rem; border-radius: 6px; font-size: .82rem; font-weight: 500; text-decoration: none; border: 1px solid rgba(62,207,142,.25); transition: all .2s; }
+    .related-links a:hover { background: rgba(62,207,142,.12); color: #5de4a8; }
+    .disclaimer { background: var(--navy); color: rgba(255,255,255,.35); font-size: .78rem; line-height: 1.7; padding: 2.5rem 2rem; text-align: center; }
+    .disclaimer-inner { max-width: 760px; margin: 0 auto; }
+    footer { background: var(--navy); border-top: 1px solid rgba(62,207,142,.15); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+    footer .brand { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); }
+    footer .brand span { color: var(--accent); }
+    footer p { font-size: .78rem; color: rgba(255,255,255,.3); }
+    footer a { color: rgba(62,207,142,.6); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+    [id] { scroll-margin-top: 72px; }
+  </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CR7TV6QRSN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CR7TV6QRSN');
+</script>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-brand">Dependability <span class="logo-accent">Holdings</span> LLC</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dependability-forecast.html">Forecast</a>
+      <a href="educational-resources.html">Learn</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-eyebrow">Risk Management</div>
+    <h1>How to Hedge Your Portfolio <em>With Options</em></h1>
+    <p class="hero-sub">From protective puts to collars — a practical guide to using options as portfolio insurance.</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <section class="section">
+
+    <div class="content-block">
+      <h2>Why Hedge Your Portfolio?</h2>
+      <p>Markets don't move in straight lines. Sharp drawdowns — triggered by economic data, geopolitical shocks, Fed policy surprises, or pure sentiment reversals — can erase months or years of gains in days. For investors approaching major financial goals (retirement, a home purchase, education funding), a single catastrophic drawdown can be life-altering.</p>
+<!-- AdSense Vertical -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-9312870448453345"
+ data-ad-slot="7590828986"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+      <p>Beyond acute crashes, there is a quieter risk: <strong>sequence risk</strong>. A 30% loss after you've accumulated a large portfolio requires a 43% gain just to break even — and you have less capital working for you during the recovery. A retiree drawing down income during a prolonged bear market may run out of money entirely, even if the long-term market returns were positive on average. Hedging is the practice of paying a known, bounded cost to limit the damage of these scenarios.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Protective Puts — The Simplest Hedge</h2>
+      <p>A <a href="protective-put-strategy.html">protective put</a> is the most straightforward hedging tool. You buy a put option on an index or individual stock you already own. If the market falls, the put increases in value, offsetting losses in your portfolio. If the market rises, you participate fully — you just paid the put premium.</p>
+      <p>The analogy to insurance is apt: you pay a premium for protection against a catastrophic loss, and you hope you never need to use it. Like insurance, protective puts are most valuable precisely when markets are already falling — which means buying them after a crash is already too late.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>The Married Put Strategy</h2>
+      <p>A "married put" is simply a protective put placed on a single stock position you hold long-term. The term comes from the fact that the put is purchased alongside (married to) the underlying stock position. You own the shares, you buy the put, and they move together — the put is your floor.</p>
+      <p>This is the most direct form of portfolio insurance for individual holdings. It's particularly popular around earnings announcements, major corporate events, or when a position has grown to a large percentage of total portfolio value.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>Collars — Put Protection Funded by a Covered Call</h2>
+      <p>A <strong>collar</strong> is a two-legged hedging structure: you own the stock, you buy a protective put, and you simultaneously sell a covered call to offset the cost of that put. The call sale funds the put purchase — sometimes completely, sometimes partially.</p>
+      <p>The tradeoff is that the call sale <em>caps your upside</em>. If the stock rallies above the call strike, you're obligated to sell at that price. In exchange for giving up some upside, you get downside protection essentially for free. Collars are especially popular with institutional investors managing large, low-cost-basis positions they don't want to sell.</p>
+      <p>For more on the covered call component, see our full guide to <a href="covered-calls-explained.html">covered calls</a>.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>VIX as a Portfolio Hedge Signal</h2>
+      <p>The <a href="what-is-vix.html">VIX index</a> can serve as a useful timing tool for when to layer in portfolio protection. When VIX is elevated (above 20–25), option premiums are expensive — hedging is costly but the market is already signaling stress. When VIX is low (below 15), option premiums are cheap and hedging is relatively affordable.</p>
+      <p>Some investors use a simple rule: maintain a persistent "floor" of protection during high-VIX regimes, and consider reducing it when VIX returns to normal levels. Others use <a href="what-is-vix.html">VIX</a> to trigger new hedge purchases when the index crosses above a threshold, signaling deteriorating conditions.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>How Much Does Portfolio Protection Cost?</h2>
+      <p>Option premiums vary with volatility, time to expiration, and the distance between the current price and the strike. However, some rough benchmarks are useful:</p>
+    </div>
+
+    <div class="stat-box">
+      <span class="stat-number">$500–$2,000/year</span>
+      <span class="stat-label">Approximate cost of a 10% protective put hedge on a $100,000 portfolio in most market environments (2000–2022 data)</span>
+    </div>
+
+    <div class="content-block">
+      <p>That's roughly 0.5–2% of portfolio value annually — comparable to an insurance premium. In high-volatility environments (like 2020 or late 2022), the cost can spike to 3–5% or more. The key insight: <strong>hedging costs are relatively predictable and bounded</strong>, whereas a single unhedged drawdown is not.</p>
+      <p>For a $500,000 portfolio, expect to spend $2,500–$10,000 per year on protection in normal conditions. Whether that cost is worth it depends on your time horizon, income needs, and psychological tolerance for drawdowns.</p>
+    </div>
+
+    <div class="content-block">
+      <h2>When to Hedge — and When Not To</h2>
+      <p>Hedging is not always the right move. Consider the following:</p>
+      <ul>
+        <li><strong>Do hedge</strong> when you have a specific, time-bound risk (upcoming election, Fed meeting, major earnings report) and a large unrealized gain to protect</li>
+        <li><strong>Do hedge</strong> when you are in or near retirement and cannot afford to wait out a prolonged bear market</li>
+        <li><strong>Consider hedging</strong> when VIX is below 15 — options are relatively cheap and the market is calm</li>
+        <li><strong>Don't over-hedge</strong> by buying puts on everything all the time — the cost compounds and can meaningfully drag long-term returns</li>
+        <li><strong>Don't hedge</strong> a position you're planning to sell anyway — just sell it and avoid the premium cost</li>
+        <li><strong>Don't hedge</strong> short-duration positions — options lose time value rapidly, and a one-week put on a trade you're exiting tomorrow is money wasted</li>
+      </ul>
+    </div>
+
+    <div class="callout">
+      <h3>📌 Key Takeaway</h3>
+      <p>Portfolio hedging through options — whether via protective puts, married puts, or collars — offers a cost-effective way to manage downside risk. A 10% protective put hedge on a $100,000 portfolio typically costs $500–$2,000 per year in most environments. The best time to buy protection is before you need it: when VIX is low, when your portfolio has grown large, or when you're approaching a major financial goal. Over-hedging, however, creates a cost drag that erodes returns over time. Balance is everything — see our guide to <a href="risk-management.html">risk management</a> for more on finding that balance.</p>
+    </div>
+
+    <div class="related-links">
+      <a href="protective-put-strategy.html">Protective Put Strategy →</a>
+      <a href="covered-calls-explained.html">Covered Calls Explained →</a>
+      <a href="what-is-vix.html">What Is VIX? →</a>
+      <a href="risk-management.html">Risk Management →</a>
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="disclaimer">
+    <div class="disclaimer-inner">
+      <strong>Important Disclaimer — Please Read</strong><br />
+      Dependability Holdings LLC is an investment holding company. This webpage is for informational and educational purposes only and does not constitute financial, investment, or legal advice. Dependability Holdings LLC is not a registered investment advisor. The information provided herein should not be construed as personalized investment advice, a recommendation to buy, sell, or hold any investment, or an offer or solicitation to buy or sell securities. All investments involve risk, including the potential loss of principal. Please consult with a qualified financial advisor before making any investment decisions.
+    </div>
+  </section>
+
+  
+<!-- AdSense Horizontal -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-9312870448453345"
+ data-ad-slot="1216992329"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push/{});
+</script>
+
+<footer>
+    <div class="brand">Dependability <span class="logo-accent">Holdings</span> LLC</div>
+    <p>© 2026 Dependability Holdings LLC. All rights reserved. | <a href="https://dependability.us">dependability.us</a></p>
+    <p style="width:100%;font-size:.75rem;color:rgba(62,207,142,.5);margin-top:.4rem;">Last updated: April 14, 2026</p>
+
+<!-- AdSense Display -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-9312870448453345"
+ data-ad-slot="1328672966"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push/{});
+</script>
+
+  </footer>
+
+</body>
+</html>

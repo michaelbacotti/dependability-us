@@ -1,0 +1,134 @@
+{{ define "main" }}
+
+<section class="page-hero" style="background:linear-gradient(160deg,#0a1628,#132240,#1e3358);padding:5rem 2rem 4rem;text-align:center;border-bottom:2px solid #c8a96e;">
+    <div class="container">
+        <p class="hero-eyebrow">Dependability Holdings LLC — Research</p>
+        <h1>S&P 500 Forecast <em>2026</em><br>Bullish Case for American Growth</h1>
+        <p class="hero-sub">A disciplined, research-driven overview of the key fundamental, technical, and geopolitical forces shaping the S&amp;P 500 in 2026 — with actionable option expiry schedules.</p>
+        <div class="hero-badge">{{ .Params.badge }}</div>
+        <div class="hero-stats">
+            {{ with .Params.sp500 }}
+            <div class="hero-stat">
+                <div class="hero-stat-value">{{ . }}</div>
+                <div class="hero-stat-label"><a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);">S&P 500</a> Close</div>
+                <div class="hero-stat-label">{{ $.Params.sp500Date }}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.spy }}
+            <div class="hero-stat">
+                <div class="hero-stat-value">{{ . }}</div>
+                <div class="hero-stat-label">SPY Live</div>
+                <div class="hero-stat-label">{{ $.Params.spyDate }}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.vix }}
+            <div class="hero-stat">
+                <div class="hero-stat-value">{{ . }}</div>
+                <div class="hero-stat-label">VIX</div>
+                <div class="hero-stat-label">{{ $.Params.vixRegime }}</div>
+            </div>
+            {{ end }}
+            {{ with .Params.qqq }}
+            <div class="hero-stat">
+                <div class="hero-stat-value">{{ . }}</div>
+                <div class="hero-stat-label">QQQ</div>
+                <div class="hero-stat-label">{{ $.Params.qqqDate }}</div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<div style="max-width:900px;margin:1rem auto;font-size:.85rem;color:#64748b;padding:0 2rem;">
+    <p><strong>Author:</strong> {{ .Site.Params.author }} &nbsp;|&nbsp; <strong>Updated:</strong> {{ .Params.updated }} &nbsp;|&nbsp; <a href="/about-strategy/" style="color:var(--gold);">About our methodology →</a></p>
+</div>
+
+<div style="background:#f8fafc;border-left:4px solid #f59e0b;padding:1rem 1.25rem;margin:1.5rem auto;max-width:900px;border-radius:4px;font-size:.85rem;color:#64748b;line-height:1.6;">
+    <strong>Disclaimer:</strong> This is educational research, not investment advice. Options trading involves significant risk of loss. All information is for informational purposes only. Not affiliated with or endorsed by any broker. Past performance does not indicate future results.
+</div>
+
+<div class="divider"></div>
+<div class="divider"></div>
+
+<div style="background:var(--navy);color:white;border-radius:12px;padding:1.5rem 2rem;margin:2rem auto;max-width:900px;">
+    <h2 style="color:var(--gold);font-family:var(--font-heading);margin-bottom:1rem;font-size:1.3rem;">Key Takeaways — {{ .Params.updated }}</h2>
+    <ul style="list-style:none;padding:0;margin:0;display:grid;gap:0.6rem;">
+        {{ with .Params.t1 }}<li style="display:flex;gap:0.5rem;"><span style="color:var(--gold);">→</span> {{ . }}</li>{{ end }}
+        {{ with .Params.t2 }}<li style="display:flex;gap:0.5rem;"><span style="color:var(--gold);">→</span> {{ . }}</li>{{ end }}
+        {{ with .Params.t3 }}<li style="display:flex;gap:0.5rem;"><span style="color:var(--gold);">→</span> {{ . }}</li>{{ end }}
+    </ul>
+    {{ with .Params.riskNote }}
+    <p style="margin-top:1rem;font-size:.85rem;color:rgba(255,255,255,.6);">⚠️ {{ . }}</p>
+    {{ end }}
+</div>
+
+{{ if .Params.commentary }}
+<section style="background:#fff;border-left:5px solid var(--gold);border-radius:12px;padding:2rem;max-width:1100px;margin:0 auto 2rem;">
+    <div style="font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;">📈 {{ .Params.badge }}</div>
+    {{ with .Params.geopoliticalSubtitle }}<h2 style="font-family:var(--font-heading);font-size:1.5rem;color:var(--navy);margin-bottom:.75rem;">{{ . }}</h2>{{ end }}
+    {{ range .Params.commentaryBlocks }}
+    {{ . | safeHTML }}
+    {{ end }}
+</section>
+{{ end }}
+
+{{ if .Params.sectors }}
+<section class="section">
+    <div class="section-title">S&P 500 Sector Performance — {{ .Params.sectorDate }}</div>
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr><th>Ticker</th><th>Daily</th><th>Weekly</th><th>Weight</th><th>Notes</th></tr>
+            </thead>
+            <tbody>
+                {{ range .Params.sectors }}
+                <tr>
+                    <td><strong>{{ .ticker }}</strong></td>
+                    <td style="{{ if .neg }}color:#dc2626;{{ else }}color:#16a34a;{{ end }}font-weight:600;">{{ .daily }}</td>
+                    <td style="{{ if .neg }}color:#dc2626;{{ else }}color:#16a34a;{{ end }}font-weight:600;">{{ .weekly }}</td>
+                    <td>{{ .weight }}</td>
+                    <td>{{ .notes }}</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</section>
+{{ end }}
+
+{{ if .Params.activeTrades }}
+<section class="section" id="trade-ideas">
+    <div class="section-title">Option Trade Ideas for Today — {{ .Params.tradeDate }}</div>
+    <p style="margin:.25rem 0 .75rem;font-size:.85rem;color:var(--gray-mid);">📋 Previous ideas: <a href="/trade-archive/" style="color:var(--gold);">View trade archive</a></p>
+    <p style="font-size:.8rem;color:#94a3b8;margin:.5rem 0;">📘 Educational example only — not investment advice.</p>
+    {{ range .Params.activeTrades }}
+    <div style="background:#f8f9fa;border-radius:12px;padding:1.5rem;margin:1rem 0;box-shadow:0 2px 12px rgba(10,22,40,.12);">
+        <div style="display:flex;gap:1rem;align-items:center;margin-bottom:1rem;">
+            <span style="font-size:1.2rem;">{{ .emoji }}</span>
+            <strong style="font-size:1.1rem;color:var(--navy);">{{ .strategy }}</strong>
+            <span style="color:var(--gray-mid);font-size:.9rem;">— {{ .underlying }}</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;font-size:.875rem;">
+            <div><strong>Direction:</strong> {{ .direction }}</div>
+            <div><strong>DTE:</strong> {{ .dte }}</div>
+            <div><strong>Short Strike:</strong> {{ .shortStrike }}</div>
+            <div><strong>Long Strike:</strong> {{ .longStrike }}</div>
+            <div><strong>Net:</strong> {{ .netDebit }}</div>
+            <div><strong>Max Profit:</strong> {{ .maxProfit }}</div>
+            <div><strong>Max Loss:</strong> {{ .maxLoss }}</div>
+            <div><strong>Prob:</strong> {{ .probProfit }}</div>
+        </div>
+        {{ with .rationale }}<p style="margin-top:.75rem;font-size:.875rem;color:var(--text-body);line-height:1.65;">{{ . }}</p>{{ end }}
+    </div>
+    {{ end }}
+    <p class="trade-disclaimer">⚠️ All spreads are for educational purposes only. Options trading involves significant risk. Confirm spread pricing before entering.</p>
+</section>
+{{ end }}
+
+{{ if .Content }}
+<section class="section">
+    {{ .Content }}
+</section>
+{{ end }}
+
+{{ end }}

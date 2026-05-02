@@ -1,0 +1,26 @@
+# Hugo
+hugo/
+resources/
+hugo.lock
+.hugo_build.lock
+
+# Local workspace files — not for git
+AGENTS.md
+BRIEF.md
+BRIEFING.md
+CHAT_PATH_LINKS.json
+DREAMS.md
+HEARTBEAT.md
+IDENTITY.md
+MEMORY.md
+RUNBOOK.md
+SOUL.md
+TOOLS.md
+USER.md
+convert_html.py
+migrate_to_root.sh
+memory/
+.openclaw/
+
+# Hugo output — rebuild on deploy
+public/

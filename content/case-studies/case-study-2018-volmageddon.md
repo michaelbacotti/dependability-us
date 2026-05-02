@@ -1,0 +1,79 @@
+---
+title: "Case Study: 2018 Volmageddon | Dependability Holdings"
+description: "February 2018: VIX went from 17 to 50 in 48 hours. XIV lost 80% in one day. What happened, who got wiped out, and what every options trader learned from Volmageddon."
+date: 2026-04-30
+type: page
+layout: single
+url: "/case-study-2018-volmageddon/"
+draft: false
+---
+
+
+<header class="hero">
+<div>
+<span class="hero-badge">Case Study</span>
+<h1>February 2018 — When Volatility Went Vertical</h1>
+<p>VIX spiked from 17 to 50 in 48 hours. One product lost 80% in a single session. Here's what every options trader should know about Volmageddon.</p>
+</div>
+</header>
+<div class="container">
+<article >
+<div>
+<div><div>17→50</div><div>VIX in 48 hours</div></div>
+<div><div>-80%</div><div>XIV lost in one day</div></div>
+<div><div>2 Days</div><div>Fastest vol spike ever</div></div>
+</div>
+<p>On Monday, February 5, 2018, the stock market dropped about 4% in a single day. That sounds significant, but 4% happens periodically. What made February 5, 2018 different was what happened to volatility. The VIX — which had been quietly sitting around 17 — spiked to 50 by Wednesday. In 48 hours, the market's fear gauge had nearly tripled.</p>
+<p>By Tuesday, February 6, the VIX had touched 50. And that's when the real damage started.</p>
+<h2>What Happened to the VIX</h2>
+<p>The proximate cause of the spike was a feedback loop between options dealers and systematic volatility-selling strategies. Large dealers who had sold massive amounts of volatility protection — essentially writing insurance against a market drop — found themselves short a market that was suddenly moving. When you're short volatility and the market starts to move, you don't just sit there. You buy more volatility to hedge your existing position. That buying pushes VIX higher, which forces more hedging, which pushes VIX higher still.</p>
+<p>This is called a <strong>volatility spike feedback loop</strong>. It happens rarely, but when it does, VIX can move 10x faster than most traders expect. The speed of the February 2018 move — VIX from 17 to 50 in 48 hours — was unprecedented in modern market history.</p>
+<h2>XIV — The Product That Disappeared</h2>
+<p>XIV was an inverse volatility ETF. Its value was designed to increase slowly when volatility was calm and decline slowly when volatility rose. It was a bet on the idea that volatility clusters around a mean — that calm markets tend to stay calm, and selling volatility was a reliable way to earn income.</p>
+<p>On February 5, 2018, XIV opened at around $99. By market close on February 6, it was trading around $20. By the end of the week, Credit Suisse — the issuer of XIV — had announced it was liquidating the product entirely. XIV holders lost roughly 80% of their investment in a single trading session.</p>
+<p>Inverse volatility products carry what options traders call <strong>binary event risk</strong>. Most of the time, they work fine. But the occasional extreme move doesn't just hurt them — it can end them. XIV was essentially short vega in a vega explosion. When the explosion came, there was no recovery.</p>
+<div>
+<h4>The Binary Event Trap</h4>
+<p>XIV had worked for five years. Traders who had collected premium from selling volatility had made steady income. Then one event erased years of gains in hours. The lesson: strategies that work 95% of the time can still end you if the 5% event is catastrophic. Position sizing matters more than win rate.</p>
+</div>
+<h2>Who Got Wiped Out</h2>
+<h3>Short Iron Condors Opened Days Before</h3>
+<p>Traders running short iron condors going into early February 2018 faced a brutal scenario. Iron condors are defined-risk, but the risk is per side — if a market gaps through your short strike with no time to adjust, you take the maximum loss on that wing. In a 4% one-day drop, anyone with short put spreads below the market got hit hard. Those who had adjusted properly (wider wings, smaller size) survived. Those who hadn't were blown out.</p>
+<h3>Short VIX Products (SVXY, Other Inverse Products)</h3>
+<p>SVXY was another inverse VIX product, similar to XIV but run by a different issuer. It also dropped sharply — around 70% — in the same period. Any trader holding inverse volatility products as a "steady income" strategy woke up to losses that exceeded what they had earned in months or years of premium collection.</p>
+<h3>Long Gamma Positions Near Expiration</h3>
+<p>Options market makers who were long gamma (benefiting from large moves) initially profited from the spike. But gamma positions that weren't properly balanced reversed sharply as the move exhausted itself. By Wednesday morning, some of those same traders were losing money as the VIX crashed back from its highs.</p>
+<h3>Long VIX Calls — The Winners</h3>
+<p>Traders who had bought VIX calls as hedges or directional bets — particularly those who bought them when VIX was still in the 15-17 range — saw those calls return 10x or more. Buying VIX calls is a lottery ticket, but in this case, some traders had positioned for exactly this scenario and were rewarded.</p>
+<h2>The Volatility Premium Trap</h2>
+<p>Volmageddon illustrated a specific and important trap: <strong>selling volatility works until it doesn't, and when it doesn't, the losses can exceed years of gains.</strong></p>
+<p>The traders who got hurt most were those who had been selling volatility successfully for months or years. They had high confidence in their edge. The edge was real — selling volatility does have a positive expected return over time. But expected return and per-trade safety are different things. One event can destroy a track record built over years.</p>
+<p>The key variable: <strong>position size relative to account</strong>. A trader selling iron condors at 1% of account risk per trade could survive February 2018 with a bad week. A trader at 10% per trade would have lost a decade of gains.</p>
+<div>
+<h4>The Math of Volatility Selling</h4>
+<p>Imagine you're selling iron condors and averaging 15% returns annually. You've been doing it for 4 years and have grown your account from $50,000 to $87,500. Then one bad vol spike month costs you 50% of your account. You've lost more in one month than you made in four years. The strategy was "right" — selling volatility does have a positive edge. But the position sizing wasn't appropriate for the tail risk.</p>
+</div>
+<h2>What Survived February 2018</h2>
+<p>Not everything got destroyed. Traders who had positioned for this scenario — either through VIX calls, wide-enough condors, or very small position sizes — either made money or absorbed small losses.</p>
+<p>The common thread: <strong>defined risk and appropriate sizing</strong>. Iron condors with wide put wings (20-wide rather than 5-wide) absorbed the gap move without full max loss. Long vega positions in VIX calls that had been bought weeks earlier at low prices paid off. Cash positions held through the volatility spike had buying power when the recovery came.</p>
+<h2>The Lessons</h2>
+<h3>1. Size Positions for the Worst-Case, Not the Average Case</h3>
+<p>The question isn't "what happens most of the time?" It's "what happens when everything goes wrong at once?" A strategy that works 95% of the time but blows up your account in the other 5% is not a good strategy. Size positions so that the worst-case scenario is survivable.</p>
+<h3>2. Inverse Volatility Products Are Not Income Strategies</h3>
+<p>XIV and SVXY are sometimes marketed as "income" products. They are not. They are leveraged bets on calm markets with binary event risk. When vol spikes sharply, they can lose 50-100% in hours. Treat them accordingly — or avoid them entirely.</p>
+<h3>3. VIX Above 35 Is Survival Mode</h3>
+<p>When VIX crosses 35, something is wrong in the market. This is not a normal vol environment. Cut position sizes. Tighten stops. Consider raising cash. The traders who survived 2008, March 2020, and 2018 were the ones who reduced exposure when the market signal was clear.</p>
+<h3>4. Defined Risk Does Not Mean Small Risk</h3>
+<p>An iron condor with a $4-wide spread risks $400 per contract. If you're selling 10 contracts, your real dollar risk is $4,000 — not $400. Know your real dollar exposure, not just the width of the spread. Every position has a real dollar loss number. Know it before you enter.</p>
+<div>
+<h4>The Bottom Line</h4>
+<p>Volmageddon was not a black swan. A VIX spike of this magnitude had happened before (1987, 1998, 2008) and would happen again (March 2020 proved that). The traders who treat volatility spikes as survivable events — through position sizing, defined risk, and appropriate敬畏 — are the ones who are still trading after the event.</p>
+</div>
+<div class="cta-box">
+<h3>Learn More</h3>
+<p>See how VIX regimes affect iron condor strategy in our VIX hub and learn position sizing rules that keep you in the game after extreme events.</p>
+<a href="/vix-hub/">VIX Hub →</a>
+<a href="/risk-hub/">Risk Hub →</a>
+</div>
+</article>
+</div>
