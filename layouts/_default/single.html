@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+{{ if .Params.heroTitle }}
+<section class="page-hero">
+    <div class="container">
+        {{ with .Params.heroEyebrow }}<p class="hero-eyebrow">{{ . }}</p>{{ end }}
+        <h1>{{ .Params.heroTitle }}</h1>
+        {{ with .Params.heroSub }}<p class="page-hero-sub">{{ . }}</p>{{ end }}
+    </div>
+</section>
+{{ end }}
+
+<div class="page-main">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ end }}

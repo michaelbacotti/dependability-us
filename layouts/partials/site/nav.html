@@ -1,0 +1,12 @@
+<nav>
+  <a href="{{ .Site.BaseURL }}" class="nav-brand">
+    {{ .Site.Params.brandName }} <span class="logo-accent">{{ .Site.Params.brandAccent }}</span>
+  </a>
+  <div class="nav-links">
+    {{ range .Site.Params.navLinks }}
+    <a href="{{ .url | absLangURL }}"{{ if eq $.RelPermalink .url }} class="active"{{ end }}>
+      {{ .name }}
+    </a>
+    {{ end }}
+  </div>
+</nav>

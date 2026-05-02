@@ -1,0 +1,93 @@
+---
+title: "Iron Condor Risk/Reward | Dependability Holdings"
+description: "Iron condor risk/reward: the math behind the popular income trade. Understand probability of profit, max loss, gamma risk, and when condors fail."
+date: 2026-04-30
+type: page
+layout: single
+url: "/iron-condor-risk-reward/"
+draft: false
+---
+
+
+<!-- ARTICLE HEADER -->
+<section >
+<div class="container">
+<h1>Iron Condor Risk/Reward: The Math Behind the Popular Income Trade</h1>
+<p >Published April 14, 2026 &nbsp;|&nbsp; Options Strategies &nbsp;|&nbsp; 9 min read</p>
+</div>
+</section>
+<!-- ARTICLE BODY -->
+<section >
+<div class="container">
+<p>The iron condor is one of the most popular options income strategies for good reason: when the market cooperates, it produces consistent premium with defined, limited risk. But it's also widely misunderstood. Before entering your first condor, you need to understand the math — not just the pitch.</p>
+<!-- AdSense Vertical -->
+<!-- AdSense -->
+<h2>How an Iron Condor Works</h2>
+<p>An iron condor is two credit spreads combined: a bull put spread on the downside and a bear call spread on the upside. You sell both wings and buy protection further out. The result is a net credit received at entry — your maximum profit — with a maximum loss defined by the width of the spreads minus that credit.</p>
+<p>The classic structure on a stock like SPY trading at $450 might look like this:</p>
+<ul>
+<li><strong>Sell $430 put / Buy $425 put</strong> — bull put spread, 5-wide</li>
+<li><strong>Sell $470 call / Buy $475 call</strong> — bear call spread, 5-wide</li>
+<li>Total width: 10 points across both spreads</li>
+<li>Net credit received: perhaps $2.50 per contract</li>
+</ul>
+<p>Your max profit is the credit received ($2.50). Your max loss is the width minus the credit ($10 - $2.50 = $7.50). For every 1-lot of this condor, your max risk is $750 per contract before commissions.</p>
+<h2>The Numbers in Detail</h2>
+<p>Let's use a concrete 45-wide condor — wider than the example above — to illustrate the full risk/reward picture. A 45-wide condor (22.5 points per side) on SPY might generate a credit of $2.25 per contract. Here's how the math breaks down:</p>
+<ul>
+<li><strong>Net credit received:</strong> $2.25 per contract</li>
+<li><strong>Max loss:</strong> $45 - $2.25 = $42.75 per contract</li>
+<li><strong>Risk/reward ratio:</strong> $42.75 loss / $2.25 profit = 19:1 against you in the worst case</li>
+<li><strong>Break-even points:</strong> Lower put short strike minus credit = $430 - $2.25 = $427.75 on the downside; upper call short strike plus credit = $470 + $2.25 = $472.25 on the upside</li>
+</ul>
+<p>This is where many condor sellers go wrong: they focus on the credit ($2.25) and don't appreciate the liability ($42.75). The probability of profit looks attractive; the absolute risk exposure is much larger than the premium received suggests.</p>
+<h2>Probability of Profit</h2>
+<p>Most iron condor traders sell the short strikes at approximately 16 delta — meaning the short put and short call are each roughly 16% likely to finish in-the-money at expiration. With two independent tails to worry about, the probability of <em>either</em> wing being tested at expiration is higher than either alone.</p>
+<p>At 16 delta per short strike, the theoretical probability of profit at expiration is approximately <span >68%</span> — assuming both strikes move independently. In practice, markets tend to move directionally, so the actual PoP accounting for correlation is closer to <span >60-65%</span>.</p>
+<p>A 60-65% win rate sounds good, but remember: when you lose on an iron condor, you lose big relative to your premium. A 19:1 loss ratio means a run of bad luck — or one trending market — can wipe out multiple months of consistent wins. This is why position sizing is non-negotiable with condors.</p>
+<h2>The Gamma Problem Near Expiry</h2>
+<p>As expiration approaches, the Greeks shift in ways that can turn a profitable condor into a loser very quickly. Gamma — the rate of change of delta — accelerates for near-the-money options. This means the short strikes that seemed safely out-of-the-money can move against you with surprising speed in the final 7 trading days.</p>
+<p>The standard guidance is to close iron condors before <span >7 days to expiration (DTE)</span>. In the last week, a sharp intraday move can move a short strike ITM in minutes, causing rapid premium expansion. The extra premium you collected by holding doesn't come close to compensating for the accelerated gamma risk.</p>
+<p>Many experienced condor traders close at 21 DTE or even 30 DTE, taking profits early rather than riding into the high-gamma zone. A 30% profit taken at 21 DTE beats a 50% profit taken at 7 DTE if it means avoiding a sharp reversal.</p>
+<h2>Adjustments: When to Roll, When to Close</h2>
+<p>No condor is perfect. The mark of a skilled practitioner is knowing when to adjust and when to simply close. The most common adjustments:</p>
+<ul>
+<li><strong>Rolling the untested side:</strong> If the market moves sharply against one wing, you can roll that spread further out in time or further away from the current price to collect additional credit. This effectively widens your breakeven on the tested side.</li>
+<li><strong>Converting to an iron butterfly:</strong> If one wing is deeply in-the-money, you can close the untested wing and turn the condor into a butterfly by buying back the tested short strike and keeping the long. This reduces risk but also reduces potential profit.</li>
+</ul>
+<p>The danger of over-adjusting is that you accumulate too much basis in a losing position. Each roll adds transaction costs and may be throwing good money after bad. Setting a maximum loss threshold per condor — typically 2x the max profit — and closing at that level is more disciplined than endlessly rolling.</p>
+<h2>P&L Example: SPY Flat 30 Days</h2>
+<p>Consider an iron condor on SPY entered at $450 with the following structure:</p>
+<ul>
+<li>Sell $430 put / Buy $425 put</li>
+<li>Sell $470 call / Buy $475 call</li>
+<li>Credit received: $2.00</li>
+<li>Max risk: $8.00 per contract ($800)</li>
+</ul>
+<p>SPY closes at $455 after 30 days — flat-ish and well within the wings. Both short strikes expired worthless. You keep the $2.00 credit. That's a <span >25% return on max risk</span> ($2.00 / $8.00) on a trade that required SPY to do nothing.</p>
+<p>Now the same condor, but SPY closes at $475 — at the upper breakeven point. The $470 short call is ITM. Max loss scenario unfolds. The $2.00 premium you collected is dwarfed by the $8.00 at risk.</p>
+<h2>When Condors Fail</h2>
+<p>Iron condors are not a "set it and forget it" strategy. Two market regimes in particular make them problematic:</p>
+<ul>
+<li><strong>Trending markets:</strong> When SPY moves decisively in one direction — up 8% or down 12% — the tested wing gets hammered while the untested wing provides no offset. A sustained trend eliminates the neutral premise of the condor entirely.</li>
+<li><strong>VIX spikes:</strong> When the VIX jumps sharply — above 25-30 — implied volatility rises rapidly. This causes the short strikes to increase in value faster than the long protection, temporarily increasing max loss even if SPY hasn't moved. High-VIX environments are when many condor traders experience unexpected drawdowns even in trades that "should have worked."</li>
+</ul>
+<h2>The Bottom Line</h2>
+<p>Iron condors are a legitimate income strategy when used in the right environment — range-bound markets with moderate volatility. The premium collection and defined-risk structure are real advantages. But the asymmetric risk/reward, the gamma acceleration near expiry, and the vulnerability to trending moves mean that position sizing, exit rules, and market regime awareness are all essential, not optional.</p>
+<!-- KEY TAKEAWAY -->
+<div>
+<h3>📌 Key Takeaway</h3>
+<p>Iron condors work best in range-bound, lower-volatility environments. In a trending market or VIX spike, the probability of profit drops sharply — know your regime before entering. The 68% PoP looks attractive until you realize that one bad trade can cost 5-10 times what you made in the last month of small wins.</p>
+</div>
+</div>
+</section>
+<!-- RELATED ARTICLES -->
+<section >
+<div class="container">
+<h3>Related Articles</h3>
+<a href="/iron-condors-explained/">Iron Condors Explained: The Complete Guide</a>
+<a href="/iron-condor-vs-iron-butterfly/">Iron Condor vs. Iron Butterfly: Choosing the Right Structure</a>
+<a href="/options-basics/">Options Basics: Getting Started</a>
+<a href="/risk-management/">Risk Management: The Complete Guide</a>
+</div>
+</section>
