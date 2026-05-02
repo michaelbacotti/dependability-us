@@ -1,0 +1,4 @@
+# Hugo generated output — deploy from public/ but don't commit it
+public/
+resources/
+hugo.lock
