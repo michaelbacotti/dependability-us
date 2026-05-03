@@ -115,3 +115,5 @@ All investments involve risk, including the potential loss of principal. The val
 </div>
 <!-- AdSense Horizontal -->
 <!-- AdSense -->
+
+<!-- Updated with OptionsStrat affiliate link in nav and footer -->
