@@ -93,6 +93,12 @@ draft: false
 <h3>📌 Key Takeaway</h3>
 <p>Covered calls are a powerful income-generating tool in range-bound or slightly bullish markets — but they come with a meaningful tradeoff: you cap your upside in exchange for premium income. Strike selection is critical: OTM calls preserve more upside but collect less premium; ITM calls collect more premium but put your shares at higher assignment risk. Over a full market cycle, disciplined covered call selling can add 1–3% annually to a portfolio in premium income, but in strong bull markets, the opportunity cost can be substantial. Always know your assignment threshold before you sell, and consider using covered calls as part of a broader <a href="/portfolio-hedging-with-options/">portfolio hedging</a> or income strategy rather than a standalone approach.</p>
 </div>
+<section class="section">
+<div class="info-box" style="background:var(--navy);border:1px solid var(--gold);">
+<h3>Ready to Execute?</h3>
+<p>Use <a href="https://optionstrat.com/ventureprise?ref=ventureprise" rel="nofollow" style="color:var(--gold);">OptionsStrat</a> to model covered call trades and analyze risk/reward visually before placing orders.</p>
+</div>
+</section>
 <div>
 <a href="/protective-put-strategy/">Protective Put Strategy →</a>
 <a href="/portfolio-hedging-with-options/">Portfolio Hedging →</a>

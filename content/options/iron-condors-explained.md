@@ -150,6 +150,12 @@ draft: false
 </div>
 </div>
 </section>
+<section class="section">
+<div class="info-box" style="background:var(--navy);border:1px solid var(--gold);">
+<h3>Ready to Execute?</h3>
+<p>Use <a href="https://optionstrat.com/ventureprise?ref=ventureprise" rel="nofollow" style="color:var(--gold);">OptionsStrat</a> to backtest iron condor configurations across different expirations and widths before committing capital.</p>
+</div>
+</section>
 <div>
 <div>
 <strong>Important Disclaimer — Please Read</strong><br />

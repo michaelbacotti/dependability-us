@@ -278,6 +278,12 @@ draft: false
 <a href="/options-basics/" class="btn btn-primary">Start with Options Basics →</a>
 </div>
 </section>
+<section class="section">
+<div class="info-box" style="background:var(--navy);border:1px solid var(--gold);">
+<h3>Build Strategies Visually</h3>
+<p>Use <a href="https://optionstrat.com/ventureprise?ref=ventureprise" rel="nofollow" style="color:var(--gold);">OptionsStrat</a> to visualize payoff diagrams, test strike combinations, and model probability of profit before placing trades.</p>
+</div>
+</section>
 <!-- Disclaimer -->
 <div>
 <div>

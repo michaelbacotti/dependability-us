@@ -41,7 +41,9 @@
   {{ block "head" . }}{{ end }}
 </head>
 <body>
-  {{ partial "site/nav.html" . }}
+  <header id="site-header">
+    {{ partial "site/nav.html" . }}
+  </header>
 
   <main id="main-content">
     {{ block "main" . }}{{ end }}

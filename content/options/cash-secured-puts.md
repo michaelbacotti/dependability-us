@@ -104,6 +104,12 @@ draft: false
 </div>
 </div>
 </section>
+<section class="section">
+<div class="info-box" style="background:var(--navy);border:1px solid var(--gold);">
+<h3>Ready to Execute?</h3>
+<p>Use <a href="https://optionstrat.com/ventureprise?ref=ventureprise" rel="nofollow" style="color:var(--gold);">OptionsStrat</a> to build, backtest, and analyze cash-secured put strategies with real probability data.</p>
+</div>
+</section>
 <div>
 <div>
 <strong>Important Disclaimer — Please Read</strong><br />

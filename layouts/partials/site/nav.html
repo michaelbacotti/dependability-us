@@ -1,12 +1,18 @@
-<nav>
+<nav id="site-nav" class="navbar" style="background:var(--navy);border-bottom:2px solid var(--gold);">
   <a href="{{ .Site.BaseURL }}" class="nav-brand">
     {{ .Site.Params.brandName }} <span class="logo-accent">{{ .Site.Params.brandAccent }}</span>
   </a>
-  <div class="nav-links">
+  <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div id="navLinks" class="nav-links">
     {{ range .Site.Params.navLinks }}
     <a href="{{ .url | absLangURL }}"{{ if eq $.RelPermalink .url }} class="active"{{ end }}>
       {{ .name }}
     </a>
     {{ end }}
+    <a href="https://optionstrat.com/ventureprise?ref=ventureprise" rel="nofollow" target="_blank">
+      OptionsStrat
+    </a>
   </div>
 </nav>

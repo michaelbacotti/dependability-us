@@ -232,6 +232,12 @@ draft: false
 </div>
 </div>
 </section>
+<section class="section">
+<div class="info-box" style="background:var(--navy);border:1px solid var(--gold);">
+<h3>Ready to Execute?</h3>
+<p>Use <a href="https://optionstrat.com/ventureprise?ref=ventureprise" rel="nofollow" style="color:var(--gold);">OptionsStrat</a> to model the full Wheel cycle — visualize put and call strikes, probability of assignment, and expected premium income before placing trades.</p>
+</div>
+</section>
 
 <section class="section">
 <h2 >Final Thoughts</h2>
