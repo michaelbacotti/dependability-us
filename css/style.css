@@ -73,6 +73,9 @@ header {
     top: 0;
     z-index: 100;
     border-bottom: 2px solid var(--gold);
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
 }
 
 .navbar {
@@ -84,6 +87,40 @@ header {
     gap: 1rem;
     max-width: var(--max-width);
     margin: 0 auto;
+}
+
+/* Hero stats */
+.hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.hero-stat {
+    flex: 1;
+    min-width: 120px;
+    max-width: 200px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: var(--radius);
+    padding: 1rem 0.75rem;
+}
+
+.hero-stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 0.25rem;
+    font-family: var(--font-heading);
+}
+
+.hero-stat-label {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .logo {
@@ -557,7 +594,7 @@ header {
 /* Diff Grid */
 .diff-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     margin: 1.5rem 0;
 }
@@ -867,6 +904,139 @@ footer a:hover { color: var(--gold); }
 
 .disclaimer-section strong {
     color: var(--gold-light);
+}
+
+/* Forecast: Section Titles */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--navy);
+    margin-bottom: 0.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gold);
+    display: inline-block;
+}
+.section-sub {
+    font-size: 0.875rem;
+    color: var(--text-dim);
+    margin-bottom: 1.5rem;
+}
+
+/* Forecast: Table Wrap */
+.table-wrap {
+    overflow-x: auto;
+    margin: 1rem 0 1.5rem;
+    border-radius: var(--radius);
+}
+
+/* Forecast: Tier Badges */
+.tier-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+}
+.tier-badge.tier-bull {
+    background: rgba(22,163,74,0.12);
+    color: #16a34a;
+}
+.tier-badge.tier-base {
+    background: rgba(200,169,110,0.12);
+    color: #c8a96e;
+}
+.tier-badge.tier-bear {
+    background: rgba(220,38,38,0.12);
+    color: #dc2626;
+}
+
+/* Forecast: Thesis Grid */
+.thesis-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+.thesis-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(10,22,40,.12);
+    border-top: 3px solid var(--gold);
+}
+.thesis-card h3 {
+    font-size: 1rem;
+    color: var(--navy);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+.thesis-card p {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--text-body);
+    margin-bottom: 0.75rem;
+}
+.thesis-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.thesis-card ul li {
+    font-size: 0.8rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid var(--gray-light);
+    color: var(--text-body);
+}
+.thesis-card ul li:last-child { border-bottom: none; }
+
+/* Forecast: Levels Grid */
+.levels-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+.level-col {
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(10,22,40,.12);
+}
+.level-header {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 2px solid var(--gold);
+}
+.level-header.bull { background: rgba(22,163,74,0.1); color: #16a34a; }
+.level-header.bear { background: rgba(220,38,38,0.1); color: #dc2626; }
+.level-header { background: rgba(200,169,110,0.1); color: var(--navy); }
+.level-body { padding: 1rem; }
+.level-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--gray-light);
+    font-size: 0.85rem;
+}
+.level-row:last-child { border-bottom: none; }
+.level-label { color: var(--text-dim); }
+.level-value { font-weight: 700; color: var(--navy); }
+
+/* Forecast: Trade Disclaimer */
+.trade-disclaimer {
+    background: rgba(220,38,38,0.06);
+    border: 1px solid rgba(220,38,38,0.2);
+    border-radius: var(--radius);
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    color: #dc2626;
+    margin-top: 1rem;
+    line-height: 1.6;
 }
 
 /* ============================================
