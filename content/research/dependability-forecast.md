@@ -1,41 +1,41 @@
 ---
 title: "Daily Market Forecast | Dependability Holdings"
 description: "Free daily S&P 500 forecast, VIX analysis, and actionable options trade ideas for self-directed investors."
-date: 2026-05-01
+date: 2026-05-06
 type: page
 layout: forecast
 url: "/dependability-forecast/"
 draft: false
 sp500: "7,264"
-sp500Date: "May 1, 2026"
+sp500Date: "May 6, 2026"
 spy: "$726.40"
 spyChange: "+$16.26"
-spyDate: "May 1, 2026"
+spyDate: "May 6, 2026"
 vix: "18.68"
 vixRegime: "Elevated"
 qqq: "$665.00"
 qqqChange: "+$16.15"
-qqqDate: "May 1, 2026"
-badge: "📈 RECORD RALLY — Friday May 1, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May"
+qqqDate: "May 6, 2026"
+badge: "📈 RECORD RALLY — Wednesday May 6, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May"
 heroTitle: "S&P 500 Forecast <em>2026</em><br>Bullish Case for American Growth"
 heroSub: "A disciplined, research-driven overview of the key fundamental, technical, and geopolitical forces shaping the S&P 500 in 2026 — with actionable option expiry schedules."
-updated: "May 1, 2026"
+updated: "May 6, 2026"
 author: "Dependability Holdings Research Team"
 t1: "S&amp;P 500 reaches fresh all-time high ~7,264 as Apple shares rally; oil falls on ceasefire hopes"
 t2: "VIX 18.68 — elevated but stable; defined-risk spreads remain the preferred structure"
 t3: "Bull call spreads on SPY $726 target — leveraged upside with defined risk as rally broadens"
 riskNote: "Elevated volatility (VIX 18.68) favors defined-risk spreads over naked positions. Oil weakness a continued risk-on signal."
 geopoliticalSubtitle: "S&amp;P 500 Record High to Start May"
-commentaryIntro: "The S&amp;P 500 rose to a fresh all-time intraday high on Friday, May 1, 2026, boosted by Apple shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&amp;P 500 has now gained +27.74% year-over-year, reflecting strong investor sentiment and broadening market participation."
+commentaryIntro: "The S&amp;P 500 rose to a fresh all-time intraday high on Friday, May 6, 2026, boosted by Apple shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&amp;P 500 has now gained +27.74% year-over-year, reflecting strong investor sentiment and broadening market participation."
 commentaryVix: "VIX opened at 18.68 — still in the elevated zone (15–20). The Iran ceasefire backdrop continues to support equities while keeping IV elevated enough for premium-selling strategies to remain attractive. Oil selling on ceasefire expectations is a classic risk-on signal. With VIX below 20, the market is not in fear mode but uncertainty remains."
-sectorDate: "May 1, 2026"
-tradeDate: "May 1, 2026"
+sectorDate: "May 6, 2026"
+tradeDate: "May 6, 2026"
 ---
 <section class="section" id="geopolitical-alert">
-<div>📈 RECORD RALLY — Friday May 1, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May</div>
+<div>📈 RECORD RALLY — Wednesday May 6, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May</div>
 <h2>S&P 500 Record High to Start May</h2>
 <h3>Market Digesting Tuesday's Historic Rally</h3>
-<p><strong>As of Friday May 1, 2026 (4:00 PM ET)</strong>, US equity futures are little changed after <strong>SPY closed at $726.40 (+$16.26)</strong> on Tuesday — pushing the <a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;">S&P 500</a> to <strong>~7,264</strong>, an all-time high and within striking distance of the 7,300 round number. The Nasdaq led with a +$16.15 gain and has now extended its win streak to Broadening rally — a remarkable show of momentum. Pre-market Friday is flat as traders pause before the next Iran diplomacy headlines.</p>
+<p><strong>As of Wednesday May 6, 2026 (4:00 PM ET)</strong>, US equity futures are little changed after <strong>SPY closed at $726.40 (+$16.26)</strong> on Tuesday — pushing the <a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;">S&P 500</a> to <strong>~7,264</strong>, an all-time high and within striking distance of the 7,300 round number. The Nasdaq led with a +$16.15 gain and has now extended its win streak to Broadening rally — a remarkable show of momentum. Pre-market Friday is flat as traders pause before the next Iran diplomacy headlines.</p>
 <h3>US-Iran Talks: Market Pricing ~85% Odds of Formal Negotiations</h3>
 <p><strong>VIX is holding at 18.68</strong> — Elevated but declining from Tuesday's close. The IV backdrop remains supportive for credit spread strategies as the market views Iran escalation risk as fading. WTI crude has sold off ~7% on ceasefire optimism, adding tailwind to equities. Trump confirmed Iran wants to negotiate; the Hormuz blockade remains technically active but the market is clearly looking past it toward a diplomatic resolution.</p>
 <h3>Key Levels — SPY and S&P 500</h3>
@@ -44,8 +44,8 @@ tradeDate: "May 1, 2026"
 
 <section class="section" id="weekly-outlook">
 <div class="section-title">S&P 500 Forecast: What to Watch This Week</div>
-<h3>Market Snapshot — Friday May 1, 2026</h3>
-<p>It is <strong>Friday, May 1, 2026 (4:00 PM ET)</strong>. The S&P 500 rose to a fresh all-time intraday high on Friday, May 1, 2026, boosted by Apple shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&P 500 has now gained +27.74% year-over-year, reflecting strong investor sentiment and broadening market participation.</p>
+<h3>Market Snapshot — Wednesday May 6, 2026</h3>
+<p>It is <strong>Friday, May 6, 2026 (4:00 PM ET)</strong>. The S&P 500 rose to a fresh all-time intraday high on Friday, May 6, 2026, boosted by Apple shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&P 500 has now gained +27.74% year-over-year, reflecting strong investor sentiment and broadening market participation.</p>
 <h3>VIX, Oil, and De-Escalation Trade in Force</h3>
 <p>VIX opened at 18.68 — still in the elevated zone (15–20). The Iran ceasefire backdrop continues to support equities while keeping IV elevated enough for premium-selling strategies to remain attractive. Oil selling on ceasefire expectations is a classic risk-on signal. With VIX below 20, the market is not in fear mode but uncertainty remains.</p>
 <h3>Key Levels and Preferred Strategies</h3>
@@ -54,7 +54,7 @@ tradeDate: "May 1, 2026"
 
 <section class="section" id="sector-performance">
 <div style="max-width:1100px;margin:0 auto;">
-<h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#0a1628;text-align:center;margin-bottom:0.5rem;">S&P 500 Sector Performance — May 1, 2026</h2>
+<h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#0a1628;text-align:center;margin-bottom:0.5rem;">S&P 500 Sector Performance — May 6, 2026</h2>
 <p style="text-align:center;color:#666;font-size:0.82rem;margin-bottom:2rem;">Daily and weekly performance. Source: S&P 500 sector SPDRs. For informational purposes only.</p>
 <div style="overflow-x:auto;">
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;min-width:700px;">
@@ -90,7 +90,7 @@ tradeDate: "May 1, 2026"
 </section>
 
 <section class="section" id="trade-ideas">
-<div class="section-title">Option Trade Ideas for Today — May 1, 2026</div>
+<div class="section-title">Option Trade Ideas for Today — May 6, 2026</div>
 <p style="margin:.25rem 0 .75rem;font-size:.85rem;color:var(--gray-mid);">📋 Previous ideas: <a href="/trade-archive/">View trade archive</a></p>
 <p style="font-size:.8rem;color:#94a3b8;margin:.5rem 0;">📘 Educational example only — not investment advice.</p>
 <h3>Market Regime and Direction</h3>
@@ -182,7 +182,7 @@ tradeDate: "May 1, 2026"
 </div>
 <div class="thesis-card">
 <h3>2. Iran Conflict — De-escalation in Progress</h3>
-<p>The US-Iran Hormuz blockade is <strong>technically still in effect</strong> as of May 1, 2026 — but diplomatic off-ramps are opening on both sides. The market is now pricing ~85% of formal US-Iran negotiations. WTI crude has pulled back from $104 to ~$97–98 on ceasefire hopes. SPY closed at $726.40 Tuesday — firmly in all-time-high territory — and the relief rally has fully reversed the initial blockade spike.</p>
+<p>The US-Iran Hormuz blockade is <strong>technically still in effect</strong> as of May 6, 2026 — but diplomatic off-ramps are opening on both sides. The market is now pricing ~85% of formal US-Iran negotiations. WTI crude has pulled back from $104 to ~$97–98 on ceasefire hopes. SPY closed at $726.40 Tuesday — firmly in all-time-high territory — and the relief rally has fully reversed the initial blockade spike.</p>
 <p>The Strait of Hormuz carries 20–25% of global daily oil supply, so any confirmed ceasefire would be a significant tailwind for equities and a headwind for energy prices.</p>
 <ul>
 <li>Diplomatic off-ramp: Trump says Iran wants to make a deal — market pricing ~85% of formal talks</li>
