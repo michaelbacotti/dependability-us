@@ -66,7 +66,19 @@ p:last-child { margin-bottom: 0; }
 
 .text-accent { color: var(--gold); }
 
-/* Header & Navigation — Navy/Gold Style */
+/* ============================================
+   Navbar — full-width navy header
+   ============================================ */
+#site-header {
+    background: var(--navy);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid var(--gold);
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
 header {
     background: var(--navy);
     position: sticky;
@@ -293,6 +305,64 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     text-align: center;
+}
+
+.spdji-stat-strip {
+    background: var(--navy-mid);
+    border-top: 1px solid rgba(62,207,142,0.15);
+    border-bottom: 1px solid rgba(62,207,142,0.15);
+    padding: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.spdji-stat-strip .container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0.85rem 1.5rem;
+    overflow-x: auto;
+}
+
+.spdji-stat-item {
+    display: inline-block;
+    text-align: center;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.spdji-stat-item .spdji-stat-value {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.2rem;
+}
+
+
+.spdji-stat-item .spdji-stat-label {
+    display: block;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.55);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+
+.spdji-stat-value.positive { color: #3ecf8e; }
+.spdji-stat-value.neutral  { color: #fff; }
+.spdji-stat-value.negative { color: #ff4444; }
+
+@media (max-width: 768px) {
+    .spdji-stat-strip .container {
+        flex-wrap: wrap;
+        gap: 1.25rem 2.5rem;
+        justify-content: center;
+        padding: 1rem 1.5rem;
+    }
 }
 
 .stat-item {
