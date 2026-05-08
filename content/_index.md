@@ -21,9 +21,29 @@ Free daily S&P 500 forecasts, VIX analysis, and options education — built for 
 <div>
 <a href="/dependability-forecast/" class="btn btn-primary">View Today's Forecast →</a>
 <a href="/educational-resources/" class="btn btn-secondary">Browse Our Research →</a>
+<a href="/educational-resources/" class="btn btn-secondary">Browse Our Research →</a>
+</div>
+<div class="hero-stats">
+  <div class="hero-stat">
+    <div class="hero-stat-value">—</div>
+    <div class="hero-stat-label">S&amp;P 500</div>
+  </div>
+  <div class="hero-stat">
+    <div class="hero-stat-value">—</div>
+    <div class="hero-stat-label">SPY</div>
+  </div>
+  <div class="hero-stat">
+    <div class="hero-stat-value">—</div>
+    <div class="hero-stat-label">VIX</div>
+  </div>
+  <div class="hero-stat">
+    <div class="hero-stat-value">—</div>
+    <div class="hero-stat-label">QQQ</div>
+  </div>
 </div>
 </div>
 </section>
+<!-- MARKET
 <!-- MARKET DATA STRIP -->
 <div>
 <span>📊 Market data updates daily before market open (4:15 PM ET) — see the full forecast for details.</span>
