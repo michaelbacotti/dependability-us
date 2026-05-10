@@ -1,7 +1,7 @@
 <nav id="site-nav" class="navbar" style="width:100%;background:var(--navy);border-bottom:2px solid var(--gold);">
   <div style="max-width:var(--max-width);margin:0 auto;">
-  <a href="{{ .Site.BaseURL }}" class="nav-brand" style="color:var(--white);text-decoration:none;font-family:var(--font-heading);font-size:1.2rem;font-weight:700;letter-spacing:.01em;">
-    {{ .Site.Params.brandName }} <span style="color:var(--gold);">{{ .Site.Params.brandAccent }}</span>
+  <a href="{{ .Site.BaseURL }}" class="nav-brand" style="color:var(--white);text-decoration:none;font-family:var(--font-heading);font-size:1.2rem;font-weight:700;letter-spacing:.01em;white-space:nowrap;">
+    {{ .Site.Params.brandName }}<span style="color:var(--gold);">{{ with .Site.Params.brandAccent }}&nbsp;{{ . }}{{ end }}</span>
   </a>
   <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle menu">
     <span></span><span></span><span></span>
