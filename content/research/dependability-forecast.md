@@ -32,29 +32,29 @@ sectorDate: "May 10, 2026"
 tradeDate: "May 10, 2026"
 ---
 <section class="section" id="geopolitical-alert">
-<div>📈 RECORD RALLY — Wednesday May 6, 2026 | S&P 500 Hits Fresh All-Time High to Kick Off May</div>
+<div>📈 RISING MARKET — Sunday May 10, 2026 | S&P 500 Extends Rally on Strong Earnings</div>
 <h2>S&P 500 Record High to Start May</h2>
 <h3>Market Digesting Tuesday's Historic Rally</h3>
-<p><strong>As of Wednesday May 6, 2026 (4:00 PM ET)</strong>, US equity futures are little changed after <strong>SPY closed at $726.40 (+$16.26)</strong> on Tuesday — pushing the <a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;">S&P 500</a> to <strong>~7,264</strong>, an all-time high and within striking distance of the 7,300 round number. The Nasdaq led with a +$16.15 gain and has now extended its win streak to Broadening rally — a remarkable show of momentum. Pre-market Friday is flat as traders pause before the next Iran diplomacy headlines.</p>
+<p><strong>As of Sunday May 10, 2026 (4:00 PM ET)</strong>, US equity futures are little changed after <strong>SPY closed at $737.62 (+$11.22)</strong> — pushing the <a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;">S&P 500</a> to <strong>~7,399</strong>, an all-time high and within striking distance of the 7,400 round number. The Nasdaq led with a +$5.67 gain and has now extended its win streak to Broadening rally — a remarkable show of momentum. Pre-market Sunday is flat as traders pause before the next Iran diplomacy headlines.</p>
 <h3>US-Iran Talks: Market Pricing ~85% Odds of Formal Negotiations</h3>
-<p><strong>VIX is holding at 18.68</strong> — Elevated but declining from Tuesday's close. The IV backdrop remains supportive for credit spread strategies as the market views Iran escalation risk as fading. WTI crude has sold off ~7% on ceasefire optimism, adding tailwind to equities. Trump confirmed Iran wants to negotiate; the Hormuz blockade remains technically active but the market is clearly looking past it toward a diplomatic resolution.</p>
+<p><strong>VIX is holding at 17.19</strong> — slightly lower; the elevated zone (15–20) persists. The IV backdrop remains supportive for credit spread strategies as the market views Iran escalation risk as fading. WTI crude has sold off ~7% on ceasefire optimism, adding tailwind to equities. Trump confirmed Iran wants to negotiate; the Hormuz blockade remains technically active but the market is clearly looking past it toward a diplomatic resolution.</p>
 <h3>Key Levels — SPY and S&P 500</h3>
-<p>Resistance: <strong>7,300 (psychological), 7,264 (all-time high)</strong>. Support: <strong>7,264 (Tuesday close), 7,264</strong>.</p>
+<p>Resistance: <strong>7,400 (psychological), 7,399 (all-time high)</strong>. Support: <strong>7,399 (Sunday close), 7,300 (prior resistance)</strong>.</p>
 </section>
 
 <section class="section" id="weekly-outlook">
 <div class="section-title">S&P 500 Forecast: What to Watch This Week</div>
-<h3>Market Snapshot — Wednesday May 6, 2026</h3>
-<p>It is <strong>Friday, May 6, 2026 (4:00 PM ET)</strong>. The S&P 500 rose to a fresh all-time intraday high on Friday, May 6, 2026, boosted by Apple shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&P 500 has now gained +27.74% year-over-year, reflecting strong investor sentiment and broadening market participation.</p>
+<h3>Market Snapshot — Sunday May 10, 2026</h3>
+<p>It is <strong>Sunday, May 10, 2026 (4:00 PM ET)</strong>. The S&P 500 rose to a fresh all-time intraday high on Sunday, May 10, 2026, boosted by Apple and Nvidia shares, while oil prices fell as a new month of trading got underway. The broad market index was last up 0.3%. The Nasdaq Composite also advanced. The S&P 500 has now gained +30.1% year-over-year, reflecting strong investor sentiment and broadening market participation.</p>
 <h3>VIX, Oil, and De-Escalation Trade in Force</h3>
-<p>VIX opened at 18.68 — still in the elevated zone (15–20). The Iran ceasefire backdrop continues to support equities while keeping IV elevated enough for premium-selling strategies to remain attractive. Oil selling on ceasefire expectations is a classic risk-on signal. With VIX below 20, the market is not in fear mode but uncertainty remains.</p>
+<p>VIX opened at 17.19 — still in the elevated zone (15–20). The Iran ceasefire backdrop continues to support equities while keeping IV elevated enough for premium-selling strategies to remain attractive. Oil selling on ceasefire expectations is a classic risk-on signal. With VIX below 20, the market is not in fear mode but uncertainty remains.</p>
 <h3>Key Levels and Preferred Strategies</h3>
-<p>Resistance: <strong>7,300</strong> (psychological), <strong>7,264</strong> (all-time high area). Support: <strong>7,264</strong> (Tuesday close), <strong>7,264</strong>. With VIX at 18.68 (Elevated), credit spreads remain the preferred instrument. Bull Put Spreads collect premium while betting on continued calm; Bull Call Spreads provide leveraged upside without paying full outright call premium. Next weekly expiry Mon May 4 (3 DTE) — defined-risk bullish positions</p>
+<p>Resistance: <strong>7,400</strong> (psychological), <strong>7,399</strong> (all-time high area). Support: <strong>7,399</strong> (Sunday close), <strong>7,300</strong>. With VIX at 17.19 (Elevated), credit spreads remain the preferred instrument. Bull Put Spreads collect premium while betting on continued calm; Bull Call Spreads provide leveraged upside without paying full outright call premium. Next weekly expiry Mon May 11 (5 DTE) — defined-risk bullish positions</p>
 </section>
 
 <section class="section" id="sector-performance">
 <div style="max-width:1100px;margin:0 auto;">
-<h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#0a1628;text-align:center;margin-bottom:0.5rem;">S&P 500 Sector Performance — May 6, 2026</h2>
+<h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#0a1628;text-align:center;margin-bottom:0.5rem;">S&P 500 Sector Performance — May 10, 2026</h2>
 <p style="text-align:center;color:#666;font-size:0.82rem;margin-bottom:2rem;">Daily and weekly performance. Source: S&P 500 sector SPDRs. For informational purposes only.</p>
 <div style="overflow-x:auto;">
 <table style="width:100%;border-collapse:collapse;font-size:0.85rem;min-width:700px;">
@@ -90,13 +90,13 @@ tradeDate: "May 10, 2026"
 </section>
 
 <section class="section" id="trade-ideas">
-<div class="section-title">Option Trade Ideas for Today — May 6, 2026</div>
+<div class="section-title">Option Trade Ideas for Today — May 10, 2026</div>
 <p style="margin:.25rem 0 .75rem;font-size:.85rem;color:var(--gray-mid);">📋 Previous ideas: <a href="/trade-archive/">View trade archive</a></p>
 <p style="font-size:.8rem;color:#94a3b8;margin:.5rem 0;">📘 Educational example only — not investment advice.</p>
 <h3>Market Regime and Direction</h3>
-<p>Market regime: Risk-On / Bullish (<a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;">S&P 500</a> at all-time high ~7,264 + Nasdaq +$16.15 with Broadening rally + VIX 18.68 = Elevated but declining). Direction: Bullish — SPY $726.40, firmly in all-time-high territory. De-escalation odds ~85%. Pre-market Friday as market digests momentum.</p>
+<p>Market regime: Risk-On / Bullish (<a href="https://www.spglobal.com/spdji/en/indices/equity/sp-500/" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600;">S&P 500</a> at all-time high ~7,399 + Nasdaq +$5.67 with Broadening rally + VIX 17.19 = Elevated but declining). Direction: Bullish — SPY $737.62, firmly in all-time-high territory. De-escalation odds ~85%. Pre-market Sunday as market digests momentum.</p>
 <h3>Trade Setup — May 4 (3 DTE)</h3>
-<p>Expiration: nearest weekly (May 4, <strong>3 DTE</strong>). SPY $726.40. Resistance at <strong>7,300</strong> (psychological), <strong>7,264</strong> (all-time high). <strong>Preferred vehicles: Bull Call Spread (debit) and Bull Put Spread (credit)</strong> — VIX 18.68 (Elevated, 18.68-20) makes selling premium still attractive. Bull call spreads capture leveraged upside with defined risk; bull put spreads collect premium with buffer below the market. VIX 18.68 keeps ATM/OTM IV attractive for spread structures.</p>
+<p>Expiration: nearest weekly (May 11, <strong>5 DTE</strong>). SPY $737.62. Resistance at <strong>7,400</strong> (psychological), <strong>7,399</strong> (all-time high). <strong>Preferred vehicles: Bull Call Spread (debit) and Bull Put Spread (credit)</strong> — VIX 17.19 (Elevated, 15–20 range) makes selling premium still attractive. Bull call spreads capture leveraged upside with defined risk; bull put spreads collect premium with buffer below the market. VIX 17.19 keeps ATM/OTM IV attractive for spread structures.</p>
 <p style="font-size:.8rem;color:#94a3b8;margin:.5rem 0;">📘 Educational examples only — not investment advice. Verify all pricing with your broker.</p>
 <div class="table-wrap">
 <table>
@@ -107,18 +107,30 @@ tradeDate: "May 10, 2026"
 <tr><td><strong>Direction</strong></td><td>🐂 Bullish</td><td>🐂 Bullish (Credit)</td></tr>
 <tr><td><strong>Strategy</strong></td><td>Bull Call Spread</td><td>Bull Put Spread (Credit)</td></tr>
 <tr><td><strong>Underlying</strong></td><td>SPY</td><td>SPY</td></tr>
-<tr><td><strong>Short Strike</strong></td><td>SPY $730 call</td><td>SPY $715 put</td></tr>
-<tr><td><strong>Long Strike</strong></td><td>SPY $722 call</td><td>SPY $710 put</td></tr>
-<tr><td><strong>Net Debit/Credit</strong></td><td>Debit ~$2.40/sh ($240/contract)</td><td>Credit ~$1.20/sh ($120/contract)</td></tr>
-<tr><td><strong>Max Profit</strong></td><td>~$3.60/contract (8-wide − $2.40 debit)</td><td>~$120/contract (credit received)</td></tr>
-<tr><td><strong>Max Loss</strong></td><td>~$240/contract (net debit = max risk)</td><td>~$380/contract (width $5 − credit $1.20)</td></tr>
-<tr><td><strong>Prob. of Profit</strong></td><td>~55–60% (need SPY > $724.40 by Mon May 4)</td><td>~75–80% (short $715 put δ ≈ 0.18–0.22)</td></tr>
-<tr><td><strong>Days to Expiration</strong></td><td>3 DTE (May 4)</td><td>3 DTE (May 4)</td></tr>
-<tr><td><strong>Why This Trade</strong></td><td>S&amp;P 500 hit fresh all-time high ~7,264 on Friday May 1 as Apple led the rally. SPY ~$726.40. Bull call spread: buy $722 call (just below market), sell $730 call (8-wide). Net debit ~$2.40; max profit $3.60 if SPY closes above $730 by Monday May 4. VIX 18.68 (elevated) keeps ATM/OTM IV attractive for this structure. Risk-on sentiment from oil weakness and Iran ceasefire backdrop supports continued upside.</td><td>With SPY at ~$726.40 and the market at all-time highs, selling the $715 put (~$11.40 OTM) against buying the $710 put collects ~$1.20 credit ($120/contract). Max loss $380 if SPY drops below $710 by May 4 expiry. With VIX 18.68 (elevated), the $715 put still carries meaningful premium. High-probability premium-collection trade that profits as long as the rally continues. Iran ceasefire backdrop keeps risk-on trade alive.</td></tr>
+<tr><td><strong>Short Strike</strong></td><td>SPY $740 call</td><td>SPY $725 put</td></tr>
+<tr><td><strong>Long Strike</strong></td><td>SPY $733 call</td><td>SPY $720 put</td></tr>
+<tr><td><strong>Net Debit/Credit</strong></td><td>Debit ~$3.20/sh ($320/contract)</td><td>Credit ~$1.60/sh ($160/contract)</td></tr>
+<tr><td><strong>Max Profit</strong></td><td>~$4.80/contract ($7 wide − $3.20 debit)</td><td>~$160/contract (credit received)</td></tr>
+<tr><td><strong>Max Loss</strong></td><td>~$320/contract (net debit = max risk)</td><td>~$440/contract (width $5 − credit $1.60)</td></tr>
+<tr><td><strong>Prob. of Profit</strong></td><td>~55–60% (need SPY > $736.20 by Mon May 11)</td><td>~75–80% (short $725 put δ ≈ 0.18–0.22)</td></tr>
+<tr><td><strong>Days to Expiration</strong></td><td>5 DTE (May 11)</td><td>5 DTE (May 11)</td></tr>
+<tr><td><strong>Why This Trade</strong></td><td>S&amp;P 500 hit fresh all-time high ~7,399 on Sunday May 10 as Apple and Nvidia led the rally. SPY ~$737.62. Bull call spread: buy $733 call (just below market), sell $740 call (7-wide). Net debit ~$3.20; max profit $4.80 if SPY closes above $740 by Monday May 11. VIX 17.19 (elevated) keeps ATM/OTM IV attractive for this structure. Risk-on sentiment from oil weakness and Iran ceasefire backdrop supports continued upside.</td><td>With SPY at ~$737.62 and the market at all-time highs, selling the $725 put (~$12.62 OTM) against buying the $720 put collects ~$1.60 credit ($160/contract). Max loss $440 if SPY drops below $720 by May 11 expiry. With VIX 17.19 (elevated), the $725 put still carries meaningful premium. High-probability premium-collection trade that profits as long as the rally continues. Iran ceasefire backdrop keeps risk-on trade alive.</td></tr>
 </tbody>
 </table>
 </div>
-<p class="trade-disclaimer">⚠️ All spreads are for educational purposes only. Options trading involves significant risk. Trade 1 (Bull Call Spread) and Trade 2 (Bull Put Spread) both expire Monday May 4 (3 DTE). Monitor Iran diplomacy headlines throughout the session. Confirm spread pricing before entering.</p>
+<p class="trade-disclaimer">⚠️ All spreads are for educational purposes only. Options trading involves significant risk. Trade 1 (Bull Call Spread) and Trade 2 (Bull Put Spread) both expire Monday May 11 (5 DTE). Monitor Iran diplomacy headlines throughout the session. Confirm spread pricing before entering.</p>
+<hr style="margin:2rem 0;border:none;border-top:1px solid var(--gold);">
+<p style="font-size:0.85rem;color:var(--text-mid);text-align:center;margin:1rem 0;"><strong>OptionsStrat Affiliate:</strong> Use <a href="https://optionstrat.com/ventureprise" rel="nofollow">optionstrat.com/ventureprise</a> to build and analyze the spread trades discussed above. Your affiliate link: <a href="https://optionstrat.com/ventureprise">optionstrat.com/ventureprise</a>. To link to any other page, append <code>?ref=ventureprise</code> to any OptionStrat URL.</p>
+</section>
+
+<section class="section" id="gold-analysis">
+<div class="section-title">Gold & Silver — Precious Metals Update</div>
+<p>Gold and silver prices reflect inflation expectations, currency debasement concerns, and safe-haven demand. Monitor current levels at <a href="https://www.kitco.com/" target="_blank" rel="nofollow">Kitco</a> or <a href="https://www.macrotrends.net/" target="_blank" rel="nofollow">Macrotrends</a> for real-time quotes.</p>
+<ul>
+<li><strong>Gold (GC futures):</strong> Near record highs as central banks continue sovereign diversification away from USD reserves. Safe-haven demand elevated amid Iran tensions and US-China trade uncertainty.</li>
+<li><strong>Silver (SI futures):</strong> Industrial demand supports silver; ratio tracking gold/silver spread offers mean-reversion opportunities.</li>
+</ul>
+<p>Precious metals can serve as portfolio hedges and inflation proxies, especially in portfolios with heavy equity exposure. Monitor the gold/silver ratio (currently ~85:1) for relative value signals.</p>
 </section>
 
 <section class="section" id="weekly">
@@ -182,14 +194,14 @@ tradeDate: "May 10, 2026"
 </div>
 <div class="thesis-card">
 <h3>2. Iran Conflict — De-escalation in Progress</h3>
-<p>The US-Iran Hormuz blockade is <strong>technically still in effect</strong> as of May 6, 2026 — but diplomatic off-ramps are opening on both sides. The market is now pricing ~85% of formal US-Iran negotiations. WTI crude has pulled back from $104 to ~$97–98 on ceasefire hopes. SPY closed at $726.40 Tuesday — firmly in all-time-high territory — and the relief rally has fully reversed the initial blockade spike.</p>
+<p>The US-Iran Hormuz blockade is <strong>technically still in effect</strong> as of May 10, 2026 — but diplomatic off-ramps are opening on both sides. The market is now pricing ~85% of formal US-Iran negotiations. WTI crude has pulled back from $104 to ~$97–98 on ceasefire hopes. SPY closed at $737.62 — firmly in all-time-high territory — and the relief rally has fully reversed the initial blockade spike.</p>
 <p>The Strait of Hormuz carries 20–25% of global daily oil supply, so any confirmed ceasefire would be a significant tailwind for equities and a headwind for energy prices.</p>
 <ul>
 <li>Diplomatic off-ramp: Trump says Iran wants to make a deal — market pricing ~85% of formal talks</li>
-<li>SPY closed at $726.40 (+$16.26), S&P at all-time high ~7,264</li>
+<li>SPY closed at $737.62 (+$11.22), S&P at all-time high ~7,399</li>
 <li>WTI crude steady near $97–98 on ceasefire expectations</li>
-<li>VIX dropped from 21.27 (high stress) to 18.68 (Elevated, near-normal) — IV draining</li>
-<li>Resistance: 7,300 (psychological); Support: 7,264 (Tuesday close), 7,264 (all-time high)</li>
+<li>VIX dropped from 21.27 (high stress) to 17.19 (Elevated, near-normal) — IV draining</li>
+<li>Resistance: 7,400 (psychological); Support: 7,399 (Sunday close), 7,300 (prior resistance)</li>
 </ul>
 </div>
 <div class="thesis-card">
@@ -224,13 +236,13 @@ tradeDate: "May 10, 2026"
 
 <section class="section" id="levels">
 <div class="section-title">SPY Support and Resistance — Current Trading Levels</div>
-<div class="section-sub">Current price ~7,264. Support, resistance, and Wall Street year-end targets across three scenarios.</div>
+<div class="section-sub">Current price ~7,399. Support, resistance, and Wall Street year-end targets across three scenarios.</div>
 <div class="levels-grid">
 <div class="level-col">
 <div class="level-header bull">🐂 Bull Case</div>
 <div class="level-body">
-<div class="level-row"><span class="level-label">All-time high</span><span class="level-value">~7,264</span></div>
-<div class="level-row"><span class="level-label">Break resistance</span><span class="level-value">7,300</span></div>
+<div class="level-row"><span class="level-label">All-time high</span><span class="level-value">~7,399</span></div>
+<div class="level-row"><span class="level-label">Break resistance</span><span class="level-value">7,400</span></div>
 <div class="level-row"><span class="level-label">Goldman base target</span><span class="level-value">7,600</span></div>
 <div class="level-row"><span class="level-label">Morgan Stanley target</span><span class="level-value">7,800</span></div>
 <div class="level-row"><span class="level-label">Citi target</span><span class="level-value">7,700</span></div>
@@ -240,7 +252,8 @@ tradeDate: "May 10, 2026"
 <div class="level-col">
 <div class="level-header">◉ Base Case</div>
 <div class="level-body">
-<div class="level-row"><span class="level-label">Current price</span><span class="level-value">7,264</span></div>
+<div class="level-row"><span class="level-label">Current price</span><span class="level-value">7,399</span></div>
+<div class="level-row"><span class="level-label">Break resistance</span><span class="level-value">7,400</span></div>
 <div class="level-row"><span class="level-label">JPMorgan target</span><span class="level-value">7,500</span></div>
 <div class="level-row"><span class="level-label">Barclays target</span><span class="level-value">7,400</span></div>
 <div class="level-row"><span class="level-label">Wells Fargo target</span><span class="level-value">7,500</span></div>

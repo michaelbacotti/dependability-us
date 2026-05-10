@@ -32,9 +32,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [[params.navLinks]]
   name = "Learn"
   url   = "/options-hub/"
-[[params.navLinks]]
-  name = "OptionsStrat"
-  url   = "https://optionstrat.com/ventureprise?ref=ventureprise"
+
 [[params.navLinks]]
   name = "Forecast"
   url   = "/dependability-forecast/"
