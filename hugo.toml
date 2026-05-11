@@ -13,7 +13,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   siteName = 'Dependability Holdings LLC'
-  brandName = 'Dependability Holdings'
+  brandName = 'Dependability'
   brandAccent = ''
   adSenseAccount = 'ca-pub-9312870448453345'
   analyticsID = 'G-CR7TV6QRSN'
