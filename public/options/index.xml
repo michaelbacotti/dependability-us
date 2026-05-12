@@ -1,152 +1,168 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Options on Dependability Holdings LLC</title>
-    <link>https://www.dependability.us/options/</link>
-    <description>Recent content in Options on Dependability Holdings LLC</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.dependability.us/options/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Advanced Options Strategies | Dependability Holdings</title>
-      <link>https://www.dependability.us/options-advanced/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/options-advanced/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Option &lt;em&gt;Spreads&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;A detailed guide to multi-leg options strategies — when to use them, how they work, and how to choose the right structure for your market view.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is an Option Spread?&lt;/h2&gt;&#xA;&lt;p&gt;A spread is a multi-leg options strategy that combines two or more option contracts to precisely express a market view while defining your maximum risk from the outset. Rather than buying a naked call or put and fighting time decay, spreads let you offset the cost of one leg by selling another — turning the clock from enemy to ally on the sold side.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cash Secured Puts Strategy | Dependability Holdings</title>
-      <link>https://www.dependability.us/cash-secured-puts/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/cash-secured-puts/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Cash-Secured &lt;em&gt;Puts&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;Using put options to buy quality stocks at a discount — with a safety net.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;How Cash-Secured Puts Work&lt;/h2&gt;&#xA;&lt;p&gt;A cash-secured put is a sold put option where you set aside enough cash to buy the underlying stock at the strike price if assigned. You collect a premium in exchange for agreeing to buy the stock at the strike price — regardless of where the market price is — if the put buyer chooses to exercise.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cash vs. Bonds in a High Rate Environment | Dependability Holdings</title>
-      <link>https://www.dependability.us/cash-vs-bonds-high-rate-environment/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/cash-vs-bonds-high-rate-environment/</guid>
-      <description>&lt;!-- ARTICLE HEADER --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;h1&gt;Cash vs Bonds vs Stocks in a High Interest Rate Environment&lt;/h1&gt;&#xA;&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Asset Allocation &amp;nbsp;|&amp;nbsp; 9 min read&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;!-- ARTICLE BODY --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;For most of the 2010s, cash was a four-letter word. Yields were near zero. The conventional wisdom was to stay fully invested regardless of your time horizon. That calculus has changed dramatically — and investors who don&#39;t rethink their cash positioning are leaving real money on the table.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Covered Calls Explained | Dependability Holdings</title>
-      <link>https://www.dependability.us/covered-calls-explained/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/covered-calls-explained/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Options Strategy&lt;/div&gt;&#xA;&lt;h1&gt;Covered Calls Explained: &lt;em&gt;Generating Income&lt;/em&gt; in Sideways Markets&lt;/h1&gt;&#xA;&lt;p &gt;How to sell calls against stock you own — and when this popular income strategy makes sense (and when it doesn&#39;t).&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is a Covered Call?&lt;/h2&gt;&#xA;&lt;p&gt;A covered call is an options strategy in which you sell a call option on a stock you already own. Because you already hold the 100 shares that would be required to fulfill the call if it gets exercised, your risk is &#34;covered&#34; — you won&#39;t be forced to buy shares at the market price to deliver them. You&#39;re selling someone else the right to buy your shares at a predetermined strike price before expiration.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Covered Calls Strategy Guide | Dependability Holdings</title>
-      <link>https://www.dependability.us/covered-calls-guide/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/covered-calls-guide/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Covered Calls &lt;em&gt;Guide&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;A practical guide to generating income from stocks you already own.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is a Covered Call?&lt;/h2&gt;&#xA;&lt;p&gt;A covered call is an options strategy where you sell a call option against stock you already own. Because you hold the underlying shares, you are &#34;covered&#34; — if the call is assigned, you can deliver those shares without having to buy them on the open market. In exchange for granting someone the right to buy your shares at a set price (the strike price), you collect a premium upfront.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Iron Condor Risk/Reward | Dependability Holdings</title>
-      <link>https://www.dependability.us/iron-condor-risk-reward/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/iron-condor-risk-reward/</guid>
-      <description>&lt;!-- ARTICLE HEADER --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;h1&gt;Iron Condor Risk/Reward: The Math Behind the Popular Income Trade&lt;/h1&gt;&#xA;&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Options Strategies &amp;nbsp;|&amp;nbsp; 9 min read&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;!-- ARTICLE BODY --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;The iron condor is one of the most popular options income strategies for good reason: when the market cooperates, it produces consistent premium with defined, limited risk. But it&#39;s also widely misunderstood. Before entering your first condor, you need to understand the math — not just the pitch.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Iron Condor vs. Iron Butterfly | Dependability Holdings</title>
-      <link>https://www.dependability.us/iron-condor-vs-iron-butterfly/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/iron-condor-vs-iron-butterfly/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Strategy Comparison&lt;/div&gt;&#xA;&lt;h1&gt;Iron Condor vs. &lt;em&gt;Iron Butterfly&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;Both start with &#34;iron,&#34; both have wings, and both are popular income strategies. But the differences between them matter more than the similarities.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;article &gt;&#xA;&lt;p&gt;Iron condors and iron butterflies are both multi-leg options strategies that involve selling premium and defining risk with long options as protection. Because they share the word &#34;iron&#34; and both use four legs, traders sometimes treat them interchangeably. They shouldn&#39;t. The structural differences between them create meaningfully different risk/reward profiles, and understanding when to use each is a skill that separates advanced traders from beginners.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Iron Condors Explained | Dependability Holdings</title>
-      <link>https://www.dependability.us/iron-condors-explained/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/iron-condors-explained/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Iron Condors &lt;em&gt;Explained&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;A defined-risk strategy for earning income in sideways markets.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is an Iron Condor?&lt;/h2&gt;&#xA;&lt;p&gt;An iron condor is a multi-leg options strategy built from two put spreads and two call spreads. You sell an OTM call spread above the current stock price and an OTM put spread below it, collecting premium on both sides. The result is a position that profits when the stock stays within a defined range — the &#34;condor wings&#34; — and loses when it breaks out in either direction.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IV Crush Explained | Dependability Holdings</title>
-      <link>https://www.dependability.us/iv-crush-explained/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/iv-crush-explained/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;&#xA;&lt;span class=&#34;hero-badge&#34;&gt;IV Intelligence&lt;/span&gt;&#xA;&lt;h1&gt;IV Crush — Why Options Get Cheaper After Earnings&lt;/h1&gt;&#xA;&lt;p&gt;You bought a call before earnings. The stock went up. You still lost money. Here&#39;s why — and how to use it to your advantage.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/header&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;article &gt;&#xA;&lt;p&gt;It&#39;s one of the most frustrating experiences in options trading: you bought a call right before earnings, the stock moved exactly the direction you expected — and you still lost money. The stock went up 3% and your option barely budged. What happened?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Options Basics: Calls, Puts, Strikes, and Expiration | Dependability Holdings</title>
-      <link>https://www.dependability.us/options-basics/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/options-basics/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Options Trading &lt;em&gt;Basics&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;A clear-eyed introduction to calls, puts, and the essential vocabulary of options trading.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is an Option?&lt;/h2&gt;&#xA;&lt;p&gt;An option is a contract that gives you the right — but not the obligation — to buy or sell a specific asset at a predetermined price on or before a specific date. Unlike owning shares outright, options are derivative instruments whose value is derived from an underlying asset such as a stock, index, or ETF.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Options Greeks Explained: Delta, Gamma, Theta, Vega | Dependability Holdings</title>
-      <link>https://www.dependability.us/options-greeks-explained/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/options-greeks-explained/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Trading Education&lt;/div&gt;&#xA;&lt;h1&gt;Options &lt;em&gt;Greeks&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;Delta, gamma, theta, and vega — the four numbers that tell you how your options position will behave as the market moves.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;article &gt;&#xA;&lt;p&gt;Options prices don&#39;t move in a straight line with the underlying stock. They respond to time, volatility, interest rates, and the relationship between the current price and the strike. To understand how a position will behave — before you enter and after you&#39;re in it — you need to understand the &lt;strong&gt;Greeks&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Options Trading for Beginners | Dependability Holdings</title>
-      <link>https://www.dependability.us/options-for-beginners/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/options-for-beginners/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Options Trading for Beginners — &lt;em&gt;Your Complete Guide&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;Start from zero. By the end of this page, you&#39;ll understand what options are, how they work, and what it actually means to buy a call or a put — with real numbers you can check yourself.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;!-- SECTION 1: What Is an Option? --&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is an Option?&lt;/h2&gt;&#xA;&lt;p&gt;An option is a contract that gives you the right — but not the obligation — to buy or sell a stock at a specific price on or before a specific date. You pay a premium upfront, just like a deposit on a house. That deposit buys you the &lt;em&gt;choice&lt;/em&gt; to follow through, but you&#39;re never forced to.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Options Trading Strategies Hub | Dependability Holdings</title>
-      <link>https://www.dependability.us/options-hub/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/options-hub/</guid>
-      <description>&lt;section class=&#34;page-hero&#34;&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;Research Hub&lt;/p&gt;&#xA;&lt;h1&gt;Options Trading Strategies Hub&lt;/h1&gt;&#xA;&lt;p class=&#34;page-hero-sub&#34;&gt;Options provide flexibility, leverage, and income opportunities that buying stocks alone cannot. This hub covers the core strategies every self-directed investor should understand.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;features-section&#34;&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;div class=&#34;features-grid&#34;&gt;&#xA;&lt;div class=&#34;feature-card&#34;&gt;&#xA;&lt;div class=&#34;feature-icon&#34;&gt;📘&lt;/div&gt;&#xA;&lt;h3&gt;Options Basics&lt;/h3&gt;&#xA;&lt;p&gt;Before trading options, understand the building blocks. A call gives you the right to buy at the strike price; a put gives you the right to sell. Expiration dates, strike prices, and intrinsic vs. extrinsic value are the vocabulary of options trading.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Portfolio Construction Hub | Dependability Holdings</title>
-      <link>https://www.dependability.us/portfolio-hub/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/portfolio-hub/</guid>
-      <description>&lt;section class=&#34;page-hero&#34;&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;Research Hub&lt;/p&gt;&#xA;&lt;h1&gt;Portfolio Construction Hub&lt;/h1&gt;&#xA;&lt;p class=&#34;page-hero-sub&#34;&gt;Building a resilient portfolio means understanding how stocks, bonds, and alternatives fit together — and how options can improve the picture.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;features-section&#34;&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;div class=&#34;features-grid&#34;&gt;&#xA;&lt;div class=&#34;feature-card&#34;&gt;&#xA;&lt;div class=&#34;feature-icon&#34;&gt;🗂️&lt;/div&gt;&#xA;&lt;h3&gt;Diversification Basics — Why It Matters&lt;/h3&gt;&#xA;&lt;p&gt;Diversification doesn&#39;t guarantee profits — it limits the damage any single event can inflict on your portfolio. A mix of asset classes (stocks, bonds, alternatives) that don&#39;t move in perfect lockstep reduces overall volatility. The goal is a smoother ride: not maximizing peak returns, but surviving drawdowns well enough to stay invested.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Portfolio Hedging With Options | Dependability Holdings</title>
-      <link>https://www.dependability.us/portfolio-hedging-with-options/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/portfolio-hedging-with-options/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Risk Management&lt;/div&gt;&#xA;&lt;h1&gt;How to Hedge Your Portfolio &lt;em&gt;With Options&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;From protective puts to collars — a practical guide to using options as portfolio insurance.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;Why Hedge Your Portfolio?&lt;/h2&gt;&#xA;&lt;p&gt;Markets don&#39;t move in straight lines. Sharp drawdowns — triggered by economic data, geopolitical shocks, Fed policy surprises, or pure sentiment reversals — can erase months or years of gains in days. For investors approaching major financial goals (retirement, a home purchase, education funding), a single catastrophic drawdown can be life-altering.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Position Sizing Rules | Dependability Holdings</title>
-      <link>https://www.dependability.us/position-sizing-rules/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/position-sizing-rules/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Protective Put Strategy | Dependability Holdings</title>
-      <link>https://www.dependability.us/protective-put-strategy/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/protective-put-strategy/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Options Strategy&lt;/div&gt;&#xA;&lt;h1&gt;The Protective Put Strategy: &lt;em&gt;Insurance&lt;/em&gt; for Your Stock Positions&lt;/h1&gt;&#xA;&lt;p &gt;How buying puts gives your portfolio a floor — and why it&#39;s the closest thing to insurance the market offers.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is a Protective Put?&lt;/h2&gt;&#xA;&lt;p&gt;A protective put is one of the simplest and most intuitive options strategies: you buy a put option on a stock (or index) you already own. That&#39;s it. The put gives you the right to sell your shares at the strike price before expiration. You&#39;re purchasing downside insurance — paying a premium today to protect against a catastrophic loss tomorrow.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Put Credit Spread vs. Debit Spread | Dependability Holdings</title>
-      <link>https://www.dependability.us/put-credit-spread-vs-debit-spread/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/put-credit-spread-vs-debit-spread/</guid>
-      <description>&lt;!-- ARTICLE HEADER --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;h1&gt;Put Credit Spread vs Debit Spread: Which Is the Better Trade?&lt;/h1&gt;&#xA;&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Options Strategies &amp;nbsp;|&amp;nbsp; 9 min read&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;!-- ARTICLE BODY --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;Both are defined-risk spreads. Both are more capital-efficient than buying naked options. But put credit spreads and debit spreads are mirror images of each other in almost every meaningful respect — and understanding which to use and when is a fundamental options trading skill.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SPY Weekly Options Strategy | Dependability Holdings</title>
-      <link>https://www.dependability.us/spy-weekly-options-strategy/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/spy-weekly-options-strategy/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Trading Education&lt;/div&gt;&#xA;&lt;h1&gt;SPY &lt;em&gt;Weekly&lt;/em&gt; Options&lt;/h1&gt;&#xA;&lt;p &gt;0DTE and weekly SPY options have fundamentally different characteristics than monthly expirations — and treating them the same is a mistake.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;article &gt;&#xA;&lt;p&gt;The rise of 0DTE (zero days to expiration) options on SPY has fundamentally changed the options landscape. What began as an institutional tool for hedging is now one of the most actively traded products in the market. Understanding how weekly and monthly options behave differently is essential before you allocate capital to either.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Wheel Strategy | Dependability Holdings</title>
-      <link>https://www.dependability.us/wheel-strategy/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/wheel-strategy/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Options Strategy&lt;/div&gt;&#xA;&lt;h1&gt;The Wheel &lt;em&gt;Strategy&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;Sell puts, get assigned, sell calls, repeat — a disciplined framework for generating consistent income from options markets.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;What Is the Wheel Strategy?&lt;/h2&gt;&#xA;&lt;p&gt;The Wheel Strategy — sometimes called &#34;The Wheel&#34; or &#34;The Triple Income Strategy&#34; — is a systematic options approach built on three interlocking principles: &lt;strong&gt;selling cash-secured puts&lt;/strong&gt; to generate premium, &lt;strong&gt;accepting assignment&lt;/strong&gt; when the underlying is put to you at a price you wanted to own it anyway, and &lt;strong&gt;selling covered calls&lt;/strong&gt; against the assigned shares to generate additional income while waiting for an exit. Repeat indefinitely.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Options on Dependability Holdings LLC</title><link>https://www.dependability.us/options/</link><description>Recent content in Options on Dependability Holdings LLC</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dependability.us/options/index.xml" rel="self" type="application/rss+xml"/><item><title>Advanced Options Strategies | Dependability Holdings</title><link>https://www.dependability.us/options-advanced/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/options-advanced/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Option &lt;em&gt;Spreads&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;A detailed guide to multi-leg options strategies — when to use them, how they work, and how to choose the right structure for your market view.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is an Option Spread?&lt;/h2&gt;
+&lt;p&gt;A spread is a multi-leg options strategy that combines two or more option contracts to precisely express a market view while defining your maximum risk from the outset. Rather than buying a naked call or put and fighting time decay, spreads let you offset the cost of one leg by selling another — turning the clock from enemy to ally on the sold side.&lt;/p&gt;</description></item><item><title>Cash Secured Puts Strategy | Dependability Holdings</title><link>https://www.dependability.us/cash-secured-puts/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/cash-secured-puts/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Cash-Secured &lt;em&gt;Puts&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;Using put options to buy quality stocks at a discount — with a safety net.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;How Cash-Secured Puts Work&lt;/h2&gt;
+&lt;p&gt;A cash-secured put is a sold put option where you set aside enough cash to buy the underlying stock at the strike price if assigned. You collect a premium in exchange for agreeing to buy the stock at the strike price — regardless of where the market price is — if the put buyer chooses to exercise.&lt;/p&gt;</description></item><item><title>Cash vs. Bonds in a High Rate Environment | Dependability Holdings</title><link>https://www.dependability.us/cash-vs-bonds-high-rate-environment/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/cash-vs-bonds-high-rate-environment/</guid><description>&lt;!-- ARTICLE HEADER --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Cash vs Bonds vs Stocks in a High Interest Rate Environment&lt;/h1&gt;
+&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Asset Allocation &amp;nbsp;|&amp;nbsp; 9 min read&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- ARTICLE BODY --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;p&gt;For most of the 2010s, cash was a four-letter word. Yields were near zero. The conventional wisdom was to stay fully invested regardless of your time horizon. That calculus has changed dramatically — and investors who don't rethink their cash positioning are leaving real money on the table.&lt;/p&gt;</description></item><item><title>Covered Calls Explained | Dependability Holdings</title><link>https://www.dependability.us/covered-calls-explained/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/covered-calls-explained/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Options Strategy&lt;/div&gt;
+&lt;h1&gt;Covered Calls Explained: &lt;em&gt;Generating Income&lt;/em&gt; in Sideways Markets&lt;/h1&gt;
+&lt;p &gt;How to sell calls against stock you own — and when this popular income strategy makes sense (and when it doesn't).&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is a Covered Call?&lt;/h2&gt;
+&lt;p&gt;A covered call is an options strategy in which you sell a call option on a stock you already own. Because you already hold the 100 shares that would be required to fulfill the call if it gets exercised, your risk is "covered" — you won't be forced to buy shares at the market price to deliver them. You're selling someone else the right to buy your shares at a predetermined strike price before expiration.&lt;/p&gt;</description></item><item><title>Covered Calls Strategy Guide | Dependability Holdings</title><link>https://www.dependability.us/covered-calls-guide/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/covered-calls-guide/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Covered Calls &lt;em&gt;Guide&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;A practical guide to generating income from stocks you already own.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is a Covered Call?&lt;/h2&gt;
+&lt;p&gt;A covered call is an options strategy where you sell a call option against stock you already own. Because you hold the underlying shares, you are "covered" — if the call is assigned, you can deliver those shares without having to buy them on the open market. In exchange for granting someone the right to buy your shares at a set price (the strike price), you collect a premium upfront.&lt;/p&gt;</description></item><item><title>Iron Condor Risk/Reward | Dependability Holdings</title><link>https://www.dependability.us/iron-condor-risk-reward/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/iron-condor-risk-reward/</guid><description>&lt;!-- ARTICLE HEADER --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Iron Condor Risk/Reward: The Math Behind the Popular Income Trade&lt;/h1&gt;
+&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Options Strategies &amp;nbsp;|&amp;nbsp; 9 min read&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- ARTICLE BODY --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;p&gt;The iron condor is one of the most popular options income strategies for good reason: when the market cooperates, it produces consistent premium with defined, limited risk. But it's also widely misunderstood. Before entering your first condor, you need to understand the math — not just the pitch.&lt;/p&gt;</description></item><item><title>Iron Condor vs. Iron Butterfly | Dependability Holdings</title><link>https://www.dependability.us/iron-condor-vs-iron-butterfly/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/iron-condor-vs-iron-butterfly/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Strategy Comparison&lt;/div&gt;
+&lt;h1&gt;Iron Condor vs. &lt;em&gt;Iron Butterfly&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;Both start with "iron," both have wings, and both are popular income strategies. But the differences between them matter more than the similarities.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;article &gt;
+&lt;p&gt;Iron condors and iron butterflies are both multi-leg options strategies that involve selling premium and defining risk with long options as protection. Because they share the word "iron" and both use four legs, traders sometimes treat them interchangeably. They shouldn't. The structural differences between them create meaningfully different risk/reward profiles, and understanding when to use each is a skill that separates advanced traders from beginners.&lt;/p&gt;</description></item><item><title>Iron Condors Explained | Dependability Holdings</title><link>https://www.dependability.us/iron-condors-explained/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/iron-condors-explained/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Iron Condors &lt;em&gt;Explained&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;A defined-risk strategy for earning income in sideways markets.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is an Iron Condor?&lt;/h2&gt;
+&lt;p&gt;An iron condor is a multi-leg options strategy built from two put spreads and two call spreads. You sell an OTM call spread above the current stock price and an OTM put spread below it, collecting premium on both sides. The result is a position that profits when the stock stays within a defined range — the "condor wings" — and loses when it breaks out in either direction.&lt;/p&gt;</description></item><item><title>IV Crush Explained | Dependability Holdings</title><link>https://www.dependability.us/iv-crush-explained/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/iv-crush-explained/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;
+&lt;span class="hero-badge"&gt;IV Intelligence&lt;/span&gt;
+&lt;h1&gt;IV Crush — Why Options Get Cheaper After Earnings&lt;/h1&gt;
+&lt;p&gt;You bought a call before earnings. The stock went up. You still lost money. Here's why — and how to use it to your advantage.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;div class="container"&gt;
+&lt;article &gt;
+&lt;p&gt;It's one of the most frustrating experiences in options trading: you bought a call right before earnings, the stock moved exactly the direction you expected — and you still lost money. The stock went up 3% and your option barely budged. What happened?&lt;/p&gt;</description></item><item><title>Options Basics: Calls, Puts, Strikes, and Expiration | Dependability Holdings</title><link>https://www.dependability.us/options-basics/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/options-basics/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Options Trading &lt;em&gt;Basics&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;A clear-eyed introduction to calls, puts, and the essential vocabulary of options trading.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is an Option?&lt;/h2&gt;
+&lt;p&gt;An option is a contract that gives you the right — but not the obligation — to buy or sell a specific asset at a predetermined price on or before a specific date. Unlike owning shares outright, options are derivative instruments whose value is derived from an underlying asset such as a stock, index, or ETF.&lt;/p&gt;</description></item><item><title>Options Greeks Explained: Delta, Gamma, Theta, Vega | Dependability Holdings</title><link>https://www.dependability.us/options-greeks-explained/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/options-greeks-explained/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Trading Education&lt;/div&gt;
+&lt;h1&gt;Options &lt;em&gt;Greeks&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;Delta, gamma, theta, and vega — the four numbers that tell you how your options position will behave as the market moves.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;article &gt;
+&lt;p&gt;Options prices don't move in a straight line with the underlying stock. They respond to time, volatility, interest rates, and the relationship between the current price and the strike. To understand how a position will behave — before you enter and after you're in it — you need to understand the &lt;strong&gt;Greeks&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Options Trading for Beginners | Dependability Holdings</title><link>https://www.dependability.us/options-for-beginners/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/options-for-beginners/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Options Trading for Beginners — &lt;em&gt;Your Complete Guide&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;Start from zero. By the end of this page, you'll understand what options are, how they work, and what it actually means to buy a call or a put — with real numbers you can check yourself.&lt;/p&gt;
+&lt;/header&gt;
+&lt;!-- SECTION 1: What Is an Option? --&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is an Option?&lt;/h2&gt;
+&lt;p&gt;An option is a contract that gives you the right — but not the obligation — to buy or sell a stock at a specific price on or before a specific date. You pay a premium upfront, just like a deposit on a house. That deposit buys you the &lt;em&gt;choice&lt;/em&gt; to follow through, but you're never forced to.&lt;/p&gt;</description></item><item><title>Options Trading Strategies Hub | Dependability Holdings</title><link>https://www.dependability.us/options-hub/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/options-hub/</guid><description>&lt;section class="page-hero"&gt;
+&lt;div class="container"&gt;
+&lt;p&gt;Research Hub&lt;/p&gt;
+&lt;h1&gt;Options Trading Strategies Hub&lt;/h1&gt;
+&lt;p class="page-hero-sub"&gt;Options provide flexibility, leverage, and income opportunities that buying stocks alone cannot. This hub covers the core strategies every self-directed investor should understand.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="features-section"&gt;
+&lt;div class="container"&gt;
+&lt;div class="features-grid"&gt;
+&lt;div class="feature-card"&gt;
+&lt;div class="feature-icon"&gt;📘&lt;/div&gt;
+&lt;h3&gt;Options Basics&lt;/h3&gt;
+&lt;p&gt;Before trading options, understand the building blocks. A call gives you the right to buy at the strike price; a put gives you the right to sell. Expiration dates, strike prices, and intrinsic vs. extrinsic value are the vocabulary of options trading.&lt;/p&gt;</description></item><item><title>Portfolio Construction Hub | Dependability Holdings</title><link>https://www.dependability.us/portfolio-hub/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/portfolio-hub/</guid><description>&lt;section class="page-hero"&gt;
+&lt;div class="container"&gt;
+&lt;p&gt;Research Hub&lt;/p&gt;
+&lt;h1&gt;Portfolio Construction Hub&lt;/h1&gt;
+&lt;p class="page-hero-sub"&gt;Building a resilient portfolio means understanding how stocks, bonds, and alternatives fit together — and how options can improve the picture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="features-section"&gt;
+&lt;div class="container"&gt;
+&lt;div class="features-grid"&gt;
+&lt;div class="feature-card"&gt;
+&lt;div class="feature-icon"&gt;🗂️&lt;/div&gt;
+&lt;h3&gt;Diversification Basics — Why It Matters&lt;/h3&gt;
+&lt;p&gt;Diversification doesn't guarantee profits — it limits the damage any single event can inflict on your portfolio. A mix of asset classes (stocks, bonds, alternatives) that don't move in perfect lockstep reduces overall volatility. The goal is a smoother ride: not maximizing peak returns, but surviving drawdowns well enough to stay invested.&lt;/p&gt;</description></item><item><title>Portfolio Hedging With Options | Dependability Holdings</title><link>https://www.dependability.us/portfolio-hedging-with-options/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/portfolio-hedging-with-options/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Risk Management&lt;/div&gt;
+&lt;h1&gt;How to Hedge Your Portfolio &lt;em&gt;With Options&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;From protective puts to collars — a practical guide to using options as portfolio insurance.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;Why Hedge Your Portfolio?&lt;/h2&gt;
+&lt;p&gt;Markets don't move in straight lines. Sharp drawdowns — triggered by economic data, geopolitical shocks, Fed policy surprises, or pure sentiment reversals — can erase months or years of gains in days. For investors approaching major financial goals (retirement, a home purchase, education funding), a single catastrophic drawdown can be life-altering.&lt;/p&gt;</description></item><item><title>Position Sizing Rules | Dependability Holdings</title><link>https://www.dependability.us/position-sizing-rules/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/position-sizing-rules/</guid><description/></item><item><title>Protective Put Strategy | Dependability Holdings</title><link>https://www.dependability.us/protective-put-strategy/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/protective-put-strategy/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Options Strategy&lt;/div&gt;
+&lt;h1&gt;The Protective Put Strategy: &lt;em&gt;Insurance&lt;/em&gt; for Your Stock Positions&lt;/h1&gt;
+&lt;p &gt;How buying puts gives your portfolio a floor — and why it's the closest thing to insurance the market offers.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is a Protective Put?&lt;/h2&gt;
+&lt;p&gt;A protective put is one of the simplest and most intuitive options strategies: you buy a put option on a stock (or index) you already own. That's it. The put gives you the right to sell your shares at the strike price before expiration. You're purchasing downside insurance — paying a premium today to protect against a catastrophic loss tomorrow.&lt;/p&gt;</description></item><item><title>Put Credit Spread vs. Debit Spread | Dependability Holdings</title><link>https://www.dependability.us/put-credit-spread-vs-debit-spread/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/put-credit-spread-vs-debit-spread/</guid><description>&lt;!-- ARTICLE HEADER --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Put Credit Spread vs Debit Spread: Which Is the Better Trade?&lt;/h1&gt;
+&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Options Strategies &amp;nbsp;|&amp;nbsp; 9 min read&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- ARTICLE BODY --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;p&gt;Both are defined-risk spreads. Both are more capital-efficient than buying naked options. But put credit spreads and debit spreads are mirror images of each other in almost every meaningful respect — and understanding which to use and when is a fundamental options trading skill.&lt;/p&gt;</description></item><item><title>SPY Weekly Options Strategy | Dependability Holdings</title><link>https://www.dependability.us/spy-weekly-options-strategy/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/spy-weekly-options-strategy/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Trading Education&lt;/div&gt;
+&lt;h1&gt;SPY &lt;em&gt;Weekly&lt;/em&gt; Options&lt;/h1&gt;
+&lt;p &gt;0DTE and weekly SPY options have fundamentally different characteristics than monthly expirations — and treating them the same is a mistake.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;article &gt;
+&lt;p&gt;The rise of 0DTE (zero days to expiration) options on SPY has fundamentally changed the options landscape. What began as an institutional tool for hedging is now one of the most actively traded products in the market. Understanding how weekly and monthly options behave differently is essential before you allocate capital to either.&lt;/p&gt;</description></item><item><title>The Wheel Strategy | Dependability Holdings</title><link>https://www.dependability.us/wheel-strategy/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/wheel-strategy/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Options Strategy&lt;/div&gt;
+&lt;h1&gt;The Wheel &lt;em&gt;Strategy&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;Sell puts, get assigned, sell calls, repeat — a disciplined framework for generating consistent income from options markets.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;What Is the Wheel Strategy?&lt;/h2&gt;
+&lt;p&gt;The Wheel Strategy — sometimes called "The Wheel" or "The Triple Income Strategy" — is a systematic options approach built on three interlocking principles: &lt;strong&gt;selling cash-secured puts&lt;/strong&gt; to generate premium, &lt;strong&gt;accepting assignment&lt;/strong&gt; when the underlying is put to you at a price you wanted to own it anyway, and &lt;strong&gt;selling covered calls&lt;/strong&gt; against the assigned shares to generate additional income while waiting for an exit. Repeat indefinitely.&lt;/p&gt;</description></item></channel></rss>

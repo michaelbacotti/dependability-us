@@ -1,47 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Risks on Dependability Holdings LLC</title>
-    <link>https://www.dependability.us/risk/</link>
-    <description>Recent content in Risks on Dependability Holdings LLC</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.dependability.us/risk/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Drawdown Management | Dependability Holdings</title>
-      <link>https://www.dependability.us/drawdown-management/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/drawdown-management/</guid>
-      <description>&lt;!-- ARTICLE HEADER --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;h1&gt;Drawdown Management: How to Protect Portfolio Value in a Selloff&lt;/h1&gt;&#xA;&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Risk Management &amp;nbsp;|&amp;nbsp; 8 min read&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;!-- ARTICLE BODY --&gt;&#xA;&lt;section &gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;Markets don&#39;t go up forever. Understanding drawdowns — and how to manage them — is the difference between staying invested through turbulence and crystallizing permanent losses at the worst possible time.&lt;/p&gt;&#xA;&lt;!-- AdSense Vertical --&gt;&#xA;&lt;!-- AdSense --&gt;&#xA;&lt;h2&gt;What Is a Drawdown?&lt;/h2&gt;&#xA;&lt;p&gt;A drawdown measures the peak-to-trough decline in your portfolio&#39;s value, expressed as a percentage. If your account was worth $100,000 and fell to $75,000, you&#39;ve experienced a &lt;span &gt;25% drawdown&lt;/span&gt;. It doesn&#39;t tell you how long it took — just how far the water rose before you hit shore.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Position Sizing Rules | Dependability Holdings</title>
-      <link>https://www.dependability.us/position-sizing-rules/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/position-sizing-rules/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Risk Management&lt;/div&gt;&#xA;&lt;h1&gt;Position &lt;em&gt;Sizing&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;The most important rule in options trading — and the one most traders break. Here&#39;s how to size positions so that no single loss can derail your portfolio.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;article &gt;&#xA;&lt;p&gt;There is a saying in trading: there are traders, and there are money managers. Traders focus on entry and exit. Money managers focus on size. The difference between the two determines whether your equity curve climbs steadily or swings wildly — and ultimately, whether you stay in the game long enough to benefit from your edge.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Risk Management Fundamentals | Dependability Holdings</title>
-      <link>https://www.dependability.us/risk-management/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/risk-management/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Risk &lt;em&gt;Management&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;How we think about position sizing, loss limits, portfolio construction, and the specific risks unique to options trading.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;The Only Rule That Matters&lt;/h2&gt;&#xA;&lt;p&gt;In options trading, there are hundreds of strategies, Greeks to monitor, and market regimes to navigate. But the one principle that separates sustainable traders from those who blow up their accounts is simple: &lt;strong&gt;never risk more than you can afford to lose on any single position.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Risk Management Hub | Dependability Holdings</title>
-      <link>https://www.dependability.us/risk-hub/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/risk-hub/</guid>
-      <description>&lt;section class=&#34;page-hero&#34;&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;p&gt;Research Hub&lt;/p&gt;&#xA;&lt;h1&gt;Risk Management Hub&lt;/h1&gt;&#xA;&lt;p class=&#34;page-hero-sub&#34;&gt;Risk management is the difference between trading and gambling. Every position should have a clear exit before you enter.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;features-section&#34;&gt;&#xA;&lt;div class=&#34;container&#34;&gt;&#xA;&lt;div class=&#34;features-grid&#34;&gt;&#xA;&lt;div class=&#34;feature-card&#34;&gt;&#xA;&lt;div class=&#34;feature-icon&#34;&gt;🏛️&lt;/div&gt;&#xA;&lt;h3&gt;Risk Management Fundamentals&lt;/h3&gt;&#xA;&lt;p&gt;Every trade needs a plan: max loss, target profit, time horizon, and a clear thesis. Disciplined traders define acceptable risk before entering — not after. Know your max loss per trade, per day, and per week, and treat those limits as non-negotiable.&lt;/p&gt;&#xA;&lt;!-- AdSense Vertical --&gt;&#xA;&lt;!-- AdSense --&gt;&#xA;&lt;a href=&#34;https://www.dependability.us/risk-management/&#34; class=&#34;btn btn-secondary&#34;&gt;Learn more →&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;feature-card&#34;&gt;&#xA;&lt;div class=&#34;feature-icon&#34;&gt;📏&lt;/div&gt;&#xA;&lt;h3&gt;Position Sizing Rules&lt;/h3&gt;&#xA;&lt;p&gt;Never risk more than 1–2% of your portfolio on a single defined-risk trade. This caps your downside while allowing winners to compound. Position sizing is the only risk variable you fully control; strategy selection is secondary.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Trading Psychology | Dependability Holdings</title>
-      <link>https://www.dependability.us/trading-psychology/</link>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.dependability.us/trading-psychology/</guid>
-      <description>&lt;header class=&#34;hero&#34;&gt;&#xA;&lt;div&gt;Educational Resources&lt;/div&gt;&#xA;&lt;h1&gt;Trading &lt;em&gt;Psychology&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p &gt;The mental side of the market — where consistent profits are really made.&lt;/p&gt;&#xA;&lt;/header&gt;&#xA;&lt;section class=&#34;section&#34;&gt;&#xA;&lt;div class=&#34;content-block&#34;&gt;&#xA;&lt;h2&gt;Why Psychology Matters More Than Strategy&lt;/h2&gt;&#xA;&lt;p&gt;You can have the best trading strategy in the world — a mathematically sound edge, carefully backtested, implemented with precision — and still lose money if your mind isn&#39;t aligned with the process. Trading psychology is the discipline that separates consistently profitable traders from those who oscillate between wins and devastating losses.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Risks on Dependability Holdings LLC</title><link>https://www.dependability.us/risk/</link><description>Recent content in Risks on Dependability Holdings LLC</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dependability.us/risk/index.xml" rel="self" type="application/rss+xml"/><item><title>Drawdown Management | Dependability Holdings</title><link>https://www.dependability.us/drawdown-management/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/drawdown-management/</guid><description>&lt;!-- ARTICLE HEADER --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Drawdown Management: How to Protect Portfolio Value in a Selloff&lt;/h1&gt;
+&lt;p &gt;Published April 14, 2026 &amp;nbsp;|&amp;nbsp; Risk Management &amp;nbsp;|&amp;nbsp; 8 min read&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- ARTICLE BODY --&gt;
+&lt;section &gt;
+&lt;div class="container"&gt;
+&lt;p&gt;Markets don't go up forever. Understanding drawdowns — and how to manage them — is the difference between staying invested through turbulence and crystallizing permanent losses at the worst possible time.&lt;/p&gt;
+&lt;!-- AdSense Vertical --&gt;
+&lt;!-- AdSense --&gt;
+&lt;h2&gt;What Is a Drawdown?&lt;/h2&gt;
+&lt;p&gt;A drawdown measures the peak-to-trough decline in your portfolio's value, expressed as a percentage. If your account was worth $100,000 and fell to $75,000, you've experienced a &lt;span &gt;25% drawdown&lt;/span&gt;. It doesn't tell you how long it took — just how far the water rose before you hit shore.&lt;/p&gt;</description></item><item><title>Position Sizing Rules | Dependability Holdings</title><link>https://www.dependability.us/position-sizing-rules/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/position-sizing-rules/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Risk Management&lt;/div&gt;
+&lt;h1&gt;Position &lt;em&gt;Sizing&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;The most important rule in options trading — and the one most traders break. Here's how to size positions so that no single loss can derail your portfolio.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;article &gt;
+&lt;p&gt;There is a saying in trading: there are traders, and there are money managers. Traders focus on entry and exit. Money managers focus on size. The difference between the two determines whether your equity curve climbs steadily or swings wildly — and ultimately, whether you stay in the game long enough to benefit from your edge.&lt;/p&gt;</description></item><item><title>Risk Management Fundamentals | Dependability Holdings</title><link>https://www.dependability.us/risk-management/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/risk-management/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Risk &lt;em&gt;Management&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;How we think about position sizing, loss limits, portfolio construction, and the specific risks unique to options trading.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;The Only Rule That Matters&lt;/h2&gt;
+&lt;p&gt;In options trading, there are hundreds of strategies, Greeks to monitor, and market regimes to navigate. But the one principle that separates sustainable traders from those who blow up their accounts is simple: &lt;strong&gt;never risk more than you can afford to lose on any single position.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Risk Management Hub | Dependability Holdings</title><link>https://www.dependability.us/risk-hub/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/risk-hub/</guid><description>&lt;section class="page-hero"&gt;
+&lt;div class="container"&gt;
+&lt;p&gt;Research Hub&lt;/p&gt;
+&lt;h1&gt;Risk Management Hub&lt;/h1&gt;
+&lt;p class="page-hero-sub"&gt;Risk management is the difference between trading and gambling. Every position should have a clear exit before you enter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section class="features-section"&gt;
+&lt;div class="container"&gt;
+&lt;div class="features-grid"&gt;
+&lt;div class="feature-card"&gt;
+&lt;div class="feature-icon"&gt;🏛️&lt;/div&gt;
+&lt;h3&gt;Risk Management Fundamentals&lt;/h3&gt;
+&lt;p&gt;Every trade needs a plan: max loss, target profit, time horizon, and a clear thesis. Disciplined traders define acceptable risk before entering — not after. Know your max loss per trade, per day, and per week, and treat those limits as non-negotiable.&lt;/p&gt;
+&lt;!-- AdSense Vertical --&gt;
+&lt;!-- AdSense --&gt;
+&lt;a href="https://www.dependability.us/risk-management/" class="btn btn-secondary"&gt;Learn more →&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="feature-card"&gt;
+&lt;div class="feature-icon"&gt;📏&lt;/div&gt;
+&lt;h3&gt;Position Sizing Rules&lt;/h3&gt;
+&lt;p&gt;Never risk more than 1–2% of your portfolio on a single defined-risk trade. This caps your downside while allowing winners to compound. Position sizing is the only risk variable you fully control; strategy selection is secondary.&lt;/p&gt;</description></item><item><title>Trading Psychology | Dependability Holdings</title><link>https://www.dependability.us/trading-psychology/</link><pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate><guid>https://www.dependability.us/trading-psychology/</guid><description>&lt;header class="hero"&gt;
+&lt;div&gt;Educational Resources&lt;/div&gt;
+&lt;h1&gt;Trading &lt;em&gt;Psychology&lt;/em&gt;&lt;/h1&gt;
+&lt;p &gt;The mental side of the market — where consistent profits are really made.&lt;/p&gt;
+&lt;/header&gt;
+&lt;section class="section"&gt;
+&lt;div class="content-block"&gt;
+&lt;h2&gt;Why Psychology Matters More Than Strategy&lt;/h2&gt;
+&lt;p&gt;You can have the best trading strategy in the world — a mathematically sound edge, carefully backtested, implemented with precision — and still lose money if your mind isn't aligned with the process. Trading psychology is the discipline that separates consistently profitable traders from those who oscillate between wins and devastating losses.&lt;/p&gt;</description></item></channel></rss>
