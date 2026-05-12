@@ -8,7 +8,7 @@ Only `_index.md` inside the section folder generates the section's index URL (`/
 
 ### CSS/Asset Paths
 CSS paths in Hugo base templates must use **root-relative absolute paths starting with `/static/`** — never relative paths like `../../`.
-Hugo puts static files in `/static/`. Use `/static/css/style.css`, not `../static/css/style.css` or `./static/css/style.css`.
+Hugo puts static files in `/static/`. Use `/css/style.css`, not `../css/style.css` or `./css/style.css`.
 
 ### Before Any Deploy
 1. Run `hugo --gc --minify` locally — check for build errors
