@@ -25,7 +25,7 @@ t1: "S&amp;P 500 reaches ~5,870 as Apple shares rally; oil falls on ceasefire ho
 t2: "VIX 18.5 — elevated but stable; defined-risk spreads remain the preferred structure"
 t3: "Bull call spreads on SPY targeting 5,900 resistance — leveraged upside with defined risk as rally broadens"
 riskNote: "VIX 18.5 (Elevated) supports defined-risk spreads over naked positions. Oil weakness a continued risk-on signal."
-geopoliticalSubtitle: "S&amp;P 500 at ~5,870 — Monday May 11"
+geopoliticalSubtitle: "S&P 500 at ~5,870 — Monday May 11"
 commentaryIntro: "The S&amp;P 500 is trading at ~5,870, boosted by Apple shares, while oil prices fell as a new week of trading got underway. The broad market index was last up 0.5%. The Nasdaq Composite also advanced. The S&amp;P 500 has gained +18% year-over-year, reflecting strong investor sentiment and broadening market participation."
 commentaryVix: "VIX at 18.5 — still in the elevated zone (15–20). The Iran ceasefire backdrop continues to support equities while keeping IV elevated enough for premium-selling strategies to remain attractive. Oil selling on ceasefire expectations is a classic risk-on signal. With VIX below 20, the market is not in fear mode but uncertainty remains."
 sectorDate: "May 11, 2026"
