@@ -35,3 +35,4 @@ If you're new to options, start with these foundational concepts:
 
 - **[VIX Regime Guide](/vix-regime-guide/)** — Understanding market fear
 - **[Weekly Market Recap](/weekly-market-recap/)** — This week's market moves
+- **[Gold as a Store of Value](/content/gold-as-a-store-of-value/)** — Macro drivers of the gold price in 2026
